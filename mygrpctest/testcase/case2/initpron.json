@@ -1,0 +1,42 @@
+{
+  "sents": [
+    {
+      "sent_content": "",
+      "words": [
+        {
+          "word_content": "Not",
+          "word_pron": {
+            "phones": [
+              {
+                "ps": [
+                  "n",
+                  "aa",
+                  "t"
+                ]
+              }
+            ],
+            "syllables": [
+                "not"
+            ],
+            "p2s": [
+              0,
+              0,
+              0
+            ]
+          },
+          "word_type": "word"
+        },
+        {
+          "word_content": "for",
+          "word_type": "word"
+        },
+        {
+          "word_content": "the"
+        },
+        {
+          "word_content": ","
+        }
+      ]
+    }
+  ]
+}
