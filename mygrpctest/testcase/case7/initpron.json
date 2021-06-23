@@ -1,0 +1,69 @@
+{
+    "sents": [
+      {
+        "sent_content": "",
+        "words": [
+          {
+            "word_content": "Time",
+            "word_type": "word"
+          },
+          {
+            "word_content": "management",
+            "word_type": "word"
+          },
+          {
+            "word_content": "requires",
+            "word_type": "word"
+          },
+          {
+            "word_content": "you",
+            "word_type": "word"
+          },
+          {
+            "word_content": "to",
+            "word_type": "word"
+          },
+          {
+            "word_content": "be",
+            "word_type": "word"
+          },
+          {
+            "word_content": "aware",
+            "word_type": "word"
+          },
+          {
+            "word_content": "of",
+            "word_type": "word"
+          },
+          {
+            "word_content": "your",
+            "word_type": "word"
+          },
+          {
+            "word_content": "available",
+            "word_type": "word"
+          },
+          {
+            "word_content": "time",
+            "word_type": "word"
+          },
+          {
+            "word_content": ",",
+            "word_type": "punc"
+          },
+          {
+            "word_content": "your",
+            "word_type": "word"
+          },
+          {
+            "word_content": "responsibilities",
+            "word_type": "word"
+          },
+          {
+            "word_content": ",",
+            "word_type": "punc"
+          }
+        ]
+      }
+    ]
+  }

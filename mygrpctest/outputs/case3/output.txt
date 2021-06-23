@@ -1,0 +1,4 @@
+{"session_id":"64ecfa8d-edb8-41e8-9339-2c6569ecf7a8","status_code":104,"status_mesg":"Failed Diagnose"},
+{"session_id":"64ecfa8d-edb8-41e8-9339-2c6569ecf7a8","status_code":5,"status_mesg":"Not Initialized"},
+{"session_id":"91cec397-0037-4f0e-bc3c-e9be543bbfb0","status_code":104,"status_mesg":"Failed Diagnose"},
+{"session_id":"91cec397-0037-4f0e-bc3c-e9be543bbfb0","status_code":5,"status_mesg":"Not Initialized"},

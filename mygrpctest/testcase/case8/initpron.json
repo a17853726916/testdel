@@ -1,0 +1,124 @@
+{
+    "sents": [
+      {
+        "sent_content": "",
+        "words": [
+          {
+            "word_content": "Charismatic",
+            "word_type": "word"
+          },
+          {
+            "word_content": ",",
+            "word_type": "punc"
+          },
+          {
+            "word_content": "handsome",
+            "word_type": "word"
+          },
+          {
+            "word_content": ",",
+            "word_type": "punc"
+          },
+          {
+            "word_content": "and",
+            "word_type": "word"
+          },
+          {
+            "word_content": "funny",
+            "word_type": "word"
+          },
+          {
+            "word_content": ",",
+            "word_type": "punc"
+          },
+          {
+            "word_content": "Robertson",
+            "word_type": "word"
+          },
+          {
+            "word_content": "had",
+            "word_type": "word"
+          },
+          {
+            "word_content": "been",
+            "word_type": "word"
+          },
+          {
+            "word_content": "teaching",
+            "word_type": "word"
+          },
+          {
+            "word_content": "at",
+            "word_type": "word"
+          },
+          {
+            "word_content": "the",
+            "word_type": "word"
+          },
+          {
+            "word_content": "university",
+            "word_type": "word"
+          },
+          {
+            "word_content": "since",
+            "word_type": "word"
+          },
+          {
+            "word_content": "1970",
+            "word_type": "word"
+          },
+          {
+            "word_content": "and",
+            "word_type": "word"
+          },
+          {
+            "word_content": "had",
+            "word_type":"word"
+  
+          },
+          {
+            "word_content": "a",
+            "word_type":"word"
+  
+          },
+          {
+            "word_content": "rare",
+            "word_type":"word"
+  
+          },
+          {
+            "word_content": "ability",
+            "word_type":"word"
+  
+          },
+          {
+            "word_content": "to",
+            "word_type":"word"
+  
+          },
+          {
+            "word_content": "connect",
+            "word_type":"word"
+  
+          },
+          {
+            "word_content": "with",
+            "word_type":"word"
+  
+          },
+          {
+            "word_content": "his",
+            "word_type":"word"
+          },
+          {
+            "word_content": "students",
+            "word_type":"word"
+          },
+          {
+            "word_content": ".",
+            "word_type":"punc"
+          }
+        ]
+      }
+    ]
+  }

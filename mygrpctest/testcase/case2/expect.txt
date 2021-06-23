@@ -1,0 +1,1298 @@
+<<<<<<< HEAD
+{
+ "session_id": "c8c12cf8-7698-4c1b-8a25-c0cfa6bd4f24",
+ "status_mesg": "OK",
+ "model_version": "resource-20210602"
+},
+{
+ "session_id": "c8c12cf8-7698-4c1b-8a25-c0cfa6bd4f24",
+ "status_code": 2,
+ "status_mesg": "Noise"
+},
+{
+ "session_id": "c8c12cf8-7698-4c1b-8a25-c0cfa6bd4f24",
+ "status_mesg": "OK",
+ "sents": [
+  {
+   "words": [
+    {
+     "word": "Not",
+     "begin_time": 480,
+     "end_time": 670,
+     "pron_score": 80,
+     "pron_accuracy": 73,
+     "pron_integrity": 99,
+     "pron_fluency": 68,
+     "phones": [
+      {
+       "phone": "n",
+       "ref_phone": "n",
+       "begin_time": 480,
+       "end_time": 510
+      },
+      {
+       "phone": "aa",
+       "ref_phone": "aa",
+       "begin_time": 510,
+       "end_time": 640
+      },
+      {
+       "phone": "t",
+       "ref_phone": "t",
+       "begin_time": 640,
+       "end_time": 670
+      }
+     ],
+     "syllables": [
+      {
+       "syllable": "not",
+       "begin_time": 480,
+       "end_time": 670
+      }
+     ]
+    },
+    {
+     "match": 5,
+     "word": "for",
+     "begin_time": 700,
+     "end_time": 800,
+     "pron_score": 89,
+     "pron_accuracy": 86,
+     "pron_integrity": 99,
+     "pron_fluency": 84,
+     "phones": [
+      {
+       "match": 5,
+       "phone": "f",
+       "ref_phone": "f",
+       "begin_time": 700,
+       "end_time": 730
+      },
+      {
+       "match": 5,
+       "phone": "ao",
+       "ref_phone": "ao",
+       "begin_time": 730,
+       "end_time": 800
+      }
+     ]
+    }
+   ],
+   "pron_score": 84,
+   "pron_accuracy": 79,
+   "pron_integrity": 99,
+   "pron_fluency": 76,
+   "begin_time": 480,
+   "end_time": 800
+  }
+ ]
+},
+{
+ "session_id": "c8c12cf8-7698-4c1b-8a25-c0cfa6bd4f24",
+ "status_mesg": "OK",
+ "sents": [
+  {
+   "words": [
+    {
+     "word": "Not",
+     "begin_time": 480,
+     "end_time": 670,
+     "pron_score": 79,
+     "pron_accuracy": 74,
+     "pron_integrity": 95,
+     "pron_fluency": 68,
+     "phones": [
+      {
+       "phone": "n",
+       "ref_phone": "n",
+       "begin_time": 480,
+       "end_time": 510
+      },
+      {
+       "phone": "aa",
+       "ref_phone": "aa",
+       "begin_time": 510,
+       "end_time": 640
+      },
+      {
+       "phone": "t",
+       "ref_phone": "t",
+       "begin_time": 640,
+       "end_time": 670
+      }
+     ],
+     "syllables": [
+      {
+       "syllable": "not",
+       "begin_time": 480,
+       "end_time": 670
+      }
+     ]
+    },
+    {
+     "word": "for",
+     "begin_time": 700,
+     "end_time": 900,
+     "pron_score": 90,
+     "pron_accuracy": 91,
+     "pron_integrity": 95,
+     "pron_fluency": 84,
+     "phones": [
+      {
+       "phone": "f",
+       "ref_phone": "f",
+       "begin_time": 700,
+       "end_time": 730
+      },
+      {
+       "phone": "ao",
+       "ref_phone": "ao",
+       "begin_time": 730,
+       "end_time": 800
+      },
+      {
+       "phone": "r",
+       "ref_phone": "r",
+       "begin_time": 800,
+       "end_time": 900
+      }
+     ]
+    },
+    {
+     "word": "the",
+     "begin_time": 930,
+     "end_time": 1220,
+     "pron_score": 86,
+     "pron_accuracy": 87,
+     "pron_integrity": 95,
+     "pron_fluency": 77,
+     "phones": [
+      {
+       "phone": "dh",
+       "ref_phone": "dh",
+       "begin_time": 930,
+       "end_time": 960
+      },
+      {
+       "phone": "iy",
+       "ref_phone": "iy",
+       "begin_time": 960,
+       "end_time": 1220
+      }
+     ]
+    },
+    {
+     "word": ","
+    }
+   ],
+   "pron_score": 85,
+   "pron_accuracy": 84,
+   "pron_integrity": 95,
+   "pron_fluency": 76,
+   "begin_time": 480,
+   "end_time": 1220
+  }
+ ]
+},
+{
+ "session_id": "c8c12cf8-7698-4c1b-8a25-c0cfa6bd4f24",
+ "status_mesg": "OK",
+ "sents": [
+  {
+   "words": [
+    {
+     "word": "Not",
+     "begin_time": 480,
+     "end_time": 670,
+     "pron_score": 79,
+     "pron_accuracy": 74,
+     "pron_integrity": 95,
+     "pron_fluency": 68,
+     "phones": [
+      {
+       "phone": "n",
+       "ref_phone": "n",
+       "begin_time": 480,
+       "end_time": 510
+      },
+      {
+       "phone": "aa",
+       "ref_phone": "aa",
+       "begin_time": 510,
+       "end_time": 640
+      },
+      {
+       "phone": "t",
+       "ref_phone": "t",
+       "begin_time": 640,
+       "end_time": 670
+      }
+     ],
+     "syllables": [
+      {
+       "syllable": "not",
+       "begin_time": 480,
+       "end_time": 670
+      }
+     ]
+    },
+    {
+     "word": "for",
+     "begin_time": 700,
+     "end_time": 900,
+     "pron_score": 90,
+     "pron_accuracy": 91,
+     "pron_integrity": 95,
+     "pron_fluency": 84,
+     "phones": [
+      {
+       "phone": "f",
+       "ref_phone": "f",
+       "begin_time": 700,
+       "end_time": 730
+      },
+      {
+       "phone": "ao",
+       "ref_phone": "ao",
+       "begin_time": 730,
+       "end_time": 800
+      },
+      {
+       "phone": "r",
+       "ref_phone": "r",
+       "begin_time": 800,
+       "end_time": 900
+      }
+     ]
+    },
+    {
+     "word": "the",
+     "begin_time": 930,
+     "end_time": 1220,
+     "pron_score": 86,
+     "pron_accuracy": 87,
+     "pron_integrity": 95,
+     "pron_fluency": 77,
+     "phones": [
+      {
+       "phone": "dh",
+       "ref_phone": "dh",
+       "begin_time": 930,
+       "end_time": 960
+      },
+      {
+       "phone": "iy",
+       "ref_phone": "iy",
+       "begin_time": 960,
+       "end_time": 1220
+      }
+     ]
+    },
+    {
+     "word": ","
+    }
+   ],
+   "pron_score": 85,
+   "pron_accuracy": 84,
+   "pron_integrity": 95,
+   "pron_fluency": 76,
+   "begin_time": 480,
+   "end_time": 1220
+  }
+ ]
+},
+{
+ "session_id": "c8c12cf8-7698-4c1b-8a25-c0cfa6bd4f24",
+ "status_mesg": "OK",
+ "sents": [
+  {
+   "words": [
+    {
+     "word": "Not",
+     "begin_time": 480,
+     "end_time": 670,
+     "pron_score": 79,
+     "pron_accuracy": 74,
+     "pron_integrity": 95,
+     "pron_fluency": 68,
+     "phones": [
+      {
+       "phone": "n",
+       "ref_phone": "n",
+       "begin_time": 480,
+       "end_time": 510
+      },
+      {
+       "phone": "aa",
+       "ref_phone": "aa",
+       "begin_time": 510,
+       "end_time": 640
+      },
+      {
+       "phone": "t",
+       "ref_phone": "t",
+       "begin_time": 640,
+       "end_time": 670
+      }
+     ],
+     "syllables": [
+      {
+       "syllable": "not",
+       "begin_time": 480,
+       "end_time": 670
+      }
+     ]
+    },
+    {
+     "word": "for",
+     "begin_time": 700,
+     "end_time": 900,
+     "pron_score": 90,
+     "pron_accuracy": 91,
+     "pron_integrity": 95,
+     "pron_fluency": 84,
+     "phones": [
+      {
+       "phone": "f",
+       "ref_phone": "f",
+       "begin_time": 700,
+       "end_time": 730
+      },
+      {
+       "phone": "ao",
+       "ref_phone": "ao",
+       "begin_time": 730,
+       "end_time": 800
+      },
+      {
+       "phone": "r",
+       "ref_phone": "r",
+       "begin_time": 800,
+       "end_time": 900
+      }
+     ]
+    },
+    {
+     "word": "the",
+     "begin_time": 930,
+     "end_time": 1220,
+     "pron_score": 86,
+     "pron_accuracy": 87,
+     "pron_integrity": 95,
+     "pron_fluency": 77,
+     "phones": [
+      {
+       "phone": "dh",
+       "ref_phone": "dh",
+       "begin_time": 930,
+       "end_time": 960
+      },
+      {
+       "phone": "iy",
+       "ref_phone": "iy",
+       "begin_time": 960,
+       "end_time": 1220
+      }
+     ]
+    },
+    {
+     "word": ","
+    }
+   ],
+   "pron_score": 85,
+   "pron_accuracy": 84,
+   "pron_integrity": 95,
+   "pron_fluency": 76,
+   "begin_time": 480,
+   "end_time": 1220
+  }
+ ]
+},
+{
+ "session_id": "c8c12cf8-7698-4c1b-8a25-c0cfa6bd4f24",
+ "status_mesg": "OK",
+ "sents": [
+  {
+   "words": [
+    {
+     "word": "Not",
+     "begin_time": 480,
+     "end_time": 670,
+     "pron_score": 79,
+     "pron_accuracy": 74,
+     "pron_integrity": 95,
+     "pron_fluency": 68,
+     "phones": [
+      {
+       "phone": "n",
+       "ref_phone": "n",
+       "begin_time": 480,
+       "end_time": 510
+      },
+      {
+       "phone": "aa",
+       "ref_phone": "aa",
+       "begin_time": 510,
+       "end_time": 640
+      },
+      {
+       "phone": "t",
+       "ref_phone": "t",
+       "begin_time": 640,
+       "end_time": 670
+      }
+     ],
+     "syllables": [
+      {
+       "syllable": "not",
+       "begin_time": 480,
+       "end_time": 670
+      }
+     ]
+    },
+    {
+     "word": "for",
+     "begin_time": 700,
+     "end_time": 900,
+     "pron_score": 90,
+     "pron_accuracy": 91,
+     "pron_integrity": 95,
+     "pron_fluency": 84,
+     "phones": [
+      {
+       "phone": "f",
+       "ref_phone": "f",
+       "begin_time": 700,
+       "end_time": 730
+      },
+      {
+       "phone": "ao",
+       "ref_phone": "ao",
+       "begin_time": 730,
+       "end_time": 800
+      },
+      {
+       "phone": "r",
+       "ref_phone": "r",
+       "begin_time": 800,
+       "end_time": 900
+      }
+     ]
+    },
+    {
+     "word": "the",
+     "begin_time": 930,
+     "end_time": 1220,
+     "pron_score": 86,
+     "pron_accuracy": 87,
+     "pron_integrity": 95,
+     "pron_fluency": 77,
+     "phones": [
+      {
+       "phone": "dh",
+       "ref_phone": "dh",
+       "begin_time": 930,
+       "end_time": 960
+      },
+      {
+       "phone": "iy",
+       "ref_phone": "iy",
+       "begin_time": 960,
+       "end_time": 1220
+      }
+     ]
+    },
+    {
+     "word": ","
+    }
+   ],
+   "pron_score": 85,
+   "pron_accuracy": 84,
+   "pron_integrity": 95,
+   "pron_fluency": 76,
+   "begin_time": 480,
+   "end_time": 1220
+  }
+ ]
+},
+{
+ "session_id": "c8c12cf8-7698-4c1b-8a25-c0cfa6bd4f24",
+ "status_mesg": "OK",
+ "sents": [
+  {
+   "words": [
+    {
+     "word": "Not",
+     "begin_time": 480,
+     "end_time": 670,
+     "pron_score": 79,
+     "pron_accuracy": 74,
+     "pron_integrity": 95,
+     "pron_fluency": 68,
+     "phones": [
+      {
+       "phone": "n",
+       "ref_phone": "n",
+       "begin_time": 480,
+       "end_time": 510
+      },
+      {
+       "phone": "aa",
+       "ref_phone": "aa",
+       "begin_time": 510,
+       "end_time": 640
+      },
+      {
+       "phone": "t",
+       "ref_phone": "t",
+       "begin_time": 640,
+       "end_time": 670
+      }
+     ],
+     "syllables": [
+      {
+       "syllable": "not",
+       "begin_time": 480,
+       "end_time": 670
+      }
+     ]
+    },
+    {
+     "word": "for",
+     "begin_time": 700,
+     "end_time": 900,
+     "pron_score": 90,
+     "pron_accuracy": 91,
+     "pron_integrity": 95,
+     "pron_fluency": 84,
+     "phones": [
+      {
+       "phone": "f",
+       "ref_phone": "f",
+       "begin_time": 700,
+       "end_time": 730
+      },
+      {
+       "phone": "ao",
+       "ref_phone": "ao",
+       "begin_time": 730,
+       "end_time": 800
+      },
+      {
+       "phone": "r",
+       "ref_phone": "r",
+       "begin_time": 800,
+       "end_time": 900
+      }
+     ]
+    },
+    {
+     "word": "the",
+     "begin_time": 930,
+     "end_time": 1220,
+     "pron_score": 86,
+     "pron_accuracy": 87,
+     "pron_integrity": 95,
+     "pron_fluency": 77,
+     "phones": [
+      {
+       "phone": "dh",
+       "ref_phone": "dh",
+       "begin_time": 930,
+       "end_time": 960
+      },
+      {
+       "phone": "iy",
+       "ref_phone": "iy",
+       "begin_time": 960,
+       "end_time": 1220
+      }
+     ]
+    },
+    {
+     "word": ","
+    }
+   ],
+   "pron_score": 85,
+   "pron_accuracy": 84,
+   "pron_integrity": 95,
+   "pron_fluency": 76,
+   "begin_time": 480,
+   "end_time": 1220
+  }
+ ]
+},
+{
+ "session_id": "c8c12cf8-7698-4c1b-8a25-c0cfa6bd4f24",
+ "status_mesg": "OK",
+ "sents": [
+  {
+   "words": [
+    {
+     "word": "Not",
+     "begin_time": 480,
+     "end_time": 670,
+     "pron_score": 79,
+     "pron_accuracy": 74,
+     "pron_integrity": 95,
+     "pron_fluency": 68,
+     "phones": [
+      {
+       "phone": "n",
+       "ref_phone": "n",
+       "begin_time": 480,
+       "end_time": 510
+      },
+      {
+       "phone": "aa",
+       "ref_phone": "aa",
+       "begin_time": 510,
+       "end_time": 640
+      },
+      {
+       "phone": "t",
+       "ref_phone": "t",
+       "begin_time": 640,
+       "end_time": 670
+      }
+     ],
+     "syllables": [
+      {
+       "syllable": "not",
+       "begin_time": 480,
+       "end_time": 670
+      }
+     ]
+    },
+    {
+     "word": "for",
+     "begin_time": 700,
+     "end_time": 900,
+     "pron_score": 90,
+     "pron_accuracy": 91,
+     "pron_integrity": 95,
+     "pron_fluency": 84,
+     "phones": [
+      {
+       "phone": "f",
+       "ref_phone": "f",
+       "begin_time": 700,
+       "end_time": 730
+      },
+      {
+       "phone": "ao",
+       "ref_phone": "ao",
+       "begin_time": 730,
+       "end_time": 800
+      },
+      {
+       "phone": "r",
+       "ref_phone": "r",
+       "begin_time": 800,
+       "end_time": 900
+      }
+     ]
+    },
+    {
+     "word": "the",
+     "begin_time": 930,
+     "end_time": 1220,
+     "pron_score": 86,
+     "pron_accuracy": 87,
+     "pron_integrity": 95,
+     "pron_fluency": 77,
+     "phones": [
+      {
+       "phone": "dh",
+       "ref_phone": "dh",
+       "begin_time": 930,
+       "end_time": 960
+      },
+      {
+       "phone": "iy",
+       "ref_phone": "iy",
+       "begin_time": 960,
+       "end_time": 1220
+      }
+     ]
+    },
+    {
+     "word": ","
+    }
+   ],
+   "pron_score": 85,
+   "pron_accuracy": 84,
+   "pron_integrity": 95,
+   "pron_fluency": 76,
+   "begin_time": 480,
+   "end_time": 1220
+  }
+ ]
+},
+{
+ "session_id": "c8c12cf8-7698-4c1b-8a25-c0cfa6bd4f24",
+ "status_mesg": "OK",
+ "sents": [
+  {
+   "words": [
+    {
+     "word": "Not",
+     "begin_time": 480,
+     "end_time": 670,
+     "pron_score": 79,
+     "pron_accuracy": 74,
+     "pron_integrity": 95,
+     "pron_fluency": 68,
+     "phones": [
+      {
+       "phone": "n",
+       "ref_phone": "n",
+       "begin_time": 480,
+       "end_time": 510
+      },
+      {
+       "phone": "aa",
+       "ref_phone": "aa",
+       "begin_time": 510,
+       "end_time": 640
+      },
+      {
+       "phone": "t",
+       "ref_phone": "t",
+       "begin_time": 640,
+       "end_time": 670
+      }
+     ],
+     "syllables": [
+      {
+       "syllable": "not",
+       "begin_time": 480,
+       "end_time": 670
+      }
+     ]
+    },
+    {
+     "word": "for",
+     "begin_time": 700,
+     "end_time": 900,
+     "pron_score": 90,
+     "pron_accuracy": 91,
+     "pron_integrity": 95,
+     "pron_fluency": 84,
+     "phones": [
+      {
+       "phone": "f",
+       "ref_phone": "f",
+       "begin_time": 700,
+       "end_time": 730
+      },
+      {
+       "phone": "ao",
+       "ref_phone": "ao",
+       "begin_time": 730,
+       "end_time": 800
+      },
+      {
+       "phone": "r",
+       "ref_phone": "r",
+       "begin_time": 800,
+       "end_time": 900
+      }
+     ]
+    },
+    {
+     "word": "the",
+     "begin_time": 930,
+     "end_time": 1220,
+     "pron_score": 86,
+     "pron_accuracy": 87,
+     "pron_integrity": 95,
+     "pron_fluency": 77,
+     "phones": [
+      {
+       "phone": "dh",
+       "ref_phone": "dh",
+       "begin_time": 930,
+       "end_time": 960
+      },
+      {
+       "phone": "iy",
+       "ref_phone": "iy",
+       "begin_time": 960,
+       "end_time": 1220
+      }
+     ]
+    },
+    {
+     "word": ","
+    }
+   ],
+   "pron_score": 85,
+   "pron_accuracy": 84,
+   "pron_integrity": 95,
+   "pron_fluency": 76,
+   "begin_time": 480,
+   "end_time": 1220
+  }
+ ]
+},
+{
+ "session_id": "c8c12cf8-7698-4c1b-8a25-c0cfa6bd4f24",
+ "status_mesg": "OK",
+ "sents": [
+  {
+   "words": [
+    {
+     "word": "Not",
+     "begin_time": 480,
+     "end_time": 670,
+     "pron_score": 79,
+     "pron_accuracy": 74,
+     "pron_integrity": 95,
+     "pron_fluency": 68,
+     "phones": [
+      {
+       "phone": "n",
+       "ref_phone": "n",
+       "begin_time": 480,
+       "end_time": 510
+      },
+      {
+       "phone": "aa",
+       "ref_phone": "aa",
+       "begin_time": 510,
+       "end_time": 640
+      },
+      {
+       "phone": "t",
+       "ref_phone": "t",
+       "begin_time": 640,
+       "end_time": 670
+      }
+     ],
+     "syllables": [
+      {
+       "syllable": "not",
+       "begin_time": 480,
+       "end_time": 670
+      }
+     ]
+    },
+    {
+     "word": "for",
+     "begin_time": 700,
+     "end_time": 900,
+     "pron_score": 90,
+     "pron_accuracy": 91,
+     "pron_integrity": 95,
+     "pron_fluency": 84,
+     "phones": [
+      {
+       "phone": "f",
+       "ref_phone": "f",
+       "begin_time": 700,
+       "end_time": 730
+      },
+      {
+       "phone": "ao",
+       "ref_phone": "ao",
+       "begin_time": 730,
+       "end_time": 800
+      },
+      {
+       "phone": "r",
+       "ref_phone": "r",
+       "begin_time": 800,
+       "end_time": 900
+      }
+     ]
+    },
+    {
+     "word": "the",
+     "begin_time": 930,
+     "end_time": 1220,
+     "pron_score": 86,
+     "pron_accuracy": 87,
+     "pron_integrity": 95,
+     "pron_fluency": 77,
+     "phones": [
+      {
+       "phone": "dh",
+       "ref_phone": "dh",
+       "begin_time": 930,
+       "end_time": 960
+      },
+      {
+       "phone": "iy",
+       "ref_phone": "iy",
+       "begin_time": 960,
+       "end_time": 1220
+      }
+     ]
+    },
+    {
+     "word": ","
+    }
+   ],
+   "pron_score": 85,
+   "pron_accuracy": 84,
+   "pron_integrity": 95,
+   "pron_fluency": 76,
+   "begin_time": 480,
+   "end_time": 1220
+  }
+ ]
+},
+{
+ "session_id": "c8c12cf8-7698-4c1b-8a25-c0cfa6bd4f24",
+ "status_mesg": "OK",
+ "sents": [
+  {
+   "words": [
+    {
+     "word": "Not",
+     "begin_time": 480,
+     "end_time": 670,
+     "pron_score": 79,
+     "pron_accuracy": 74,
+     "pron_integrity": 95,
+     "pron_fluency": 68,
+     "phones": [
+      {
+       "phone": "n",
+       "ref_phone": "n",
+       "begin_time": 480,
+       "end_time": 510
+      },
+      {
+       "phone": "aa",
+       "ref_phone": "aa",
+       "begin_time": 510,
+       "end_time": 640
+      },
+      {
+       "phone": "t",
+       "ref_phone": "t",
+       "begin_time": 640,
+       "end_time": 670
+      }
+     ],
+     "syllables": [
+      {
+       "syllable": "not",
+       "begin_time": 480,
+       "end_time": 670
+      }
+     ]
+    },
+    {
+     "word": "for",
+     "begin_time": 700,
+     "end_time": 900,
+     "pron_score": 90,
+     "pron_accuracy": 91,
+     "pron_integrity": 95,
+     "pron_fluency": 84,
+     "phones": [
+      {
+       "phone": "f",
+       "ref_phone": "f",
+       "begin_time": 700,
+       "end_time": 730
+      },
+      {
+       "phone": "ao",
+       "ref_phone": "ao",
+       "begin_time": 730,
+       "end_time": 800
+      },
+      {
+       "phone": "r",
+       "ref_phone": "r",
+       "begin_time": 800,
+       "end_time": 900
+      }
+     ]
+    },
+    {
+     "word": "the",
+     "begin_time": 930,
+     "end_time": 1220,
+     "pron_score": 86,
+     "pron_accuracy": 87,
+     "pron_integrity": 95,
+     "pron_fluency": 77,
+     "phones": [
+      {
+       "phone": "dh",
+       "ref_phone": "dh",
+       "begin_time": 930,
+       "end_time": 960
+      },
+      {
+       "phone": "iy",
+       "ref_phone": "iy",
+       "begin_time": 960,
+       "end_time": 1220
+      }
+     ]
+    },
+    {
+     "word": ","
+    }
+   ],
+   "pron_score": 85,
+   "pron_accuracy": 84,
+   "pron_integrity": 95,
+   "pron_fluency": 76,
+   "begin_time": 480,
+   "end_time": 1220
+  }
+ ]
+},
+{
+ "session_id": "c8c12cf8-7698-4c1b-8a25-c0cfa6bd4f24",
+ "status_mesg": "OK",
+ "sents": [
+  {
+   "words": [
+    {
+     "word": "Not",
+     "begin_time": 480,
+     "end_time": 670,
+     "pron_score": 79,
+     "pron_accuracy": 74,
+     "pron_integrity": 95,
+     "pron_fluency": 68,
+     "phones": [
+      {
+       "phone": "n",
+       "ref_phone": "n",
+       "begin_time": 480,
+       "end_time": 510
+      },
+      {
+       "phone": "aa",
+       "ref_phone": "aa",
+       "begin_time": 510,
+       "end_time": 640
+      },
+      {
+       "phone": "t",
+       "ref_phone": "t",
+       "begin_time": 640,
+       "end_time": 670
+      }
+     ],
+     "syllables": [
+      {
+       "syllable": "not",
+       "begin_time": 480,
+       "end_time": 670
+      }
+     ]
+    },
+    {
+     "word": "for",
+     "begin_time": 700,
+     "end_time": 900,
+     "pron_score": 90,
+     "pron_accuracy": 91,
+     "pron_integrity": 95,
+     "pron_fluency": 84,
+     "phones": [
+      {
+       "phone": "f",
+       "ref_phone": "f",
+       "begin_time": 700,
+       "end_time": 730
+      },
+      {
+       "phone": "ao",
+       "ref_phone": "ao",
+       "begin_time": 730,
+       "end_time": 800
+      },
+      {
+       "phone": "r",
+       "ref_phone": "r",
+       "begin_time": 800,
+       "end_time": 900
+      }
+     ]
+    },
+    {
+     "word": "the",
+     "begin_time": 930,
+     "end_time": 1220,
+     "pron_score": 86,
+     "pron_accuracy": 87,
+     "pron_integrity": 95,
+     "pron_fluency": 77,
+     "phones": [
+      {
+       "phone": "dh",
+       "ref_phone": "dh",
+       "begin_time": 930,
+       "end_time": 960
+      },
+      {
+       "phone": "iy",
+       "ref_phone": "iy",
+       "begin_time": 960,
+       "end_time": 1220
+      }
+     ]
+    },
+    {
+     "word": ","
+    }
+   ],
+   "pron_score": 85,
+   "pron_accuracy": 84,
+   "pron_integrity": 95,
+   "pron_fluency": 76,
+   "begin_time": 480,
+   "end_time": 1220
+  }
+ ]
+},
+{
+ "session_id": "c8c12cf8-7698-4c1b-8a25-c0cfa6bd4f24",
+ "status_mesg": "OK",
+ "sents": [
+  {
+   "words": [
+    {
+     "word": "Not",
+     "begin_time": 480,
+     "end_time": 670,
+     "pron_score": 79,
+     "pron_accuracy": 74,
+     "pron_integrity": 95,
+     "pron_fluency": 68,
+     "phones": [
+      {
+       "phone": "n",
+       "ref_phone": "n",
+       "begin_time": 480,
+       "end_time": 510
+      },
+      {
+       "phone": "aa",
+       "ref_phone": "aa",
+       "begin_time": 510,
+       "end_time": 640
+      },
+      {
+       "phone": "t",
+       "ref_phone": "t",
+       "begin_time": 640,
+       "end_time": 670
+      }
+     ],
+     "syllables": [
+      {
+       "syllable": "not",
+       "begin_time": 480,
+       "end_time": 670
+      }
+     ]
+    },
+    {
+     "word": "for",
+     "begin_time": 700,
+     "end_time": 900,
+     "pron_score": 90,
+     "pron_accuracy": 91,
+     "pron_integrity": 95,
+     "pron_fluency": 84,
+     "phones": [
+      {
+       "phone": "f",
+       "ref_phone": "f",
+       "begin_time": 700,
+       "end_time": 730
+      },
+      {
+       "phone": "ao",
+       "ref_phone": "ao",
+       "begin_time": 730,
+       "end_time": 800
+      },
+      {
+       "phone": "r",
+       "ref_phone": "r",
+       "begin_time": 800,
+       "end_time": 900
+      }
+     ]
+    },
+    {
+     "word": "the",
+     "begin_time": 930,
+     "end_time": 1220,
+     "pron_score": 86,
+     "pron_accuracy": 87,
+     "pron_integrity": 95,
+     "pron_fluency": 77,
+     "phones": [
+      {
+       "phone": "dh",
+       "ref_phone": "dh",
+       "begin_time": 930,
+       "end_time": 960
+      },
+      {
+       "phone": "iy",
+       "ref_phone": "iy",
+       "begin_time": 960,
+       "end_time": 1220
+      }
+     ]
+    },
+    {
+     "word": ","
+    }
+   ],
+   "pron_score": 85,
+   "pron_accuracy": 84,
+   "pron_integrity": 95,
+   "pron_fluency": 76,
+   "begin_time": 480,
+   "end_time": 1220
+  }
+ ]
+},
+{
+ "session_id": "c8c12cf8-7698-4c1b-8a25-c0cfa6bd4f24",
+ "status_mesg": "OK",
+ "audio_url": "https://capt-voice-server.oss-cn-zhangjiakou.aliyuncs.com/20210621/c8c12cf8-7698-4c1b-8a25-c0cfa6bd4f24.wav"
+},
+=======
+{"session_id":"951fb600-77c6-4eae-9061-ad69a6727c97","status_mesg":"OK","model_version":"resource-20210602"},
+{"session_id":"951fb600-77c6-4eae-9061-ad69a6727c97","status_mesg":"OK","sents":[{"words":[{"match":5,"word":"and","begin_time":180,"end_time":300,"pron_score":23,"pron_integrity":4,"pron_fluency":67,"phones":[{"match":5,"phone":"ae","ref_phone":"n","begin_time":180,"end_time":300}]}],"pron_score":23,"pron_integrity":4,"pron_fluency":67,"begin_time":180,"end_time":300}]},
+{"session_id":"951fb600-77c6-4eae-9061-ad69a6727c97","status_mesg":"OK","sents":[{"words":[{"word":"and","begin_time":180,"end_time":420,"pron_score":93,"pron_accuracy":94,"pron_integrity":98,"pron_fluency":87,"phones":[{"phone":"ae","ref_phone":"ae","begin_time":180,"end_time":330},{"phone":"n","ref_phone":"n","begin_time":330,"end_time":390},{"phone":"d","ref_phone":"d","begin_time":390,"end_time":420}]},{"match":5,"word":"time","begin_time":450,"end_time":800,"pron_score":70,"pron_accuracy":62,"pron_integrity":64,"pron_fluency":85,"phones":[{"match":5,"phone":"t","ref_phone":"t","begin_time":450,"end_time":560},{"match":5,"phone":"ay","ref_phone":"ay","begin_time":560,"end_time":800},{"match":5,"phone":"\u003c#\u003e","ref_phone":"m","begin_time":-1,"end_time":-1}]}],"pron_score":81,"pron_accuracy":78,"pron_integrity":81,"pron_fluency":86,"begin_time":180,"end_time":800}]},
+{"session_id":"951fb600-77c6-4eae-9061-ad69a6727c97","status_mesg":"OK","sents":[{"words":[{"word":"and","begin_time":180,"end_time":420,"pron_score":93,"pron_accuracy":95,"pron_integrity":98,"pron_fluency":87,"phones":[{"phone":"ae","ref_phone":"ae","begin_time":180,"end_time":330},{"phone":"n","ref_phone":"n","begin_time":330,"end_time":390},{"phone":"d","ref_phone":"d","begin_time":390,"end_time":420}]},{"word":"time","begin_time":450,"end_time":870,"pron_score":92,"pron_accuracy":97,"pron_integrity":98,"pron_fluency":83,"phones":[{"phone":"t","ref_phone":"t","begin_time":450,"end_time":560},{"phone":"ay","ref_phone":"ay","begin_time":560,"end_time":810},{"phone":"m","ref_phone":"m","begin_time":810,"end_time":870}]},{"match":5,"word":"management","begin_time":900,"end_time":1300,"pron_score":61,"pron_accuracy":50,"pron_integrity":53,"pron_fluency":81,"phones":[{"match":5,"phone":"m","ref_phone":"m","begin_time":900,"end_time":960},{"match":5,"phone":"ae","ref_phone":"ae","begin_time":960,"end_time":1100},{"match":5,"phone":"n","ref_phone":"n","begin_time":1100,"end_time":1180},{"match":5,"phone":"ih","ref_phone":"ih","begin_time":1180,"end_time":1260},{"match":5,"phone":"jh","ref_phone":"jh","begin_time":1260,"end_time":1300},{"match":5,"phone":"\u003c#\u003e","ref_phone":"m","begin_time":-1,"end_time":-1},{"match":5,"phone":"\u003c#\u003e","ref_phone":"ah","begin_time":-1,"end_time":-1},{"match":5,"phone":"\u003c#\u003e","ref_phone":"n","begin_time":-1,"end_time":-1},{"match":5,"phone":"\u003c#\u003e","ref_phone":"t","begin_time":-1,"end_time":-1}]}],"pron_score":82,"pron_accuracy":80,"pron_integrity":83,"pron_fluency":83,"begin_time":180,"end_time":1300}]},
+{"session_id":"951fb600-77c6-4eae-9061-ad69a6727c97","status_mesg":"OK","sents":[{"words":[{"word":"and","begin_time":180,"end_time":420,"pron_score":94,"pron_accuracy":98,"pron_integrity":95,"pron_fluency":90,"phones":[{"phone":"ae","ref_phone":"ae","begin_time":180,"end_time":330},{"phone":"n","ref_phone":"n","begin_time":330,"end_time":390},{"phone":"d","ref_phone":"d","begin_time":390,"end_time":420}]},{"word":"time","begin_time":450,"end_time":870,"pron_score":93,"pron_accuracy":100,"pron_integrity":95,"pron_fluency":86,"phones":[{"phone":"t","ref_phone":"t","begin_time":450,"end_time":560},{"phone":"ay","ref_phone":"ay","begin_time":560,"end_time":810},{"phone":"m","ref_phone":"m","begin_time":810,"end_time":870}]},{"match":5,"word":"management","begin_time":900,"end_time":1800,"pron_score":72,"pron_accuracy":76,"pron_integrity":72,"pron_fluency":68,"phones":[{"match":5,"phone":"m","ref_phone":"m","begin_time":900,"end_time":960},{"match":5,"phone":"ae","ref_phone":"ae","begin_time":960,"end_time":1100},{"match":5,"phone":"n","ref_phone":"n","begin_time":1100,"end_time":1180},{"match":5,"phone":"ih","ref_phone":"ih","begin_time":1180,"end_time":1260},{"match":5,"phone":"jh","ref_phone":"jh","begin_time":1260,"end_time":1420},{"match":5,"phone":"m","ref_phone":"m","begin_time":1420,"end_time":1510},{"match":5,"phone":"ax","ref_phone":"ah","begin_time":1510,"end_time":1680},{"match":5,"phone":"n","ref_phone":"n","begin_time":1680,"end_time":1800},{"match":5,"phone":"\u003c#\u003e","ref_phone":"t","begin_time":-1,"end_time":-1}]}],"pron_score":86,"pron_accuracy":91,"pron_integrity":87,"pron_fluency":81,"begin_time":180,"end_time":1800}]},
+{"session_id":"951fb600-77c6-4eae-9061-ad69a6727c97","status_mesg":"OK","sents":[{"words":[{"word":"and","begin_time":180,"end_time":420,"pron_score":92,"pron_accuracy":94,"pron_integrity":96,"pron_fluency":88,"phones":[{"phone":"ae","ref_phone":"ae","begin_time":180,"end_time":330},{"phone":"n","ref_phone":"n","begin_time":330,"end_time":390},{"phone":"d","ref_phone":"d","begin_time":390,"end_time":420}]},{"word":"time","begin_time":450,"end_time":870,"pron_score":92,"pron_accuracy":96,"pron_integrity":96,"pron_fluency":84,"phones":[{"phone":"t","ref_phone":"t","begin_time":450,"end_time":560},{"phone":"ay","ref_phone":"ay","begin_time":560,"end_time":810},{"phone":"m","ref_phone":"m","begin_time":810,"end_time":870}]},{"match":3,"word":"management","begin_time":900,"end_time":1840,"pron_score":75,"pron_accuracy":80,"pron_integrity":84,"pron_fluency":62,"phones":[{"phone":"m","ref_phone":"m","begin_time":900,"end_time":960},{"phone":"ae","ref_phone":"ae","begin_time":960,"end_time":1100},{"phone":"n","ref_phone":"n","begin_time":1100,"end_time":1180},{"phone":"ih","ref_phone":"ih","begin_time":1180,"end_time":1260},{"phone":"jh","ref_phone":"jh","begin_time":1260,"end_time":1420},{"phone":"m","ref_phone":"m","begin_time":1420,"end_time":1510},{"match":3,"phone":"ax","ref_phone":"ah","begin_time":1510,"end_time":1680},{"phone":"n","ref_phone":"n","begin_time":1680,"end_time":1800},{"phone":"t","ref_phone":"t","begin_time":1800,"end_time":1840}]},{"match":5,"word":"is","begin_time":2220,"end_time":2300,"pron_score":62,"pron_accuracy":46,"pron_integrity":46,"pron_fluency":95,"phones":[{"match":5,"phone":"ih","ref_phone":"ih","begin_time":2220,"end_time":2300},{"match":5,"phone":"\u003c#\u003e","ref_phone":"z","begin_time":-1,"end_time":-1}]}],"pron_score":80,"pron_accuracy":79,"pron_integrity":80,"pron_fluency":82,"begin_time":180,"end_time":2300}]},
+{"session_id":"951fb600-77c6-4eae-9061-ad69a6727c97","status_mesg":"OK","sents":[{"words":[{"word":"and","begin_time":180,"end_time":420,"pron_score":93,"pron_accuracy":96,"pron_integrity":98,"pron_fluency":87,"phones":[{"phone":"ae","ref_phone":"ae","begin_time":180,"end_time":330},{"phone":"n","ref_phone":"n","begin_time":330,"end_time":390},{"phone":"d","ref_phone":"d","begin_time":390,"end_time":420}]},{"word":"time","begin_time":450,"end_time":870,"pron_score":93,"pron_accuracy":98,"pron_integrity":98,"pron_fluency":83,"phones":[{"phone":"t","ref_phone":"t","begin_time":450,"end_time":560},{"phone":"ay","ref_phone":"ay","begin_time":560,"end_time":810},{"phone":"m","ref_phone":"m","begin_time":810,"end_time":870}]},{"word":"management","begin_time":900,"end_time":1840,"pron_score":76,"pron_accuracy":82,"pron_integrity":86,"pron_fluency":61,"phones":[{"phone":"m","ref_phone":"m","begin_time":900,"end_time":960},{"phone":"ae","ref_phone":"ae","begin_time":960,"end_time":1100},{"phone":"n","ref_phone":"n","begin_time":1100,"end_time":1180},{"phone":"ih","ref_phone":"ih","begin_time":1180,"end_time":1260},{"phone":"jh","ref_phone":"jh","begin_time":1260,"end_time":1420},{"phone":"m","ref_phone":"m","begin_time":1420,"end_time":1510},{"match":3,"phone":"ax","ref_phone":"ah","begin_time":1510,"end_time":1680},{"phone":"n","ref_phone":"n","begin_time":1680,"end_time":1800},{"phone":"t","ref_phone":"t","begin_time":1800,"end_time":1840}]},{"word":"is","begin_time":2220,"end_time":2540,"pron_score":92,"pron_accuracy":96,"pron_integrity":98,"pron_fluency":84,"phones":[{"phone":"ih","ref_phone":"ih","begin_time":2220,"end_time":2400},{"phone":"z","ref_phone":"z","begin_time":2400,"end_time":2540}]},{"match":5,"word":"the","begin_time":2570,"end_time":2800,"pron_score":91,"pron_accuracy":92,"pron_integrity":98,"pron_fluency":83,"phones":[{"match":5,"phone":"dh","ref_phone":"dh","begin_time":2570,"end_time":2620},{"match":5,"phone":"ah","ref_phone":"ah","begin_time":2620,"end_time":2800}]}],"pron_score":89,"pron_accuracy":92,"pron_integrity":95,"pron_fluency":79,"begin_time":180,"end_time":2800}]},
+{"session_id":"951fb600-77c6-4eae-9061-ad69a6727c97","status_mesg":"OK","sents":[{"words":[{"word":"and","begin_time":180,"end_time":420,"pron_score":93,"pron_accuracy":96,"pron_integrity":96,"pron_fluency":88,"phones":[{"phone":"ae","ref_phone":"ae","begin_time":180,"end_time":330},{"phone":"n","ref_phone":"n","begin_time":330,"end_time":390},{"phone":"d","ref_phone":"d","begin_time":390,"end_time":420}]},{"word":"time","begin_time":450,"end_time":870,"pron_score":92,"pron_accuracy":98,"pron_integrity":96,"pron_fluency":84,"phones":[{"phone":"t","ref_phone":"t","begin_time":450,"end_time":560},{"phone":"ay","ref_phone":"ay","begin_time":560,"end_time":810},{"phone":"m","ref_phone":"m","begin_time":810,"end_time":870}]},{"word":"management","begin_time":900,"end_time":1840,"pron_score":76,"pron_accuracy":82,"pron_integrity":84,"pron_fluency":62,"phones":[{"phone":"m","ref_phone":"m","begin_time":900,"end_time":960},{"phone":"ae","ref_phone":"ae","begin_time":960,"end_time":1100},{"phone":"n","ref_phone":"n","begin_time":1100,"end_time":1180},{"phone":"ih","ref_phone":"ih","begin_time":1180,"end_time":1260},{"phone":"jh","ref_phone":"jh","begin_time":1260,"end_time":1420},{"phone":"m","ref_phone":"m","begin_time":1420,"end_time":1510},{"match":3,"phone":"ax","ref_phone":"ah","begin_time":1510,"end_time":1680},{"phone":"n","ref_phone":"n","begin_time":1680,"end_time":1800},{"phone":"t","ref_phone":"t","begin_time":1800,"end_time":1840}]},{"word":"is","begin_time":2220,"end_time":2540,"pron_score":92,"pron_accuracy":96,"pron_integrity":96,"pron_fluency":85,"phones":[{"phone":"ih","ref_phone":"ih","begin_time":2220,"end_time":2400},{"phone":"z","ref_phone":"z","begin_time":2400,"end_time":2540}]},{"word":"the","begin_time":2570,"end_time":2770,"pron_score":92,"pron_accuracy":93,"pron_integrity":96,"pron_fluency":87,"phones":[{"phone":"dh","ref_phone":"dh","begin_time":2570,"end_time":2620},{"phone":"ah","ref_phone":"ah","begin_time":2620,"end_time":2770}]},{"word":"skill","begin_time":2800,"end_time":3230,"pron_score":89,"pron_accuracy":93,"pron_integrity":96,"pron_fluency":79,"phones":[{"phone":"s","ref_phone":"s","begin_time":2800,"end_time":2910},{"phone":"k","ref_phone":"k","begin_time":2910,"end_time":3010},{"phone":"ih","ref_phone":"ih","begin_time":3010,"end_time":3140},{"phone":"l","ref_phone":"l","begin_time":3140,"end_time":3230}]}],"pron_score":89,"pron_accuracy":93,"pron_integrity":94,"pron_fluency":80,"begin_time":180,"end_time":3230}]},
+{"session_id":"951fb600-77c6-4eae-9061-ad69a6727c97","status_mesg":"OK","sents":[{"words":[{"word":"and","begin_time":180,"end_time":420,"pron_score":93,"pron_accuracy":97,"pron_integrity":95,"pron_fluency":88,"phones":[{"phone":"ae","ref_phone":"ae","begin_time":180,"end_time":330},{"phone":"n","ref_phone":"n","begin_time":330,"end_time":390},{"phone":"d","ref_phone":"d","begin_time":390,"end_time":420}]},{"word":"time","begin_time":450,"end_time":870,"pron_score":92,"pron_accuracy":99,"pron_integrity":95,"pron_fluency":84,"phones":[{"phone":"t","ref_phone":"t","begin_time":450,"end_time":560},{"phone":"ay","ref_phone":"ay","begin_time":560,"end_time":810},{"phone":"m","ref_phone":"m","begin_time":810,"end_time":870}]},{"word":"management","begin_time":900,"end_time":1840,"pron_score":76,"pron_accuracy":83,"pron_integrity":83,"pron_fluency":62,"phones":[{"phone":"m","ref_phone":"m","begin_time":900,"end_time":960},{"phone":"ae","ref_phone":"ae","begin_time":960,"end_time":1100},{"phone":"n","ref_phone":"n","begin_time":1100,"end_time":1180},{"phone":"ih","ref_phone":"ih","begin_time":1180,"end_time":1260},{"phone":"jh","ref_phone":"jh","begin_time":1260,"end_time":1420},{"phone":"m","ref_phone":"m","begin_time":1420,"end_time":1510},{"match":3,"phone":"ax","ref_phone":"ah","begin_time":1510,"end_time":1680},{"phone":"n","ref_phone":"n","begin_time":1680,"end_time":1800},{"phone":"t","ref_phone":"t","begin_time":1800,"end_time":1840}]},{"word":"is","begin_time":2220,"end_time":2540,"pron_score":92,"pron_accuracy":97,"pron_integrity":95,"pron_fluency":85,"phones":[{"phone":"ih","ref_phone":"ih","begin_time":2220,"end_time":2400},{"phone":"z","ref_phone":"z","begin_time":2400,"end_time":2540}]},{"word":"the","begin_time":2570,"end_time":2770,"pron_score":92,"pron_accuracy":94,"pron_integrity":95,"pron_fluency":87,"phones":[{"phone":"dh","ref_phone":"dh","begin_time":2570,"end_time":2620},{"phone":"ah","ref_phone":"ah","begin_time":2620,"end_time":2770}]},{"word":"skill","begin_time":2800,"end_time":3230,"pron_score":89,"pron_accuracy":94,"pron_integrity":95,"pron_fluency":79,"phones":[{"phone":"s","ref_phone":"s","begin_time":2800,"end_time":2910},{"phone":"k","ref_phone":"k","begin_time":2910,"end_time":3010},{"phone":"ih","ref_phone":"ih","begin_time":3010,"end_time":3140},{"phone":"l","ref_phone":"l","begin_time":3140,"end_time":3230}]},{"word":"that","begin_time":3370,"end_time":3800,"pron_score":92,"pron_accuracy":99,"pron_integrity":95,"pron_fluency":83,"phones":[{"phone":"dh","ref_phone":"dh","begin_time":3370,"end_time":3460},{"phone":"ae","ref_phone":"ae","begin_time":3460,"end_time":3700},{"phone":"t","ref_phone":"t","begin_time":3700,"end_time":3800}]}],"pron_score":89,"pron_accuracy":94,"pron_integrity":93,"pron_fluency":81,"begin_time":180,"end_time":3800}]},
+{"session_id":"951fb600-77c6-4eae-9061-ad69a6727c97","status_mesg":"OK","sents":[{"words":[{"word":"and","begin_time":180,"end_time":420,"pron_score":93,"pron_accuracy":97,"pron_integrity":96,"pron_fluency":87,"phones":[{"phone":"ae","ref_phone":"ae","begin_time":180,"end_time":330},{"phone":"n","ref_phone":"n","begin_time":330,"end_time":390},{"phone":"d","ref_phone":"d","begin_time":390,"end_time":420}]},{"word":"time","begin_time":450,"end_time":870,"pron_score":92,"pron_accuracy":99,"pron_integrity":96,"pron_fluency":83,"phones":[{"phone":"t","ref_phone":"t","begin_time":450,"end_time":560},{"phone":"ay","ref_phone":"ay","begin_time":560,"end_time":810},{"phone":"m","ref_phone":"m","begin_time":810,"end_time":870}]},{"word":"management","begin_time":900,"end_time":1840,"pron_score":76,"pron_accuracy":83,"pron_integrity":84,"pron_fluency":61,"phones":[{"phone":"m","ref_phone":"m","begin_time":900,"end_time":960},{"phone":"ae","ref_phone":"ae","begin_time":960,"end_time":1100},{"phone":"n","ref_phone":"n","begin_time":1100,"end_time":1180},{"phone":"ih","ref_phone":"ih","begin_time":1180,"end_time":1260},{"phone":"jh","ref_phone":"jh","begin_time":1260,"end_time":1420},{"phone":"m","ref_phone":"m","begin_time":1420,"end_time":1510},{"match":3,"phone":"ax","ref_phone":"ah","begin_time":1510,"end_time":1680},{"phone":"n","ref_phone":"n","begin_time":1680,"end_time":1800},{"phone":"t","ref_phone":"t","begin_time":1800,"end_time":1840}]},{"word":"is","begin_time":2220,"end_time":2540,"pron_score":92,"pron_accuracy":97,"pron_integrity":96,"pron_fluency":84,"phones":[{"phone":"ih","ref_phone":"ih","begin_time":2220,"end_time":2400},{"phone":"z","ref_phone":"z","begin_time":2400,"end_time":2540}]},{"word":"the","begin_time":2570,"end_time":2770,"pron_score":92,"pron_accuracy":94,"pron_integrity":96,"pron_fluency":86,"phones":[{"phone":"dh","ref_phone":"dh","begin_time":2570,"end_time":2620},{"phone":"ah","ref_phone":"ah","begin_time":2620,"end_time":2770}]},{"word":"skill","begin_time":2800,"end_time":3230,"pron_score":89,"pron_accuracy":94,"pron_integrity":96,"pron_fluency":78,"phones":[{"phone":"s","ref_phone":"s","begin_time":2800,"end_time":2910},{"phone":"k","ref_phone":"k","begin_time":2910,"end_time":3010},{"phone":"ih","ref_phone":"ih","begin_time":3010,"end_time":3140},{"phone":"l","ref_phone":"l","begin_time":3140,"end_time":3230}]},{"word":"that","begin_time":3370,"end_time":3890,"pron_score":67,"pron_accuracy":63,"pron_integrity":62,"pron_fluency":77,"phones":[{"phone":"dh","ref_phone":"dh","begin_time":3370,"end_time":3460},{"phone":"ae","ref_phone":"ae","begin_time":3460,"end_time":3710},{"phone":"d","ref_phone":"t","begin_time":3710,"end_time":3890}]}],"pron_score":85,"pron_accuracy":89,"pron_integrity":89,"pron_fluency":79,"begin_time":180,"end_time":3890}]},
+{"session_id":"951fb600-77c6-4eae-9061-ad69a6727c97","status_mesg":"OK","sents":[{"words":[{"word":"and","begin_time":180,"end_time":420,"pron_score":94,"pron_accuracy":98,"pron_integrity":97,"pron_fluency":88,"phones":[{"phone":"ae","ref_phone":"ae","begin_time":180,"end_time":330},{"phone":"n","ref_phone":"n","begin_time":330,"end_time":390},{"phone":"d","ref_phone":"d","begin_time":390,"end_time":420}]},{"word":"time","begin_time":450,"end_time":870,"pron_score":93,"pron_accuracy":100,"pron_integrity":97,"pron_fluency":84,"phones":[{"phone":"t","ref_phone":"t","begin_time":450,"end_time":560},{"phone":"ay","ref_phone":"ay","begin_time":560,"end_time":810},{"phone":"m","ref_phone":"m","begin_time":810,"end_time":870}]},{"word":"management","begin_time":900,"end_time":1840,"pron_score":77,"pron_accuracy":84,"pron_integrity":85,"pron_fluency":62,"phones":[{"phone":"m","ref_phone":"m","begin_time":900,"end_time":960},{"phone":"ae","ref_phone":"ae","begin_time":960,"end_time":1100},{"phone":"n","ref_phone":"n","begin_time":1100,"end_time":1180},{"phone":"ih","ref_phone":"ih","begin_time":1180,"end_time":1260},{"phone":"jh","ref_phone":"jh","begin_time":1260,"end_time":1420},{"phone":"m","ref_phone":"m","begin_time":1420,"end_time":1510},{"match":3,"phone":"ax","ref_phone":"ah","begin_time":1510,"end_time":1680},{"phone":"n","ref_phone":"n","begin_time":1680,"end_time":1800},{"phone":"t","ref_phone":"t","begin_time":1800,"end_time":1840}]},{"word":"is","begin_time":2220,"end_time":2540,"pron_score":93,"pron_accuracy":98,"pron_integrity":97,"pron_fluency":85,"phones":[{"phone":"ih","ref_phone":"ih","begin_time":2220,"end_time":2400},{"phone":"z","ref_phone":"z","begin_time":2400,"end_time":2540}]},{"word":"the","begin_time":2570,"end_time":2770,"pron_score":93,"pron_accuracy":95,"pron_integrity":97,"pron_fluency":87,"phones":[{"phone":"dh","ref_phone":"dh","begin_time":2570,"end_time":2620},{"phone":"ah","ref_phone":"ah","begin_time":2620,"end_time":2770}]},{"word":"skill","begin_time":2800,"end_time":3230,"pron_score":90,"pron_accuracy":95,"pron_integrity":97,"pron_fluency":79,"phones":[{"phone":"s","ref_phone":"s","begin_time":2800,"end_time":2910},{"phone":"k","ref_phone":"k","begin_time":2910,"end_time":3010},{"phone":"ih","ref_phone":"ih","begin_time":3010,"end_time":3140},{"phone":"l","ref_phone":"l","begin_time":3140,"end_time":3230}]},{"word":"that","begin_time":3370,"end_time":3890,"pron_score":68,"pron_accuracy":64,"pron_integrity":63,"pron_fluency":78,"phones":[{"phone":"dh","ref_phone":"dh","begin_time":3370,"end_time":3460},{"phone":"ae","ref_phone":"ae","begin_time":3460,"end_time":3710},{"phone":"d","ref_phone":"t","begin_time":3710,"end_time":3890}]},{"match":5,"word":"will","begin_time":4540,"end_time":4800,"pron_score":72,"pron_accuracy":65,"pron_integrity":63,"pron_fluency":88,"phones":[{"match":5,"phone":"w","ref_phone":"w","begin_time":4540,"end_time":4710},{"match":5,"phone":"ih","ref_phone":"ih","begin_time":4710,"end_time":4800},{"match":5,"phone":"\u003c#\u003e","ref_phone":"l","begin_time":-1,"end_time":-1}]}],"pron_score":85,"pron_accuracy":87,"pron_integrity":87,"pron_fluency":81,"begin_time":180,"end_time":4800}]},
+{"session_id":"951fb600-77c6-4eae-9061-ad69a6727c97","status_mesg":"OK","sents":[{"words":[{"word":"and","begin_time":180,"end_time":420,"pron_score":94,"pron_accuracy":97,"pron_integrity":99,"pron_fluency":88,"phones":[{"phone":"ae","ref_phone":"ae","begin_time":180,"end_time":330},{"phone":"n","ref_phone":"n","begin_time":330,"end_time":390},{"phone":"d","ref_phone":"d","begin_time":390,"end_time":420}]},{"word":"time","begin_time":450,"end_time":870,"pron_score":94,"pron_accuracy":99,"pron_integrity":99,"pron_fluency":84,"phones":[{"phone":"t","ref_phone":"t","begin_time":450,"end_time":560},{"phone":"ay","ref_phone":"ay","begin_time":560,"end_time":810},{"phone":"m","ref_phone":"m","begin_time":810,"end_time":870}]},{"word":"management","begin_time":900,"end_time":1840,"pron_score":77,"pron_accuracy":83,"pron_integrity":87,"pron_fluency":62,"phones":[{"phone":"m","ref_phone":"m","begin_time":900,"end_time":960},{"phone":"ae","ref_phone":"ae","begin_time":960,"end_time":1100},{"phone":"n","ref_phone":"n","begin_time":1100,"end_time":1180},{"phone":"ih","ref_phone":"ih","begin_time":1180,"end_time":1260},{"phone":"jh","ref_phone":"jh","begin_time":1260,"end_time":1420},{"phone":"m","ref_phone":"m","begin_time":1420,"end_time":1510},{"match":3,"phone":"ax","ref_phone":"ah","begin_time":1510,"end_time":1680},{"phone":"n","ref_phone":"n","begin_time":1680,"end_time":1800},{"phone":"t","ref_phone":"t","begin_time":1800,"end_time":1840}]},{"word":"is","begin_time":2220,"end_time":2540,"pron_score":93,"pron_accuracy":97,"pron_integrity":99,"pron_fluency":85,"phones":[{"phone":"ih","ref_phone":"ih","begin_time":2220,"end_time":2400},{"phone":"z","ref_phone":"z","begin_time":2400,"end_time":2540}]},{"word":"the","begin_time":2570,"end_time":2770,"pron_score":93,"pron_accuracy":94,"pron_integrity":99,"pron_fluency":87,"phones":[{"phone":"dh","ref_phone":"dh","begin_time":2570,"end_time":2620},{"phone":"ah","ref_phone":"ah","begin_time":2620,"end_time":2770}]},{"word":"skill","begin_time":2800,"end_time":3230,"pron_score":90,"pron_accuracy":94,"pron_integrity":99,"pron_fluency":79,"phones":[{"phone":"s","ref_phone":"s","begin_time":2800,"end_time":2910},{"phone":"k","ref_phone":"k","begin_time":2910,"end_time":3010},{"phone":"ih","ref_phone":"ih","begin_time":3010,"end_time":3140},{"phone":"l","ref_phone":"l","begin_time":3140,"end_time":3230}]},{"word":"that","begin_time":3370,"end_time":3890,"pron_score":68,"pron_accuracy":63,"pron_integrity":65,"pron_fluency":78,"phones":[{"phone":"dh","ref_phone":"dh","begin_time":3370,"end_time":3460},{"phone":"ae","ref_phone":"ae","begin_time":3460,"end_time":3710},{"phone":"d","ref_phone":"t","begin_time":3710,"end_time":3890}]},{"word":"will","begin_time":4540,"end_time":4890,"pron_score":94,"pron_accuracy":98,"pron_integrity":99,"pron_fluency":85,"phones":[{"phone":"w","ref_phone":"w","begin_time":4540,"end_time":4710},{"phone":"ih","ref_phone":"ih","begin_time":4710,"end_time":4840},{"phone":"l","ref_phone":"l","begin_time":4840,"end_time":4890}]},{"word":"help","begin_time":4920,"end_time":5300,"pron_score":70,"pron_accuracy":63,"pron_integrity":74,"pron_fluency":74,"phones":[{"phone":"hh","ref_phone":"hh","begin_time":4920,"end_time":5030},{"phone":"ae","ref_phone":"eh","begin_time":5030,"end_time":5200},{"phone":"l","ref_phone":"l","begin_time":5200,"end_time":5240},{"phone":"p","ref_phone":"p","begin_time":5240,"end_time":5300}]}],"pron_score":85,"pron_accuracy":87,"pron_integrity":91,"pron_fluency":80,"begin_time":180,"end_time":5300}]},
+{"session_id":"951fb600-77c6-4eae-9061-ad69a6727c97","status_mesg":"OK","sents":[{"words":[{"word":"and","begin_time":180,"end_time":420,"pron_score":93,"pron_accuracy":96,"pron_integrity":98,"pron_fluency":87,"phones":[{"phone":"ae","ref_phone":"ae","begin_time":180,"end_time":330},{"phone":"n","ref_phone":"n","begin_time":330,"end_time":390},{"phone":"d","ref_phone":"d","begin_time":390,"end_time":420}]},{"word":"time","begin_time":450,"end_time":870,"pron_score":93,"pron_accuracy":98,"pron_integrity":98,"pron_fluency":83,"phones":[{"phone":"t","ref_phone":"t","begin_time":450,"end_time":560},{"phone":"ay","ref_phone":"ay","begin_time":560,"end_time":810},{"phone":"m","ref_phone":"m","begin_time":810,"end_time":870}]},{"word":"management","begin_time":900,"end_time":1840,"pron_score":76,"pron_accuracy":82,"pron_integrity":86,"pron_fluency":61,"phones":[{"phone":"m","ref_phone":"m","begin_time":900,"end_time":960},{"phone":"ae","ref_phone":"ae","begin_time":960,"end_time":1100},{"phone":"n","ref_phone":"n","begin_time":1100,"end_time":1180},{"phone":"ih","ref_phone":"ih","begin_time":1180,"end_time":1260},{"phone":"jh","ref_phone":"jh","begin_time":1260,"end_time":1420},{"phone":"m","ref_phone":"m","begin_time":1420,"end_time":1510},{"match":3,"phone":"ax","ref_phone":"ah","begin_time":1510,"end_time":1680},{"phone":"n","ref_phone":"n","begin_time":1680,"end_time":1800},{"phone":"t","ref_phone":"t","begin_time":1800,"end_time":1840}]},{"word":"is","begin_time":2220,"end_time":2540,"pron_score":92,"pron_accuracy":96,"pron_integrity":98,"pron_fluency":84,"phones":[{"phone":"ih","ref_phone":"ih","begin_time":2220,"end_time":2400},{"phone":"z","ref_phone":"z","begin_time":2400,"end_time":2540}]},{"word":"the","begin_time":2570,"end_time":2770,"pron_score":92,"pron_accuracy":93,"pron_integrity":98,"pron_fluency":86,"phones":[{"phone":"dh","ref_phone":"dh","begin_time":2570,"end_time":2620},{"phone":"ah","ref_phone":"ah","begin_time":2620,"end_time":2770}]},{"word":"skill","begin_time":2800,"end_time":3230,"pron_score":89,"pron_accuracy":93,"pron_integrity":98,"pron_fluency":78,"phones":[{"phone":"s","ref_phone":"s","begin_time":2800,"end_time":2910},{"phone":"k","ref_phone":"k","begin_time":2910,"end_time":3010},{"phone":"ih","ref_phone":"ih","begin_time":3010,"end_time":3140},{"phone":"l","ref_phone":"l","begin_time":3140,"end_time":3230}]},{"word":"that","begin_time":3370,"end_time":3890,"pron_score":67,"pron_accuracy":62,"pron_integrity":64,"pron_fluency":77,"phones":[{"phone":"dh","ref_phone":"dh","begin_time":3370,"end_time":3460},{"phone":"ae","ref_phone":"ae","begin_time":3460,"end_time":3710},{"phone":"d","ref_phone":"t","begin_time":3710,"end_time":3890}]},{"word":"will","begin_time":4540,"end_time":4890,"pron_score":93,"pron_accuracy":97,"pron_integrity":98,"pron_fluency":84,"phones":[{"phone":"w","ref_phone":"w","begin_time":4540,"end_time":4710},{"phone":"ih","ref_phone":"ih","begin_time":4710,"end_time":4840},{"phone":"l","ref_phone":"l","begin_time":4840,"end_time":4890}]},{"word":"help","begin_time":4920,"end_time":5270,"pron_score":69,"pron_accuracy":62,"pron_integrity":73,"pron_fluency":74,"phones":[{"phone":"hh","ref_phone":"hh","begin_time":4920,"end_time":5030},{"phone":"ae","ref_phone":"eh","begin_time":5030,"end_time":5200},{"phone":"l","ref_phone":"l","begin_time":5200,"end_time":5240},{"phone":"p","ref_phone":"p","begin_time":5240,"end_time":5270}]},{"word":"you","begin_time":5300,"end_time":5650,"pron_score":93,"pron_accuracy":98,"pron_integrity":98,"pron_fluency":85,"phones":[{"phone":"y","ref_phone":"y","begin_time":5300,"end_time":5470},{"phone":"uw","ref_phone":"uw","begin_time":5470,"end_time":5650}]},{"match":5,"word":"balance","begin_time":5680,"end_time":5800,"pron_score":51,"pron_accuracy":31,"pron_integrity":31,"pron_fluency":93,"phones":[{"match":5,"phone":"b","ref_phone":"b","begin_time":5680,"end_time":5790},{"match":5,"phone":"ae","ref_phone":"ae","begin_time":5790,"end_time":5800},{"match":5,"phone":"\u003c#\u003e","ref_phone":"l","begin_time":-1,"end_time":-1},{"match":5,"phone":"\u003c#\u003e","ref_phone":"ah","begin_time":-1,"end_time":-1},{"match":5,"phone":"\u003c#\u003e","ref_phone":"n","begin_time":-1,"end_time":-1},{"match":5,"phone":"\u003c#\u003e","ref_phone":"s","begin_time":-1,"end_time":-1}]}],"pron_score":82,"pron_accuracy":82,"pron_integrity":85,"pron_fluency":81,"begin_time":180,"end_time":5800}]},
+{"session_id":"951fb600-77c6-4eae-9061-ad69a6727c97","status_mesg":"OK","sents":[{"words":[{"word":"and","begin_time":180,"end_time":420,"pron_score":94,"pron_accuracy":95,"pron_integrity":100,"pron_fluency":89,"phones":[{"phone":"ae","ref_phone":"ae","begin_time":180,"end_time":330},{"phone":"n","ref_phone":"n","begin_time":330,"end_time":390},{"phone":"d","ref_phone":"d","begin_time":390,"end_time":420}]},{"word":"time","begin_time":450,"end_time":870,"pron_score":94,"pron_accuracy":97,"pron_integrity":100,"pron_fluency":85,"phones":[{"phone":"t","ref_phone":"t","begin_time":450,"end_time":560},{"phone":"ay","ref_phone":"ay","begin_time":560,"end_time":810},{"phone":"m","ref_phone":"m","begin_time":810,"end_time":870}]},{"word":"management","begin_time":900,"end_time":1840,"pron_score":77,"pron_accuracy":81,"pron_integrity":88,"pron_fluency":63,"phones":[{"phone":"m","ref_phone":"m","begin_time":900,"end_time":960},{"phone":"ae","ref_phone":"ae","begin_time":960,"end_time":1100},{"phone":"n","ref_phone":"n","begin_time":1100,"end_time":1180},{"phone":"ih","ref_phone":"ih","begin_time":1180,"end_time":1260},{"phone":"jh","ref_phone":"jh","begin_time":1260,"end_time":1420},{"phone":"m","ref_phone":"m","begin_time":1420,"end_time":1510},{"match":3,"phone":"ax","ref_phone":"ah","begin_time":1510,"end_time":1680},{"phone":"n","ref_phone":"n","begin_time":1680,"end_time":1800},{"phone":"t","ref_phone":"t","begin_time":1800,"end_time":1840}]},{"word":"is","begin_time":2220,"end_time":2540,"pron_score":93,"pron_accuracy":95,"pron_integrity":100,"pron_fluency":86,"phones":[{"phone":"ih","ref_phone":"ih","begin_time":2220,"end_time":2400},{"phone":"z","ref_phone":"z","begin_time":2400,"end_time":2540}]},{"word":"the","begin_time":2570,"end_time":2770,"pron_score":93,"pron_accuracy":92,"pron_integrity":100,"pron_fluency":88,"phones":[{"phone":"dh","ref_phone":"dh","begin_time":2570,"end_time":2620},{"phone":"ah","ref_phone":"ah","begin_time":2620,"end_time":2770}]},{"word":"skill","begin_time":2800,"end_time":3230,"pron_score":90,"pron_accuracy":92,"pron_integrity":100,"pron_fluency":80,"phones":[{"phone":"s","ref_phone":"s","begin_time":2800,"end_time":2910},{"phone":"k","ref_phone":"k","begin_time":2910,"end_time":3010},{"phone":"ih","ref_phone":"ih","begin_time":3010,"end_time":3140},{"phone":"l","ref_phone":"l","begin_time":3140,"end_time":3230}]},{"word":"that","begin_time":3370,"end_time":3890,"pron_score":68,"pron_accuracy":61,"pron_integrity":66,"pron_fluency":79,"phones":[{"phone":"dh","ref_phone":"dh","begin_time":3370,"end_time":3460},{"phone":"ae","ref_phone":"ae","begin_time":3460,"end_time":3710},{"phone":"d","ref_phone":"t","begin_time":3710,"end_time":3890}]},{"word":"will","begin_time":4540,"end_time":4890,"pron_score":94,"pron_accuracy":96,"pron_integrity":100,"pron_fluency":86,"phones":[{"phone":"w","ref_phone":"w","begin_time":4540,"end_time":4710},{"phone":"ih","ref_phone":"ih","begin_time":4710,"end_time":4840},{"phone":"l","ref_phone":"l","begin_time":4840,"end_time":4890}]},{"word":"help","begin_time":4920,"end_time":5270,"pron_score":70,"pron_accuracy":61,"pron_integrity":75,"pron_fluency":76,"phones":[{"phone":"hh","ref_phone":"hh","begin_time":4920,"end_time":5030},{"phone":"ae","ref_phone":"eh","begin_time":5030,"end_time":5200},{"phone":"l","ref_phone":"l","begin_time":5200,"end_time":5240},{"phone":"p","ref_phone":"p","begin_time":5240,"end_time":5270}]},{"word":"you","begin_time":5300,"end_time":5650,"pron_score":94,"pron_accuracy":97,"pron_integrity":100,"pron_fluency":87,"phones":[{"phone":"y","ref_phone":"y","begin_time":5300,"end_time":5470},{"phone":"uw","ref_phone":"uw","begin_time":5470,"end_time":5650}]},{"match":5,"word":"balance","begin_time":5680,"end_time":6300,"pron_score":91,"pron_accuracy":97,"pron_integrity":100,"pron_fluency":78,"phones":[{"match":5,"phone":"b","ref_phone":"b","begin_time":5680,"end_time":5790},{"match":5,"phone":"ae","ref_phone":"ae","begin_time":5790,"end_time":5990},{"match":5,"phone":"l","ref_phone":"l","begin_time":5990,"end_time":6050},{"match":5,"phone":"ah","ref_phone":"ah","begin_time":6050,"end_time":6150},{"match":5,"phone":"n","ref_phone":"n","begin_time":6150,"end_time":6240},{"match":5,"phone":"s","ref_phone":"s","begin_time":6240,"end_time":6300}]}],"pron_score":87,"pron_accuracy":87,"pron_integrity":93,"pron_fluency":81,"begin_time":180,"end_time":6300}]},
+{"session_id":"951fb600-77c6-4eae-9061-ad69a6727c97","status_mesg":"OK","sents":[{"words":[{"word":"and","begin_time":180,"end_time":420,"pron_score":93,"pron_accuracy":95,"pron_integrity":98,"pron_fluency":88,"phones":[{"phone":"ae","ref_phone":"ae","begin_time":180,"end_time":330},{"phone":"n","ref_phone":"n","begin_time":330,"end_time":390},{"phone":"d","ref_phone":"d","begin_time":390,"end_time":420}]},{"word":"time","begin_time":450,"end_time":870,"pron_score":93,"pron_accuracy":97,"pron_integrity":98,"pron_fluency":84,"phones":[{"phone":"t","ref_phone":"t","begin_time":450,"end_time":560},{"phone":"ay","ref_phone":"ay","begin_time":560,"end_time":810},{"phone":"m","ref_phone":"m","begin_time":810,"end_time":870}]},{"word":"management","begin_time":900,"end_time":1840,"pron_score":76,"pron_accuracy":81,"pron_integrity":86,"pron_fluency":62,"phones":[{"phone":"m","ref_phone":"m","begin_time":900,"end_time":960},{"phone":"ae","ref_phone":"ae","begin_time":960,"end_time":1100},{"phone":"n","ref_phone":"n","begin_time":1100,"end_time":1180},{"phone":"ih","ref_phone":"ih","begin_time":1180,"end_time":1260},{"phone":"jh","ref_phone":"jh","begin_time":1260,"end_time":1420},{"phone":"m","ref_phone":"m","begin_time":1420,"end_time":1510},{"match":3,"phone":"ax","ref_phone":"ah","begin_time":1510,"end_time":1680},{"phone":"n","ref_phone":"n","begin_time":1680,"end_time":1800},{"phone":"t","ref_phone":"t","begin_time":1800,"end_time":1840}]},{"word":"is","begin_time":2220,"end_time":2540,"pron_score":92,"pron_accuracy":95,"pron_integrity":98,"pron_fluency":85,"phones":[{"phone":"ih","ref_phone":"ih","begin_time":2220,"end_time":2400},{"phone":"z","ref_phone":"z","begin_time":2400,"end_time":2540}]},{"word":"the","begin_time":2570,"end_time":2770,"pron_score":92,"pron_accuracy":92,"pron_integrity":98,"pron_fluency":87,"phones":[{"phone":"dh","ref_phone":"dh","begin_time":2570,"end_time":2620},{"phone":"ah","ref_phone":"ah","begin_time":2620,"end_time":2770}]},{"word":"skill","begin_time":2800,"end_time":3230,"pron_score":89,"pron_accuracy":92,"pron_integrity":98,"pron_fluency":79,"phones":[{"phone":"s","ref_phone":"s","begin_time":2800,"end_time":2910},{"phone":"k","ref_phone":"k","begin_time":2910,"end_time":3010},{"phone":"ih","ref_phone":"ih","begin_time":3010,"end_time":3140},{"phone":"l","ref_phone":"l","begin_time":3140,"end_time":3230}]},{"word":"that","begin_time":3370,"end_time":3890,"pron_score":67,"pron_accuracy":61,"pron_integrity":64,"pron_fluency":78,"phones":[{"phone":"dh","ref_phone":"dh","begin_time":3370,"end_time":3460},{"phone":"ae","ref_phone":"ae","begin_time":3460,"end_time":3710},{"phone":"d","ref_phone":"t","begin_time":3710,"end_time":3890}]},{"word":"will","begin_time":4540,"end_time":4890,"pron_score":93,"pron_accuracy":96,"pron_integrity":98,"pron_fluency":85,"phones":[{"phone":"w","ref_phone":"w","begin_time":4540,"end_time":4710},{"phone":"ih","ref_phone":"ih","begin_time":4710,"end_time":4840},{"phone":"l","ref_phone":"l","begin_time":4840,"end_time":4890}]},{"word":"help","begin_time":4920,"end_time":5270,"pron_score":69,"pron_accuracy":61,"pron_integrity":73,"pron_fluency":75,"phones":[{"phone":"hh","ref_phone":"hh","begin_time":4920,"end_time":5030},{"phone":"ae","ref_phone":"eh","begin_time":5030,"end_time":5200},{"phone":"l","ref_phone":"l","begin_time":5200,"end_time":5240},{"phone":"p","ref_phone":"p","begin_time":5240,"end_time":5270}]},{"word":"you","begin_time":5300,"end_time":5650,"pron_score":93,"pron_accuracy":97,"pron_integrity":98,"pron_fluency":86,"phones":[{"phone":"y","ref_phone":"y","begin_time":5300,"end_time":5470},{"phone":"uw","ref_phone":"uw","begin_time":5470,"end_time":5650}]},{"word":"balance","begin_time":5680,"end_time":6540,"pron_score":88,"pron_accuracy":97,"pron_integrity":98,"pron_fluency":69,"phones":[{"phone":"b","ref_phone":"b","begin_time":5680,"end_time":5790},{"phone":"ae","ref_phone":"ae","begin_time":5790,"end_time":5990},{"phone":"l","ref_phone":"l","begin_time":5990,"end_time":6050},{"phone":"ah","ref_phone":"ah","begin_time":6050,"end_time":6150},{"phone":"n","ref_phone":"n","begin_time":6150,"end_time":6240},{"phone":"s","ref_phone":"s","begin_time":6240,"end_time":6540}]},{"match":5,"word":"this","begin_time":6680,"end_time":6800,"pron_score":38,"pron_accuracy":10,"pron_integrity":31,"pron_fluency":74,"phones":[{"match":5,"phone":"dh","ref_phone":"dh","begin_time":6680,"end_time":6750},{"match":5,"phone":"\u003c#\u003e","ref_phone":"ih","begin_time":-1,"end_time":-1},{"match":5,"phone":"iy","ref_phone":"s","begin_time":6750,"end_time":6800}]}],"pron_score":81,"pron_accuracy":81,"pron_integrity":86,"pron_fluency":79,"begin_time":180,"end_time":6800}]},
+{"session_id":"951fb600-77c6-4eae-9061-ad69a6727c97","status_mesg":"OK","sents":[{"words":[{"word":"and","begin_time":180,"end_time":420,"pron_score":94,"pron_accuracy":96,"pron_integrity":100,"pron_fluency":87,"phones":[{"phone":"ae","ref_phone":"ae","begin_time":180,"end_time":330},{"phone":"n","ref_phone":"n","begin_time":330,"end_time":390},{"phone":"d","ref_phone":"d","begin_time":390,"end_time":420}]},{"word":"time","begin_time":450,"end_time":870,"pron_score":93,"pron_accuracy":98,"pron_integrity":100,"pron_fluency":83,"phones":[{"phone":"t","ref_phone":"t","begin_time":450,"end_time":560},{"phone":"ay","ref_phone":"ay","begin_time":560,"end_time":810},{"phone":"m","ref_phone":"m","begin_time":810,"end_time":870}]},{"word":"management","begin_time":900,"end_time":1840,"pron_score":77,"pron_accuracy":82,"pron_integrity":88,"pron_fluency":61,"phones":[{"phone":"m","ref_phone":"m","begin_time":900,"end_time":960},{"phone":"ae","ref_phone":"ae","begin_time":960,"end_time":1100},{"phone":"n","ref_phone":"n","begin_time":1100,"end_time":1180},{"phone":"ih","ref_phone":"ih","begin_time":1180,"end_time":1260},{"phone":"jh","ref_phone":"jh","begin_time":1260,"end_time":1420},{"phone":"m","ref_phone":"m","begin_time":1420,"end_time":1510},{"match":3,"phone":"ax","ref_phone":"ah","begin_time":1510,"end_time":1680},{"phone":"n","ref_phone":"n","begin_time":1680,"end_time":1800},{"phone":"t","ref_phone":"t","begin_time":1800,"end_time":1840}]},{"word":"is","begin_time":2220,"end_time":2540,"pron_score":93,"pron_accuracy":96,"pron_integrity":100,"pron_fluency":84,"phones":[{"phone":"ih","ref_phone":"ih","begin_time":2220,"end_time":2400},{"phone":"z","ref_phone":"z","begin_time":2400,"end_time":2540}]},{"word":"the","begin_time":2570,"end_time":2770,"pron_score":93,"pron_accuracy":93,"pron_integrity":100,"pron_fluency":86,"phones":[{"phone":"dh","ref_phone":"dh","begin_time":2570,"end_time":2620},{"phone":"ah","ref_phone":"ah","begin_time":2620,"end_time":2770}]},{"word":"skill","begin_time":2800,"end_time":3230,"pron_score":90,"pron_accuracy":93,"pron_integrity":100,"pron_fluency":78,"phones":[{"phone":"s","ref_phone":"s","begin_time":2800,"end_time":2910},{"phone":"k","ref_phone":"k","begin_time":2910,"end_time":3010},{"phone":"ih","ref_phone":"ih","begin_time":3010,"end_time":3140},{"phone":"l","ref_phone":"l","begin_time":3140,"end_time":3230}]},{"word":"that","begin_time":3370,"end_time":3890,"pron_score":68,"pron_accuracy":62,"pron_integrity":66,"pron_fluency":77,"phones":[{"phone":"dh","ref_phone":"dh","begin_time":3370,"end_time":3460},{"phone":"ae","ref_phone":"ae","begin_time":3460,"end_time":3710},{"phone":"d","ref_phone":"t","begin_time":3710,"end_time":3890}]},{"word":"will","begin_time":4540,"end_time":4890,"pron_score":93,"pron_accuracy":97,"pron_integrity":100,"pron_fluency":84,"phones":[{"phone":"w","ref_phone":"w","begin_time":4540,"end_time":4710},{"phone":"ih","ref_phone":"ih","begin_time":4710,"end_time":4840},{"phone":"l","ref_phone":"l","begin_time":4840,"end_time":4890}]},{"word":"help","begin_time":4920,"end_time":5270,"pron_score":70,"pron_accuracy":62,"pron_integrity":75,"pron_fluency":74,"phones":[{"phone":"hh","ref_phone":"hh","begin_time":4920,"end_time":5030},{"phone":"ae","ref_phone":"eh","begin_time":5030,"end_time":5200},{"phone":"l","ref_phone":"l","begin_time":5200,"end_time":5240},{"phone":"p","ref_phone":"p","begin_time":5240,"end_time":5270}]},{"word":"you","begin_time":5300,"end_time":5650,"pron_score":94,"pron_accuracy":98,"pron_integrity":100,"pron_fluency":85,"phones":[{"phone":"y","ref_phone":"y","begin_time":5300,"end_time":5470},{"phone":"uw","ref_phone":"uw","begin_time":5470,"end_time":5650}]},{"word":"balance","begin_time":5680,"end_time":6540,"pron_score":88,"pron_accuracy":98,"pron_integrity":100,"pron_fluency":68,"phones":[{"phone":"b","ref_phone":"b","begin_time":5680,"end_time":5790},{"phone":"ae","ref_phone":"ae","begin_time":5790,"end_time":5990},{"phone":"l","ref_phone":"l","begin_time":5990,"end_time":6050},{"phone":"ah","ref_phone":"ah","begin_time":6050,"end_time":6150},{"phone":"n","ref_phone":"n","begin_time":6150,"end_time":6240},{"phone":"s","ref_phone":"s","begin_time":6240,"end_time":6540}]},{"word":"this","begin_time":6690,"end_time":7040,"pron_score":94,"pron_accuracy":98,"pron_integrity":100,"pron_fluency":85,"phones":[{"phone":"dh","ref_phone":"dh","begin_time":6690,"end_time":6750},{"phone":"ih","ref_phone":"ih","begin_time":6750,"end_time":6880},{"phone":"s","ref_phone":"s","begin_time":6880,"end_time":7040}]},{"match":5,"word":"out","begin_time":7070,"end_time":7300,"pron_score":60,"pron_accuracy":45,"pron_integrity":50,"pron_fluency":87,"phones":[{"match":5,"phone":"aw","ref_phone":"aw","begin_time":7070,"end_time":7300},{"match":5,"phone":"\u003c#\u003e","ref_phone":"t","begin_time":-1,"end_time":-1}]}],"pron_score":85,"pron_accuracy":86,"pron_integrity":90,"pron_fluency":79,"begin_time":180,"end_time":7300}]},
+{"session_id":"951fb600-77c6-4eae-9061-ad69a6727c97","status_mesg":"OK","sents":[{"words":[{"word":"and","begin_time":180,"end_time":420,"pron_score":95,"pron_accuracy":98,"pron_integrity":100,"pron_fluency":89,"phones":[{"phone":"ae","ref_phone":"ae","begin_time":180,"end_time":330},{"phone":"n","ref_phone":"n","begin_time":330,"end_time":390},{"phone":"d","ref_phone":"d","begin_time":390,"end_time":420}]},{"word":"time","begin_time":450,"end_time":870,"pron_score":95,"pron_accuracy":100,"pron_integrity":100,"pron_fluency":85,"phones":[{"phone":"t","ref_phone":"t","begin_time":450,"end_time":560},{"phone":"ay","ref_phone":"ay","begin_time":560,"end_time":810},{"phone":"m","ref_phone":"m","begin_time":810,"end_time":870}]},{"word":"management","begin_time":900,"end_time":1840,"pron_score":78,"pron_accuracy":84,"pron_integrity":88,"pron_fluency":63,"phones":[{"phone":"m","ref_phone":"m","begin_time":900,"end_time":960},{"phone":"ae","ref_phone":"ae","begin_time":960,"end_time":1100},{"phone":"n","ref_phone":"n","begin_time":1100,"end_time":1180},{"phone":"ih","ref_phone":"ih","begin_time":1180,"end_time":1260},{"phone":"jh","ref_phone":"jh","begin_time":1260,"end_time":1420},{"phone":"m","ref_phone":"m","begin_time":1420,"end_time":1510},{"match":3,"phone":"ax","ref_phone":"ah","begin_time":1510,"end_time":1680},{"phone":"n","ref_phone":"n","begin_time":1680,"end_time":1800},{"phone":"t","ref_phone":"t","begin_time":1800,"end_time":1840}]},{"word":"is","begin_time":2220,"end_time":2540,"pron_score":94,"pron_accuracy":98,"pron_integrity":100,"pron_fluency":86,"phones":[{"phone":"ih","ref_phone":"ih","begin_time":2220,"end_time":2400},{"phone":"z","ref_phone":"z","begin_time":2400,"end_time":2540}]},{"word":"the","begin_time":2570,"end_time":2770,"pron_score":94,"pron_accuracy":95,"pron_integrity":100,"pron_fluency":88,"phones":[{"phone":"dh","ref_phone":"dh","begin_time":2570,"end_time":2620},{"phone":"ah","ref_phone":"ah","begin_time":2620,"end_time":2770}]},{"word":"skill","begin_time":2800,"end_time":3230,"pron_score":91,"pron_accuracy":95,"pron_integrity":100,"pron_fluency":80,"phones":[{"phone":"s","ref_phone":"s","begin_time":2800,"end_time":2910},{"phone":"k","ref_phone":"k","begin_time":2910,"end_time":3010},{"phone":"ih","ref_phone":"ih","begin_time":3010,"end_time":3140},{"phone":"l","ref_phone":"l","begin_time":3140,"end_time":3230}]},{"word":"that","begin_time":3370,"end_time":3890,"pron_score":69,"pron_accuracy":64,"pron_integrity":66,"pron_fluency":79,"phones":[{"phone":"dh","ref_phone":"dh","begin_time":3370,"end_time":3460},{"phone":"ae","ref_phone":"ae","begin_time":3460,"end_time":3710},{"phone":"d","ref_phone":"t","begin_time":3710,"end_time":3890}]},{"word":"will","begin_time":4540,"end_time":4890,"pron_score":95,"pron_accuracy":99,"pron_integrity":100,"pron_fluency":86,"phones":[{"phone":"w","ref_phone":"w","begin_time":4540,"end_time":4710},{"phone":"ih","ref_phone":"ih","begin_time":4710,"end_time":4840},{"phone":"l","ref_phone":"l","begin_time":4840,"end_time":4890}]},{"word":"help","begin_time":4920,"end_time":5270,"pron_score":71,"pron_accuracy":64,"pron_integrity":75,"pron_fluency":76,"phones":[{"phone":"hh","ref_phone":"hh","begin_time":4920,"end_time":5030},{"phone":"ae","ref_phone":"eh","begin_time":5030,"end_time":5200},{"phone":"l","ref_phone":"l","begin_time":5200,"end_time":5240},{"phone":"p","ref_phone":"p","begin_time":5240,"end_time":5270}]},{"word":"you","begin_time":5300,"end_time":5650,"pron_score":95,"pron_accuracy":100,"pron_integrity":100,"pron_fluency":87,"phones":[{"phone":"y","ref_phone":"y","begin_time":5300,"end_time":5470},{"phone":"uw","ref_phone":"uw","begin_time":5470,"end_time":5650}]},{"word":"balance","begin_time":5680,"end_time":6540,"pron_score":90,"pron_accuracy":100,"pron_integrity":100,"pron_fluency":70,"phones":[{"phone":"b","ref_phone":"b","begin_time":5680,"end_time":5790},{"phone":"ae","ref_phone":"ae","begin_time":5790,"end_time":5990},{"phone":"l","ref_phone":"l","begin_time":5990,"end_time":6050},{"phone":"ah","ref_phone":"ah","begin_time":6050,"end_time":6150},{"phone":"n","ref_phone":"n","begin_time":6150,"end_time":6240},{"phone":"s","ref_phone":"s","begin_time":6240,"end_time":6540}]},{"word":"this","begin_time":6690,"end_time":7040,"pron_score":95,"pron_accuracy":100,"pron_integrity":100,"pron_fluency":87,"phones":[{"phone":"dh","ref_phone":"dh","begin_time":6690,"end_time":6750},{"phone":"ih","ref_phone":"ih","begin_time":6750,"end_time":6880},{"phone":"s","ref_phone":"s","begin_time":6880,"end_time":7040}]},{"word":"out","begin_time":7070,"end_time":7740,"pron_score":92,"pron_accuracy":100,"pron_integrity":100,"pron_fluency":76,"phones":[{"phone":"aw","ref_phone":"aw","begin_time":7070,"end_time":7430},{"phone":"t","ref_phone":"t","begin_time":7430,"end_time":7740}]}],"pron_score":88,"pron_accuracy":92,"pron_integrity":94,"pron_fluency":80,"begin_time":180,"end_time":7740}]},
+{"session_id":"951fb600-77c6-4eae-9061-ad69a6727c97","status_mesg":"OK","sents":[{"words":[{"word":"and","begin_time":180,"end_time":420,"pron_score":93,"pron_accuracy":94,"pron_integrity":100,"pron_fluency":87,"phones":[{"phone":"ae","ref_phone":"ae","begin_time":180,"end_time":330},{"phone":"n","ref_phone":"n","begin_time":330,"end_time":390},{"phone":"d","ref_phone":"d","begin_time":390,"end_time":420}]},{"word":"time","begin_time":450,"end_time":870,"pron_score":93,"pron_accuracy":96,"pron_integrity":100,"pron_fluency":83,"phones":[{"phone":"t","ref_phone":"t","begin_time":450,"end_time":560},{"phone":"ay","ref_phone":"ay","begin_time":560,"end_time":810},{"phone":"m","ref_phone":"m","begin_time":810,"end_time":870}]},{"word":"management","begin_time":900,"end_time":1840,"pron_score":76,"pron_accuracy":80,"pron_integrity":88,"pron_fluency":61,"phones":[{"phone":"m","ref_phone":"m","begin_time":900,"end_time":960},{"phone":"ae","ref_phone":"ae","begin_time":960,"end_time":1100},{"phone":"n","ref_phone":"n","begin_time":1100,"end_time":1180},{"phone":"ih","ref_phone":"ih","begin_time":1180,"end_time":1260},{"phone":"jh","ref_phone":"jh","begin_time":1260,"end_time":1420},{"phone":"m","ref_phone":"m","begin_time":1420,"end_time":1510},{"match":3,"phone":"ax","ref_phone":"ah","begin_time":1510,"end_time":1680},{"phone":"n","ref_phone":"n","begin_time":1680,"end_time":1800},{"phone":"t","ref_phone":"t","begin_time":1800,"end_time":1840}]},{"word":"is","begin_time":2220,"end_time":2540,"pron_score":92,"pron_accuracy":94,"pron_integrity":100,"pron_fluency":84,"phones":[{"phone":"ih","ref_phone":"ih","begin_time":2220,"end_time":2400},{"phone":"z","ref_phone":"z","begin_time":2400,"end_time":2540}]},{"word":"the","begin_time":2570,"end_time":2770,"pron_score":92,"pron_accuracy":91,"pron_integrity":100,"pron_fluency":86,"phones":[{"phone":"dh","ref_phone":"dh","begin_time":2570,"end_time":2620},{"phone":"ah","ref_phone":"ah","begin_time":2620,"end_time":2770}]},{"word":"skill","begin_time":2800,"end_time":3230,"pron_score":89,"pron_accuracy":91,"pron_integrity":100,"pron_fluency":78,"phones":[{"phone":"s","ref_phone":"s","begin_time":2800,"end_time":2910},{"phone":"k","ref_phone":"k","begin_time":2910,"end_time":3010},{"phone":"ih","ref_phone":"ih","begin_time":3010,"end_time":3140},{"phone":"l","ref_phone":"l","begin_time":3140,"end_time":3230}]},{"word":"that","begin_time":3370,"end_time":3890,"pron_score":67,"pron_accuracy":60,"pron_integrity":66,"pron_fluency":77,"phones":[{"phone":"dh","ref_phone":"dh","begin_time":3370,"end_time":3460},{"phone":"ae","ref_phone":"ae","begin_time":3460,"end_time":3710},{"phone":"d","ref_phone":"t","begin_time":3710,"end_time":3890}]},{"word":"will","begin_time":4540,"end_time":4890,"pron_score":93,"pron_accuracy":95,"pron_integrity":100,"pron_fluency":84,"phones":[{"phone":"w","ref_phone":"w","begin_time":4540,"end_time":4710},{"phone":"ih","ref_phone":"ih","begin_time":4710,"end_time":4840},{"phone":"l","ref_phone":"l","begin_time":4840,"end_time":4890}]},{"word":"help","begin_time":4920,"end_time":5270,"pron_score":69,"pron_accuracy":60,"pron_integrity":75,"pron_fluency":74,"phones":[{"phone":"hh","ref_phone":"hh","begin_time":4920,"end_time":5030},{"phone":"ae","ref_phone":"eh","begin_time":5030,"end_time":5200},{"phone":"l","ref_phone":"l","begin_time":5200,"end_time":5240},{"phone":"p","ref_phone":"p","begin_time":5240,"end_time":5270}]},{"word":"you","begin_time":5300,"end_time":5650,"pron_score":93,"pron_accuracy":96,"pron_integrity":100,"pron_fluency":85,"phones":[{"phone":"y","ref_phone":"y","begin_time":5300,"end_time":5470},{"phone":"uw","ref_phone":"uw","begin_time":5470,"end_time":5650}]},{"word":"balance","begin_time":5680,"end_time":6540,"pron_score":88,"pron_accuracy":96,"pron_integrity":100,"pron_fluency":68,"phones":[{"phone":"b","ref_phone":"b","begin_time":5680,"end_time":5790},{"phone":"ae","ref_phone":"ae","begin_time":5790,"end_time":5990},{"phone":"l","ref_phone":"l","begin_time":5990,"end_time":6050},{"phone":"ah","ref_phone":"ah","begin_time":6050,"end_time":6150},{"phone":"n","ref_phone":"n","begin_time":6150,"end_time":6240},{"phone":"s","ref_phone":"s","begin_time":6240,"end_time":6540}]},{"word":"this","begin_time":6690,"end_time":7040,"pron_score":93,"pron_accuracy":96,"pron_integrity":100,"pron_fluency":85,"phones":[{"phone":"dh","ref_phone":"dh","begin_time":6690,"end_time":6750},{"phone":"ih","ref_phone":"ih","begin_time":6750,"end_time":6880},{"phone":"s","ref_phone":"s","begin_time":6880,"end_time":7040}]},{"word":"out","begin_time":7070,"end_time":7740,"pron_score":90,"pron_accuracy":96,"pron_integrity":100,"pron_fluency":74,"phones":[{"phone":"aw","ref_phone":"aw","begin_time":7070,"end_time":7430},{"phone":"t","ref_phone":"t","begin_time":7430,"end_time":7740}]},{"match":5,"word":"and","begin_time":8250,"end_time":8300,"pron_score":18,"pron_accuracy":4,"pron_fluency":51,"phones":[{"match":5,"phone":"ae","ref_phone":"n","begin_time":8250,"end_time":8300}]}],"pron_score":81,"pron_accuracy":82,"pron_integrity":87,"pron_fluency":76,"begin_time":180,"end_time":8300}]},
+{"session_id":"951fb600-77c6-4eae-9061-ad69a6727c97","status_mesg":"OK","sents":[{"words":[{"word":"and","begin_time":180,"end_time":420,"pron_score":93,"pron_accuracy":95,"pron_integrity":97,"pron_fluency":88,"phones":[{"phone":"ae","ref_phone":"ae","begin_time":180,"end_time":330},{"phone":"n","ref_phone":"n","begin_time":330,"end_time":390},{"phone":"d","ref_phone":"d","begin_time":390,"end_time":420}]},{"word":"time","begin_time":450,"end_time":870,"pron_score":92,"pron_accuracy":97,"pron_integrity":97,"pron_fluency":84,"phones":[{"phone":"t","ref_phone":"t","begin_time":450,"end_time":560},{"phone":"ay","ref_phone":"ay","begin_time":560,"end_time":810},{"phone":"m","ref_phone":"m","begin_time":810,"end_time":870}]},{"word":"management","begin_time":900,"end_time":1840,"pron_score":76,"pron_accuracy":81,"pron_integrity":85,"pron_fluency":62,"phones":[{"phone":"m","ref_phone":"m","begin_time":900,"end_time":960},{"phone":"ae","ref_phone":"ae","begin_time":960,"end_time":1100},{"phone":"n","ref_phone":"n","begin_time":1100,"end_time":1180},{"phone":"ih","ref_phone":"ih","begin_time":1180,"end_time":1260},{"phone":"jh","ref_phone":"jh","begin_time":1260,"end_time":1420},{"phone":"m","ref_phone":"m","begin_time":1420,"end_time":1510},{"match":3,"phone":"ax","ref_phone":"ah","begin_time":1510,"end_time":1680},{"phone":"n","ref_phone":"n","begin_time":1680,"end_time":1800},{"phone":"t","ref_phone":"t","begin_time":1800,"end_time":1840}]},{"word":"is","begin_time":2220,"end_time":2540,"pron_score":92,"pron_accuracy":95,"pron_integrity":97,"pron_fluency":85,"phones":[{"phone":"ih","ref_phone":"ih","begin_time":2220,"end_time":2400},{"phone":"z","ref_phone":"z","begin_time":2400,"end_time":2540}]},{"word":"the","begin_time":2570,"end_time":2770,"pron_score":92,"pron_accuracy":92,"pron_integrity":97,"pron_fluency":87,"phones":[{"phone":"dh","ref_phone":"dh","begin_time":2570,"end_time":2620},{"phone":"ah","ref_phone":"ah","begin_time":2620,"end_time":2770}]},{"word":"skill","begin_time":2800,"end_time":3230,"pron_score":89,"pron_accuracy":92,"pron_integrity":97,"pron_fluency":79,"phones":[{"phone":"s","ref_phone":"s","begin_time":2800,"end_time":2910},{"phone":"k","ref_phone":"k","begin_time":2910,"end_time":3010},{"phone":"ih","ref_phone":"ih","begin_time":3010,"end_time":3140},{"phone":"l","ref_phone":"l","begin_time":3140,"end_time":3230}]},{"word":"that","begin_time":3370,"end_time":3890,"pron_score":67,"pron_accuracy":61,"pron_integrity":63,"pron_fluency":78,"phones":[{"phone":"dh","ref_phone":"dh","begin_time":3370,"end_time":3460},{"phone":"ae","ref_phone":"ae","begin_time":3460,"end_time":3710},{"phone":"d","ref_phone":"t","begin_time":3710,"end_time":3890}]},{"word":"will","begin_time":4540,"end_time":4890,"pron_score":92,"pron_accuracy":96,"pron_integrity":97,"pron_fluency":85,"phones":[{"phone":"w","ref_phone":"w","begin_time":4540,"end_time":4710},{"phone":"ih","ref_phone":"ih","begin_time":4710,"end_time":4840},{"phone":"l","ref_phone":"l","begin_time":4840,"end_time":4890}]},{"word":"help","begin_time":4920,"end_time":5270,"pron_score":69,"pron_accuracy":61,"pron_integrity":72,"pron_fluency":75,"phones":[{"phone":"hh","ref_phone":"hh","begin_time":4920,"end_time":5030},{"phone":"ae","ref_phone":"eh","begin_time":5030,"end_time":5200},{"phone":"l","ref_phone":"l","begin_time":5200,"end_time":5240},{"phone":"p","ref_phone":"p","begin_time":5240,"end_time":5270}]},{"word":"you","begin_time":5300,"end_time":5650,"pron_score":93,"pron_accuracy":97,"pron_integrity":97,"pron_fluency":86,"phones":[{"phone":"y","ref_phone":"y","begin_time":5300,"end_time":5470},{"phone":"uw","ref_phone":"uw","begin_time":5470,"end_time":5650}]},{"word":"balance","begin_time":5680,"end_time":6540,"pron_score":87,"pron_accuracy":97,"pron_integrity":97,"pron_fluency":69,"phones":[{"phone":"b","ref_phone":"b","begin_time":5680,"end_time":5790},{"phone":"ae","ref_phone":"ae","begin_time":5790,"end_time":5990},{"phone":"l","ref_phone":"l","begin_time":5990,"end_time":6050},{"phone":"ah","ref_phone":"ah","begin_time":6050,"end_time":6150},{"phone":"n","ref_phone":"n","begin_time":6150,"end_time":6240},{"phone":"s","ref_phone":"s","begin_time":6240,"end_time":6540}]},{"word":"this","begin_time":6690,"end_time":7040,"pron_score":93,"pron_accuracy":97,"pron_integrity":97,"pron_fluency":86,"phones":[{"phone":"dh","ref_phone":"dh","begin_time":6690,"end_time":6750},{"phone":"ih","ref_phone":"ih","begin_time":6750,"end_time":6880},{"phone":"s","ref_phone":"s","begin_time":6880,"end_time":7040}]},{"word":"out","begin_time":7070,"end_time":7740,"pron_score":89,"pron_accuracy":97,"pron_integrity":97,"pron_fluency":75,"phones":[{"phone":"aw","ref_phone":"aw","begin_time":7070,"end_time":7430},{"phone":"t","ref_phone":"t","begin_time":7430,"end_time":7740}]},{"word":"and","begin_time":8250,"end_time":8670,"pron_score":90,"pron_accuracy":93,"pron_integrity":97,"pron_fluency":80,"phones":[{"phone":"ae","ref_phone":"ae","begin_time":8250,"end_time":8470},{"phone":"n","ref_phone":"n","begin_time":8470,"end_time":8600},{"phone":"d","ref_phone":"d","begin_time":8600,"end_time":8670}]},{"match":5,"word":"get","begin_time":8700,"end_time":8800,"pron_score":73,"pron_accuracy":63,"pron_integrity":63,"pron_fluency":94,"phones":[{"match":5,"phone":"g","ref_phone":"g","begin_time":8700,"end_time":8780},{"match":5,"phone":"eh","ref_phone":"eh","begin_time":8780,"end_time":8800},{"match":5,"phone":"\u003c#\u003e","ref_phone":"t","begin_time":-1,"end_time":-1}]}],"pron_score":85,"pron_accuracy":87,"pron_integrity":90,"pron_fluency":80,"begin_time":180,"end_time":8800}]},
+{"session_id":"951fb600-77c6-4eae-9061-ad69a6727c97","status_mesg":"OK","sents":[{"words":[{"word":"and","begin_time":180,"end_time":420,"pron_score":95,"pron_accuracy":97,"pron_integrity":100,"pron_fluency":89,"phones":[{"phone":"ae","ref_phone":"ae","begin_time":180,"end_time":330},{"phone":"n","ref_phone":"n","begin_time":330,"end_time":390},{"phone":"d","ref_phone":"d","begin_time":390,"end_time":420}]},{"word":"time","begin_time":450,"end_time":870,"pron_score":94,"pron_accuracy":99,"pron_integrity":100,"pron_fluency":85,"phones":[{"phone":"t","ref_phone":"t","begin_time":450,"end_time":560},{"phone":"ay","ref_phone":"ay","begin_time":560,"end_time":810},{"phone":"m","ref_phone":"m","begin_time":810,"end_time":870}]},{"word":"management","begin_time":900,"end_time":1840,"pron_score":78,"pron_accuracy":83,"pron_integrity":88,"pron_fluency":63,"phones":[{"phone":"m","ref_phone":"m","begin_time":900,"end_time":960},{"phone":"ae","ref_phone":"ae","begin_time":960,"end_time":1100},{"phone":"n","ref_phone":"n","begin_time":1100,"end_time":1180},{"phone":"ih","ref_phone":"ih","begin_time":1180,"end_time":1260},{"phone":"jh","ref_phone":"jh","begin_time":1260,"end_time":1420},{"phone":"m","ref_phone":"m","begin_time":1420,"end_time":1510},{"match":3,"phone":"ax","ref_phone":"ah","begin_time":1510,"end_time":1680},{"phone":"n","ref_phone":"n","begin_time":1680,"end_time":1800},{"phone":"t","ref_phone":"t","begin_time":1800,"end_time":1840}]},{"word":"is","begin_time":2220,"end_time":2540,"pron_score":94,"pron_accuracy":97,"pron_integrity":100,"pron_fluency":86,"phones":[{"phone":"ih","ref_phone":"ih","begin_time":2220,"end_time":2400},{"phone":"z","ref_phone":"z","begin_time":2400,"end_time":2540}]},{"word":"the","begin_time":2570,"end_time":2770,"pron_score":94,"pron_accuracy":94,"pron_integrity":100,"pron_fluency":88,"phones":[{"phone":"dh","ref_phone":"dh","begin_time":2570,"end_time":2620},{"phone":"ah","ref_phone":"ah","begin_time":2620,"end_time":2770}]},{"word":"skill","begin_time":2800,"end_time":3230,"pron_score":91,"pron_accuracy":94,"pron_integrity":100,"pron_fluency":80,"phones":[{"phone":"s","ref_phone":"s","begin_time":2800,"end_time":2910},{"phone":"k","ref_phone":"k","begin_time":2910,"end_time":3010},{"phone":"ih","ref_phone":"ih","begin_time":3010,"end_time":3140},{"phone":"l","ref_phone":"l","begin_time":3140,"end_time":3230}]},{"word":"that","begin_time":3370,"end_time":3890,"pron_score":69,"pron_accuracy":63,"pron_integrity":66,"pron_fluency":79,"phones":[{"phone":"dh","ref_phone":"dh","begin_time":3370,"end_time":3460},{"phone":"ae","ref_phone":"ae","begin_time":3460,"end_time":3710},{"phone":"d","ref_phone":"t","begin_time":3710,"end_time":3890}]},{"word":"will","begin_time":4540,"end_time":4890,"pron_score":94,"pron_accuracy":98,"pron_integrity":100,"pron_fluency":86,"phones":[{"phone":"w","ref_phone":"w","begin_time":4540,"end_time":4710},{"phone":"ih","ref_phone":"ih","begin_time":4710,"end_time":4840},{"phone":"l","ref_phone":"l","begin_time":4840,"end_time":4890}]},{"word":"help","begin_time":4920,"end_time":5270,"pron_score":71,"pron_accuracy":63,"pron_integrity":75,"pron_fluency":76,"phones":[{"phone":"hh","ref_phone":"hh","begin_time":4920,"end_time":5030},{"phone":"ae","ref_phone":"eh","begin_time":5030,"end_time":5200},{"phone":"l","ref_phone":"l","begin_time":5200,"end_time":5240},{"phone":"p","ref_phone":"p","begin_time":5240,"end_time":5270}]},{"word":"you","begin_time":5300,"end_time":5650,"pron_score":95,"pron_accuracy":99,"pron_integrity":100,"pron_fluency":87,"phones":[{"phone":"y","ref_phone":"y","begin_time":5300,"end_time":5470},{"phone":"uw","ref_phone":"uw","begin_time":5470,"end_time":5650}]},{"word":"balance","begin_time":5680,"end_time":6540,"pron_score":89,"pron_accuracy":99,"pron_integrity":100,"pron_fluency":70,"phones":[{"phone":"b","ref_phone":"b","begin_time":5680,"end_time":5790},{"phone":"ae","ref_phone":"ae","begin_time":5790,"end_time":5990},{"phone":"l","ref_phone":"l","begin_time":5990,"end_time":6050},{"phone":"ah","ref_phone":"ah","begin_time":6050,"end_time":6150},{"phone":"n","ref_phone":"n","begin_time":6150,"end_time":6240},{"phone":"s","ref_phone":"s","begin_time":6240,"end_time":6540}]},{"word":"this","begin_time":6690,"end_time":7040,"pron_score":95,"pron_accuracy":99,"pron_integrity":100,"pron_fluency":87,"phones":[{"phone":"dh","ref_phone":"dh","begin_time":6690,"end_time":6750},{"phone":"ih","ref_phone":"ih","begin_time":6750,"end_time":6880},{"phone":"s","ref_phone":"s","begin_time":6880,"end_time":7040}]},{"word":"out","begin_time":7070,"end_time":7740,"pron_score":91,"pron_accuracy":99,"pron_integrity":100,"pron_fluency":76,"phones":[{"phone":"aw","ref_phone":"aw","begin_time":7070,"end_time":7430},{"phone":"t","ref_phone":"t","begin_time":7430,"end_time":7740}]},{"word":"and","begin_time":8250,"end_time":8670,"pron_score":92,"pron_accuracy":95,"pron_integrity":100,"pron_fluency":81,"phones":[{"phone":"ae","ref_phone":"ae","begin_time":8250,"end_time":8470},{"phone":"n","ref_phone":"n","begin_time":8470,"end_time":8600},{"phone":"d","ref_phone":"d","begin_time":8600,"end_time":8670}]},{"word":"get","begin_time":8700,"end_time":9040,"pron_score":90,"pron_accuracy":91,"pron_integrity":100,"pron_fluency":80,"phones":[{"phone":"g","ref_phone":"g","begin_time":8700,"end_time":8780},{"phone":"eh","ref_phone":"eh","begin_time":8780,"end_time":9000},{"phone":"t","ref_phone":"t","begin_time":9000,"end_time":9040}]},{"match":5,"word":"things","begin_time":9070,"end_time":9300,"pron_score":80,"pron_accuracy":74,"pron_integrity":75,"pron_fluency":91,"phones":[{"match":5,"phone":"th","ref_phone":"th","begin_time":9070,"end_time":9180},{"match":5,"phone":"ih","ref_phone":"ih","begin_time":9180,"end_time":9270},{"match":5,"phone":"ng","ref_phone":"ng","begin_time":9270,"end_time":9300},{"match":5,"phone":"\u003c#\u003e","ref_phone":"z","begin_time":-1,"end_time":-1}]}],"pron_score":88,"pron_accuracy":90,"pron_integrity":94,"pron_fluency":81,"begin_time":180,"end_time":9300}]},
+{"session_id":"951fb600-77c6-4eae-9061-ad69a6727c97","status_mesg":"OK","sents":[{"words":[{"word":"and","begin_time":180,"end_time":420,"pron_score":94,"pron_accuracy":96,"pron_integrity":98,"pron_fluency":90,"phones":[{"phone":"ae","ref_phone":"ae","begin_time":180,"end_time":330},{"phone":"n","ref_phone":"n","begin_time":330,"end_time":390},{"phone":"d","ref_phone":"d","begin_time":390,"end_time":420}]},{"word":"time","begin_time":450,"end_time":870,"pron_score":94,"pron_accuracy":98,"pron_integrity":98,"pron_fluency":86,"phones":[{"phone":"t","ref_phone":"t","begin_time":450,"end_time":560},{"phone":"ay","ref_phone":"ay","begin_time":560,"end_time":810},{"phone":"m","ref_phone":"m","begin_time":810,"end_time":870}]},{"word":"management","begin_time":900,"end_time":1840,"pron_score":77,"pron_accuracy":82,"pron_integrity":86,"pron_fluency":64,"phones":[{"phone":"m","ref_phone":"m","begin_time":900,"end_time":960},{"phone":"ae","ref_phone":"ae","begin_time":960,"end_time":1100},{"phone":"n","ref_phone":"n","begin_time":1100,"end_time":1180},{"phone":"ih","ref_phone":"ih","begin_time":1180,"end_time":1260},{"phone":"jh","ref_phone":"jh","begin_time":1260,"end_time":1420},{"phone":"m","ref_phone":"m","begin_time":1420,"end_time":1510},{"match":3,"phone":"ax","ref_phone":"ah","begin_time":1510,"end_time":1680},{"phone":"n","ref_phone":"n","begin_time":1680,"end_time":1800},{"phone":"t","ref_phone":"t","begin_time":1800,"end_time":1840}]},{"word":"is","begin_time":2220,"end_time":2540,"pron_score":93,"pron_accuracy":96,"pron_integrity":98,"pron_fluency":87,"phones":[{"phone":"ih","ref_phone":"ih","begin_time":2220,"end_time":2400},{"phone":"z","ref_phone":"z","begin_time":2400,"end_time":2540}]},{"word":"the","begin_time":2570,"end_time":2770,"pron_score":93,"pron_accuracy":93,"pron_integrity":98,"pron_fluency":89,"phones":[{"phone":"dh","ref_phone":"dh","begin_time":2570,"end_time":2620},{"phone":"ah","ref_phone":"ah","begin_time":2620,"end_time":2770}]},{"word":"skill","begin_time":2800,"end_time":3230,"pron_score":90,"pron_accuracy":93,"pron_integrity":98,"pron_fluency":81,"phones":[{"phone":"s","ref_phone":"s","begin_time":2800,"end_time":2910},{"phone":"k","ref_phone":"k","begin_time":2910,"end_time":3010},{"phone":"ih","ref_phone":"ih","begin_time":3010,"end_time":3140},{"phone":"l","ref_phone":"l","begin_time":3140,"end_time":3230}]},{"word":"that","begin_time":3370,"end_time":3890,"pron_score":68,"pron_accuracy":62,"pron_integrity":64,"pron_fluency":80,"phones":[{"phone":"dh","ref_phone":"dh","begin_time":3370,"end_time":3460},{"phone":"ae","ref_phone":"ae","begin_time":3460,"end_time":3710},{"phone":"d","ref_phone":"t","begin_time":3710,"end_time":3890}]},{"word":"will","begin_time":4540,"end_time":4890,"pron_score":94,"pron_accuracy":97,"pron_integrity":98,"pron_fluency":87,"phones":[{"phone":"w","ref_phone":"w","begin_time":4540,"end_time":4710},{"phone":"ih","ref_phone":"ih","begin_time":4710,"end_time":4840},{"phone":"l","ref_phone":"l","begin_time":4840,"end_time":4890}]},{"word":"help","begin_time":4920,"end_time":5270,"pron_score":70,"pron_accuracy":62,"pron_integrity":73,"pron_fluency":77,"phones":[{"phone":"hh","ref_phone":"hh","begin_time":4920,"end_time":5030},{"phone":"ae","ref_phone":"eh","begin_time":5030,"end_time":5200},{"phone":"l","ref_phone":"l","begin_time":5200,"end_time":5240},{"phone":"p","ref_phone":"p","begin_time":5240,"end_time":5270}]},{"word":"you","begin_time":5300,"end_time":5650,"pron_score":94,"pron_accuracy":98,"pron_integrity":98,"pron_fluency":88,"phones":[{"phone":"y","ref_phone":"y","begin_time":5300,"end_time":5470},{"phone":"uw","ref_phone":"uw","begin_time":5470,"end_time":5650}]},{"word":"balance","begin_time":5680,"end_time":6540,"pron_score":89,"pron_accuracy":98,"pron_integrity":98,"pron_fluency":71,"phones":[{"phone":"b","ref_phone":"b","begin_time":5680,"end_time":5790},{"phone":"ae","ref_phone":"ae","begin_time":5790,"end_time":5990},{"phone":"l","ref_phone":"l","begin_time":5990,"end_time":6050},{"phone":"ah","ref_phone":"ah","begin_time":6050,"end_time":6150},{"phone":"n","ref_phone":"n","begin_time":6150,"end_time":6240},{"phone":"s","ref_phone":"s","begin_time":6240,"end_time":6540}]},{"word":"this","begin_time":6690,"end_time":7040,"pron_score":94,"pron_accuracy":98,"pron_integrity":98,"pron_fluency":88,"phones":[{"phone":"dh","ref_phone":"dh","begin_time":6690,"end_time":6750},{"phone":"ih","ref_phone":"ih","begin_time":6750,"end_time":6880},{"phone":"s","ref_phone":"s","begin_time":6880,"end_time":7040}]},{"word":"out","begin_time":7070,"end_time":7740,"pron_score":91,"pron_accuracy":98,"pron_integrity":98,"pron_fluency":77,"phones":[{"phone":"aw","ref_phone":"aw","begin_time":7070,"end_time":7430},{"phone":"t","ref_phone":"t","begin_time":7430,"end_time":7740}]},{"word":"and","begin_time":8250,"end_time":8670,"pron_score":91,"pron_accuracy":94,"pron_integrity":98,"pron_fluency":82,"phones":[{"phone":"ae","ref_phone":"ae","begin_time":8250,"end_time":8470},{"phone":"n","ref_phone":"n","begin_time":8470,"end_time":8600},{"phone":"d","ref_phone":"d","begin_time":8600,"end_time":8670}]},{"word":"get","begin_time":8700,"end_time":9040,"pron_score":89,"pron_accuracy":90,"pron_integrity":98,"pron_fluency":81,"phones":[{"phone":"g","ref_phone":"g","begin_time":8700,"end_time":8780},{"phone":"eh","ref_phone":"eh","begin_time":8780,"end_time":9000},{"phone":"t","ref_phone":"t","begin_time":9000,"end_time":9040}]},{"word":"things","begin_time":9070,"end_time":9530,"pron_score":92,"pron_accuracy":96,"pron_integrity":98,"pron_fluency":83,"phones":[{"phone":"th","ref_phone":"th","begin_time":9070,"end_time":9180},{"phone":"ih","ref_phone":"ih","begin_time":9180,"end_time":9270},{"phone":"ng","ref_phone":"ng","begin_time":9270,"end_time":9380},{"phone":"z","ref_phone":"z","begin_time":9380,"end_time":9530}]},{"match":5,"word":"done","begin_time":9560,"end_time":9800,"pron_score":96,"pron_accuracy":98,"pron_integrity":98,"pron_fluency":92,"phones":[{"match":5,"phone":"d","ref_phone":"d","begin_time":9560,"end_time":9630},{"match":5,"phone":"ax","ref_phone":"ax","begin_time":9630,"end_time":9780},{"match":5,"phone":"n","ref_phone":"n","begin_time":9780,"end_time":9800}]}],"pron_score":88,"pron_accuracy":91,"pron_integrity":93,"pron_fluency":82,"begin_time":180,"end_time":9800}]},
+{"session_id":"951fb600-77c6-4eae-9061-ad69a6727c97","status_mesg":"OK","sents":[{"words":[{"word":"and","begin_time":180,"end_time":420,"pron_score":93,"pron_accuracy":94,"pron_integrity":97,"pron_fluency":90,"phones":[{"phone":"ae","ref_phone":"ae","begin_time":180,"end_time":330},{"phone":"n","ref_phone":"n","begin_time":330,"end_time":390},{"phone":"d","ref_phone":"d","begin_time":390,"end_time":420}]},{"word":"time","begin_time":450,"end_time":870,"pron_score":93,"pron_accuracy":96,"pron_integrity":97,"pron_fluency":86,"phones":[{"phone":"t","ref_phone":"t","begin_time":450,"end_time":560},{"phone":"ay","ref_phone":"ay","begin_time":560,"end_time":810},{"phone":"m","ref_phone":"m","begin_time":810,"end_time":870}]},{"word":"management","begin_time":900,"end_time":1840,"pron_score":76,"pron_accuracy":80,"pron_integrity":85,"pron_fluency":64,"phones":[{"phone":"m","ref_phone":"m","begin_time":900,"end_time":960},{"phone":"ae","ref_phone":"ae","begin_time":960,"end_time":1100},{"phone":"n","ref_phone":"n","begin_time":1100,"end_time":1180},{"phone":"ih","ref_phone":"ih","begin_time":1180,"end_time":1260},{"phone":"jh","ref_phone":"jh","begin_time":1260,"end_time":1420},{"phone":"m","ref_phone":"m","begin_time":1420,"end_time":1510},{"match":3,"phone":"ax","ref_phone":"ah","begin_time":1510,"end_time":1680},{"phone":"n","ref_phone":"n","begin_time":1680,"end_time":1800},{"phone":"t","ref_phone":"t","begin_time":1800,"end_time":1840}]},{"word":"is","begin_time":2220,"end_time":2540,"pron_score":92,"pron_accuracy":94,"pron_integrity":97,"pron_fluency":87,"phones":[{"phone":"ih","ref_phone":"ih","begin_time":2220,"end_time":2400},{"phone":"z","ref_phone":"z","begin_time":2400,"end_time":2540}]},{"word":"the","begin_time":2570,"end_time":2770,"pron_score":92,"pron_accuracy":91,"pron_integrity":97,"pron_fluency":89,"phones":[{"phone":"dh","ref_phone":"dh","begin_time":2570,"end_time":2620},{"phone":"ah","ref_phone":"ah","begin_time":2620,"end_time":2770}]},{"word":"skill","begin_time":2800,"end_time":3230,"pron_score":89,"pron_accuracy":91,"pron_integrity":97,"pron_fluency":81,"phones":[{"phone":"s","ref_phone":"s","begin_time":2800,"end_time":2910},{"phone":"k","ref_phone":"k","begin_time":2910,"end_time":3010},{"phone":"ih","ref_phone":"ih","begin_time":3010,"end_time":3140},{"phone":"l","ref_phone":"l","begin_time":3140,"end_time":3230}]},{"word":"that","begin_time":3370,"end_time":3890,"pron_score":67,"pron_accuracy":60,"pron_integrity":63,"pron_fluency":80,"phones":[{"phone":"dh","ref_phone":"dh","begin_time":3370,"end_time":3460},{"phone":"ae","ref_phone":"ae","begin_time":3460,"end_time":3710},{"phone":"d","ref_phone":"t","begin_time":3710,"end_time":3890}]},{"word":"will","begin_time":4540,"end_time":4890,"pron_score":93,"pron_accuracy":95,"pron_integrity":97,"pron_fluency":87,"phones":[{"phone":"w","ref_phone":"w","begin_time":4540,"end_time":4710},{"phone":"ih","ref_phone":"ih","begin_time":4710,"end_time":4840},{"phone":"l","ref_phone":"l","begin_time":4840,"end_time":4890}]},{"word":"help","begin_time":4920,"end_time":5270,"pron_score":69,"pron_accuracy":60,"pron_integrity":72,"pron_fluency":77,"phones":[{"phone":"hh","ref_phone":"hh","begin_time":4920,"end_time":5030},{"phone":"ae","ref_phone":"eh","begin_time":5030,"end_time":5200},{"phone":"l","ref_phone":"l","begin_time":5200,"end_time":5240},{"phone":"p","ref_phone":"p","begin_time":5240,"end_time":5270}]},{"word":"you","begin_time":5300,"end_time":5650,"pron_score":93,"pron_accuracy":96,"pron_integrity":97,"pron_fluency":88,"phones":[{"phone":"y","ref_phone":"y","begin_time":5300,"end_time":5470},{"phone":"uw","ref_phone":"uw","begin_time":5470,"end_time":5650}]},{"word":"balance","begin_time":5680,"end_time":6540,"pron_score":88,"pron_accuracy":96,"pron_integrity":97,"pron_fluency":71,"phones":[{"phone":"b","ref_phone":"b","begin_time":5680,"end_time":5790},{"phone":"ae","ref_phone":"ae","begin_time":5790,"end_time":5990},{"phone":"l","ref_phone":"l","begin_time":5990,"end_time":6050},{"phone":"ah","ref_phone":"ah","begin_time":6050,"end_time":6150},{"phone":"n","ref_phone":"n","begin_time":6150,"end_time":6240},{"phone":"s","ref_phone":"s","begin_time":6240,"end_time":6540}]},{"word":"this","begin_time":6690,"end_time":7040,"pron_score":93,"pron_accuracy":96,"pron_integrity":97,"pron_fluency":88,"phones":[{"phone":"dh","ref_phone":"dh","begin_time":6690,"end_time":6750},{"phone":"ih","ref_phone":"ih","begin_time":6750,"end_time":6880},{"phone":"s","ref_phone":"s","begin_time":6880,"end_time":7040}]},{"word":"out","begin_time":7070,"end_time":7740,"pron_score":90,"pron_accuracy":96,"pron_integrity":97,"pron_fluency":77,"phones":[{"phone":"aw","ref_phone":"aw","begin_time":7070,"end_time":7430},{"phone":"t","ref_phone":"t","begin_time":7430,"end_time":7740}]},{"word":"and","begin_time":8250,"end_time":8670,"pron_score":90,"pron_accuracy":92,"pron_integrity":97,"pron_fluency":82,"phones":[{"phone":"ae","ref_phone":"ae","begin_time":8250,"end_time":8470},{"phone":"n","ref_phone":"n","begin_time":8470,"end_time":8600},{"phone":"d","ref_phone":"d","begin_time":8600,"end_time":8670}]},{"word":"get","begin_time":8700,"end_time":9040,"pron_score":88,"pron_accuracy":88,"pron_integrity":97,"pron_fluency":81,"phones":[{"phone":"g","ref_phone":"g","begin_time":8700,"end_time":8780},{"phone":"eh","ref_phone":"eh","begin_time":8780,"end_time":9000},{"phone":"t","ref_phone":"t","begin_time":9000,"end_time":9040}]},{"word":"things","begin_time":9070,"end_time":9530,"pron_score":91,"pron_accuracy":94,"pron_integrity":97,"pron_fluency":83,"phones":[{"phone":"th","ref_phone":"th","begin_time":9070,"end_time":9180},{"phone":"ih","ref_phone":"ih","begin_time":9180,"end_time":9270},{"phone":"ng","ref_phone":"ng","begin_time":9270,"end_time":9380},{"phone":"z","ref_phone":"z","begin_time":9380,"end_time":9530}]},{"word":"done","begin_time":9560,"end_time":10060,"pron_score":92,"pron_accuracy":96,"pron_integrity":97,"pron_fluency":83,"phones":[{"phone":"d","ref_phone":"d","begin_time":9560,"end_time":9630},{"phone":"ax","ref_phone":"ax","begin_time":9630,"end_time":9780},{"phone":"n","ref_phone":"n","begin_time":9780,"end_time":10060}]},{"word":"."}],"pron_score":87,"pron_accuracy":89,"pron_integrity":92,"pron_fluency":82,"begin_time":180,"end_time":10060}]},
+{"session_id":"951fb600-77c6-4eae-9061-ad69a6727c97","status_mesg":"OK","audio_url":"https://capt-voice-server.oss-cn-zhangjiakou.aliyuncs.com/20210622/951fb600-77c6-4eae-9061-ad69a6727c97.wav"},
+
+
+>>>>>>> d9b048e (second commit)

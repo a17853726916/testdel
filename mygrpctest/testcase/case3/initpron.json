@@ -1,0 +1,117 @@
+{
+  "sents": [
+    {
+      "sent_content": "",
+      "words": [
+        {
+          "word_content": "sporting",
+          "word_type": "word"
+        },
+        {
+          "word_content": "a",
+          "word_type": "word"
+        },
+        {
+          "word_content": "graying",
+          "word_type": "word"
+        },
+        {
+          "word_content": "blond",
+          "word_type": "word"
+        },
+        {
+          "word_content": "mane",
+          "word_type": "word"
+        },
+        {
+          "word_content": "and",
+          "word_type": "word"
+        },
+        {
+          "word_content": "showing",
+          "word_type": "word"
+        },
+        {
+          "word_content": "up",
+          "word_type": "word"
+        },
+        {
+          "word_content": "to",
+          "word_type": "word"
+        },
+        {
+          "word_content": "class",
+          "word_type": "word"
+        },
+        {
+          "word_content": "in",
+          "word_type": "word"
+        },
+        {
+          "word_content": "leather",
+          "word_type": "word"
+        },
+        {
+          "word_content": "jackets",
+          "word_type": "word"
+        },
+        {
+          "word_content": "that",
+          "word_type": "word"
+        },
+        {
+          "word_content": "made",
+          "word_type": "word"
+        },
+        {
+          "word_content": "him",
+          "word_type": "word"
+        },
+        {
+          "word_content": "seem",
+          "word_type": "word"
+        },
+        {
+          "word_content": "a",
+          "word_type":"word"
+
+        },
+        {
+          "word_content": "decade",
+          "word_type":"word"
+
+        },
+        {
+          "word_content": "younger",
+          "word_type":"word"
+
+        },
+        {
+          "word_content": "than",
+          "word_type":"word"
+
+        },
+        {
+          "word_content": "his",
+          "word_type":"word"
+
+        },
+        {
+          "word_content": "fifty-nine",
+          "word_type":"word"
+
+        },
+        {
+          "word_content": "years",
+          "word_type":"word"
+
+        },
+        {
+          "word_content": ".",
+          "word_type":"punc"
+
+        }
+      ]
+    }
+  ]
+}

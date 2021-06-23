@@ -1,0 +1,1288 @@
+<<<<<<< HEAD
+{
+ "session_id": "c8c12cf8-7698-4c1b-8a25-c0cfa6bd4f24",
+ "status_mesg": "OK",
+ "model_version": "resource-20210602"
+},
+{
+ "session_id": "c8c12cf8-7698-4c1b-8a25-c0cfa6bd4f24",
+ "status_code": 2,
+ "status_mesg": "Noise"
+},
+{
+ "session_id": "c8c12cf8-7698-4c1b-8a25-c0cfa6bd4f24",
+ "status_mesg": "OK",
+ "sents": [
+  {
+   "words": [
+    {
+     "word": "Not",
+     "begin_time": 480,
+     "end_time": 670,
+     "pron_score": 80,
+     "pron_accuracy": 73,
+     "pron_integrity": 99,
+     "pron_fluency": 68,
+     "phones": [
+      {
+       "phone": "n",
+       "ref_phone": "n",
+       "begin_time": 480,
+       "end_time": 510
+      },
+      {
+       "phone": "aa",
+       "ref_phone": "aa",
+       "begin_time": 510,
+       "end_time": 640
+      },
+      {
+       "phone": "t",
+       "ref_phone": "t",
+       "begin_time": 640,
+       "end_time": 670
+      }
+     ],
+     "syllables": [
+      {
+       "syllable": "not",
+       "begin_time": 480,
+       "end_time": 670
+      }
+     ]
+    },
+    {
+     "match": 5,
+     "word": "for",
+     "begin_time": 700,
+     "end_time": 800,
+     "pron_score": 89,
+     "pron_accuracy": 86,
+     "pron_integrity": 99,
+     "pron_fluency": 84,
+     "phones": [
+      {
+       "match": 5,
+       "phone": "f",
+       "ref_phone": "f",
+       "begin_time": 700,
+       "end_time": 730
+      },
+      {
+       "match": 5,
+       "phone": "ao",
+       "ref_phone": "ao",
+       "begin_time": 730,
+       "end_time": 800
+      }
+     ]
+    }
+   ],
+   "pron_score": 84,
+   "pron_accuracy": 79,
+   "pron_integrity": 99,
+   "pron_fluency": 76,
+   "begin_time": 480,
+   "end_time": 800
+  }
+ ]
+},
+{
+ "session_id": "c8c12cf8-7698-4c1b-8a25-c0cfa6bd4f24",
+ "status_mesg": "OK",
+ "sents": [
+  {
+   "words": [
+    {
+     "word": "Not",
+     "begin_time": 480,
+     "end_time": 670,
+     "pron_score": 79,
+     "pron_accuracy": 74,
+     "pron_integrity": 95,
+     "pron_fluency": 68,
+     "phones": [
+      {
+       "phone": "n",
+       "ref_phone": "n",
+       "begin_time": 480,
+       "end_time": 510
+      },
+      {
+       "phone": "aa",
+       "ref_phone": "aa",
+       "begin_time": 510,
+       "end_time": 640
+      },
+      {
+       "phone": "t",
+       "ref_phone": "t",
+       "begin_time": 640,
+       "end_time": 670
+      }
+     ],
+     "syllables": [
+      {
+       "syllable": "not",
+       "begin_time": 480,
+       "end_time": 670
+      }
+     ]
+    },
+    {
+     "word": "for",
+     "begin_time": 700,
+     "end_time": 900,
+     "pron_score": 90,
+     "pron_accuracy": 91,
+     "pron_integrity": 95,
+     "pron_fluency": 84,
+     "phones": [
+      {
+       "phone": "f",
+       "ref_phone": "f",
+       "begin_time": 700,
+       "end_time": 730
+      },
+      {
+       "phone": "ao",
+       "ref_phone": "ao",
+       "begin_time": 730,
+       "end_time": 800
+      },
+      {
+       "phone": "r",
+       "ref_phone": "r",
+       "begin_time": 800,
+       "end_time": 900
+      }
+     ]
+    },
+    {
+     "word": "the",
+     "begin_time": 930,
+     "end_time": 1220,
+     "pron_score": 86,
+     "pron_accuracy": 87,
+     "pron_integrity": 95,
+     "pron_fluency": 77,
+     "phones": [
+      {
+       "phone": "dh",
+       "ref_phone": "dh",
+       "begin_time": 930,
+       "end_time": 960
+      },
+      {
+       "phone": "iy",
+       "ref_phone": "iy",
+       "begin_time": 960,
+       "end_time": 1220
+      }
+     ]
+    },
+    {
+     "word": ","
+    }
+   ],
+   "pron_score": 85,
+   "pron_accuracy": 84,
+   "pron_integrity": 95,
+   "pron_fluency": 76,
+   "begin_time": 480,
+   "end_time": 1220
+  }
+ ]
+},
+{
+ "session_id": "c8c12cf8-7698-4c1b-8a25-c0cfa6bd4f24",
+ "status_mesg": "OK",
+ "sents": [
+  {
+   "words": [
+    {
+     "word": "Not",
+     "begin_time": 480,
+     "end_time": 670,
+     "pron_score": 79,
+     "pron_accuracy": 74,
+     "pron_integrity": 95,
+     "pron_fluency": 68,
+     "phones": [
+      {
+       "phone": "n",
+       "ref_phone": "n",
+       "begin_time": 480,
+       "end_time": 510
+      },
+      {
+       "phone": "aa",
+       "ref_phone": "aa",
+       "begin_time": 510,
+       "end_time": 640
+      },
+      {
+       "phone": "t",
+       "ref_phone": "t",
+       "begin_time": 640,
+       "end_time": 670
+      }
+     ],
+     "syllables": [
+      {
+       "syllable": "not",
+       "begin_time": 480,
+       "end_time": 670
+      }
+     ]
+    },
+    {
+     "word": "for",
+     "begin_time": 700,
+     "end_time": 900,
+     "pron_score": 90,
+     "pron_accuracy": 91,
+     "pron_integrity": 95,
+     "pron_fluency": 84,
+     "phones": [
+      {
+       "phone": "f",
+       "ref_phone": "f",
+       "begin_time": 700,
+       "end_time": 730
+      },
+      {
+       "phone": "ao",
+       "ref_phone": "ao",
+       "begin_time": 730,
+       "end_time": 800
+      },
+      {
+       "phone": "r",
+       "ref_phone": "r",
+       "begin_time": 800,
+       "end_time": 900
+      }
+     ]
+    },
+    {
+     "word": "the",
+     "begin_time": 930,
+     "end_time": 1220,
+     "pron_score": 86,
+     "pron_accuracy": 87,
+     "pron_integrity": 95,
+     "pron_fluency": 77,
+     "phones": [
+      {
+       "phone": "dh",
+       "ref_phone": "dh",
+       "begin_time": 930,
+       "end_time": 960
+      },
+      {
+       "phone": "iy",
+       "ref_phone": "iy",
+       "begin_time": 960,
+       "end_time": 1220
+      }
+     ]
+    },
+    {
+     "word": ","
+    }
+   ],
+   "pron_score": 85,
+   "pron_accuracy": 84,
+   "pron_integrity": 95,
+   "pron_fluency": 76,
+   "begin_time": 480,
+   "end_time": 1220
+  }
+ ]
+},
+{
+ "session_id": "c8c12cf8-7698-4c1b-8a25-c0cfa6bd4f24",
+ "status_mesg": "OK",
+ "sents": [
+  {
+   "words": [
+    {
+     "word": "Not",
+     "begin_time": 480,
+     "end_time": 670,
+     "pron_score": 79,
+     "pron_accuracy": 74,
+     "pron_integrity": 95,
+     "pron_fluency": 68,
+     "phones": [
+      {
+       "phone": "n",
+       "ref_phone": "n",
+       "begin_time": 480,
+       "end_time": 510
+      },
+      {
+       "phone": "aa",
+       "ref_phone": "aa",
+       "begin_time": 510,
+       "end_time": 640
+      },
+      {
+       "phone": "t",
+       "ref_phone": "t",
+       "begin_time": 640,
+       "end_time": 670
+      }
+     ],
+     "syllables": [
+      {
+       "syllable": "not",
+       "begin_time": 480,
+       "end_time": 670
+      }
+     ]
+    },
+    {
+     "word": "for",
+     "begin_time": 700,
+     "end_time": 900,
+     "pron_score": 90,
+     "pron_accuracy": 91,
+     "pron_integrity": 95,
+     "pron_fluency": 84,
+     "phones": [
+      {
+       "phone": "f",
+       "ref_phone": "f",
+       "begin_time": 700,
+       "end_time": 730
+      },
+      {
+       "phone": "ao",
+       "ref_phone": "ao",
+       "begin_time": 730,
+       "end_time": 800
+      },
+      {
+       "phone": "r",
+       "ref_phone": "r",
+       "begin_time": 800,
+       "end_time": 900
+      }
+     ]
+    },
+    {
+     "word": "the",
+     "begin_time": 930,
+     "end_time": 1220,
+     "pron_score": 86,
+     "pron_accuracy": 87,
+     "pron_integrity": 95,
+     "pron_fluency": 77,
+     "phones": [
+      {
+       "phone": "dh",
+       "ref_phone": "dh",
+       "begin_time": 930,
+       "end_time": 960
+      },
+      {
+       "phone": "iy",
+       "ref_phone": "iy",
+       "begin_time": 960,
+       "end_time": 1220
+      }
+     ]
+    },
+    {
+     "word": ","
+    }
+   ],
+   "pron_score": 85,
+   "pron_accuracy": 84,
+   "pron_integrity": 95,
+   "pron_fluency": 76,
+   "begin_time": 480,
+   "end_time": 1220
+  }
+ ]
+},
+{
+ "session_id": "c8c12cf8-7698-4c1b-8a25-c0cfa6bd4f24",
+ "status_mesg": "OK",
+ "sents": [
+  {
+   "words": [
+    {
+     "word": "Not",
+     "begin_time": 480,
+     "end_time": 670,
+     "pron_score": 79,
+     "pron_accuracy": 74,
+     "pron_integrity": 95,
+     "pron_fluency": 68,
+     "phones": [
+      {
+       "phone": "n",
+       "ref_phone": "n",
+       "begin_time": 480,
+       "end_time": 510
+      },
+      {
+       "phone": "aa",
+       "ref_phone": "aa",
+       "begin_time": 510,
+       "end_time": 640
+      },
+      {
+       "phone": "t",
+       "ref_phone": "t",
+       "begin_time": 640,
+       "end_time": 670
+      }
+     ],
+     "syllables": [
+      {
+       "syllable": "not",
+       "begin_time": 480,
+       "end_time": 670
+      }
+     ]
+    },
+    {
+     "word": "for",
+     "begin_time": 700,
+     "end_time": 900,
+     "pron_score": 90,
+     "pron_accuracy": 91,
+     "pron_integrity": 95,
+     "pron_fluency": 84,
+     "phones": [
+      {
+       "phone": "f",
+       "ref_phone": "f",
+       "begin_time": 700,
+       "end_time": 730
+      },
+      {
+       "phone": "ao",
+       "ref_phone": "ao",
+       "begin_time": 730,
+       "end_time": 800
+      },
+      {
+       "phone": "r",
+       "ref_phone": "r",
+       "begin_time": 800,
+       "end_time": 900
+      }
+     ]
+    },
+    {
+     "word": "the",
+     "begin_time": 930,
+     "end_time": 1220,
+     "pron_score": 86,
+     "pron_accuracy": 87,
+     "pron_integrity": 95,
+     "pron_fluency": 77,
+     "phones": [
+      {
+       "phone": "dh",
+       "ref_phone": "dh",
+       "begin_time": 930,
+       "end_time": 960
+      },
+      {
+       "phone": "iy",
+       "ref_phone": "iy",
+       "begin_time": 960,
+       "end_time": 1220
+      }
+     ]
+    },
+    {
+     "word": ","
+    }
+   ],
+   "pron_score": 85,
+   "pron_accuracy": 84,
+   "pron_integrity": 95,
+   "pron_fluency": 76,
+   "begin_time": 480,
+   "end_time": 1220
+  }
+ ]
+},
+{
+ "session_id": "c8c12cf8-7698-4c1b-8a25-c0cfa6bd4f24",
+ "status_mesg": "OK",
+ "sents": [
+  {
+   "words": [
+    {
+     "word": "Not",
+     "begin_time": 480,
+     "end_time": 670,
+     "pron_score": 79,
+     "pron_accuracy": 74,
+     "pron_integrity": 95,
+     "pron_fluency": 68,
+     "phones": [
+      {
+       "phone": "n",
+       "ref_phone": "n",
+       "begin_time": 480,
+       "end_time": 510
+      },
+      {
+       "phone": "aa",
+       "ref_phone": "aa",
+       "begin_time": 510,
+       "end_time": 640
+      },
+      {
+       "phone": "t",
+       "ref_phone": "t",
+       "begin_time": 640,
+       "end_time": 670
+      }
+     ],
+     "syllables": [
+      {
+       "syllable": "not",
+       "begin_time": 480,
+       "end_time": 670
+      }
+     ]
+    },
+    {
+     "word": "for",
+     "begin_time": 700,
+     "end_time": 900,
+     "pron_score": 90,
+     "pron_accuracy": 91,
+     "pron_integrity": 95,
+     "pron_fluency": 84,
+     "phones": [
+      {
+       "phone": "f",
+       "ref_phone": "f",
+       "begin_time": 700,
+       "end_time": 730
+      },
+      {
+       "phone": "ao",
+       "ref_phone": "ao",
+       "begin_time": 730,
+       "end_time": 800
+      },
+      {
+       "phone": "r",
+       "ref_phone": "r",
+       "begin_time": 800,
+       "end_time": 900
+      }
+     ]
+    },
+    {
+     "word": "the",
+     "begin_time": 930,
+     "end_time": 1220,
+     "pron_score": 86,
+     "pron_accuracy": 87,
+     "pron_integrity": 95,
+     "pron_fluency": 77,
+     "phones": [
+      {
+       "phone": "dh",
+       "ref_phone": "dh",
+       "begin_time": 930,
+       "end_time": 960
+      },
+      {
+       "phone": "iy",
+       "ref_phone": "iy",
+       "begin_time": 960,
+       "end_time": 1220
+      }
+     ]
+    },
+    {
+     "word": ","
+    }
+   ],
+   "pron_score": 85,
+   "pron_accuracy": 84,
+   "pron_integrity": 95,
+   "pron_fluency": 76,
+   "begin_time": 480,
+   "end_time": 1220
+  }
+ ]
+},
+{
+ "session_id": "c8c12cf8-7698-4c1b-8a25-c0cfa6bd4f24",
+ "status_mesg": "OK",
+ "sents": [
+  {
+   "words": [
+    {
+     "word": "Not",
+     "begin_time": 480,
+     "end_time": 670,
+     "pron_score": 79,
+     "pron_accuracy": 74,
+     "pron_integrity": 95,
+     "pron_fluency": 68,
+     "phones": [
+      {
+       "phone": "n",
+       "ref_phone": "n",
+       "begin_time": 480,
+       "end_time": 510
+      },
+      {
+       "phone": "aa",
+       "ref_phone": "aa",
+       "begin_time": 510,
+       "end_time": 640
+      },
+      {
+       "phone": "t",
+       "ref_phone": "t",
+       "begin_time": 640,
+       "end_time": 670
+      }
+     ],
+     "syllables": [
+      {
+       "syllable": "not",
+       "begin_time": 480,
+       "end_time": 670
+      }
+     ]
+    },
+    {
+     "word": "for",
+     "begin_time": 700,
+     "end_time": 900,
+     "pron_score": 90,
+     "pron_accuracy": 91,
+     "pron_integrity": 95,
+     "pron_fluency": 84,
+     "phones": [
+      {
+       "phone": "f",
+       "ref_phone": "f",
+       "begin_time": 700,
+       "end_time": 730
+      },
+      {
+       "phone": "ao",
+       "ref_phone": "ao",
+       "begin_time": 730,
+       "end_time": 800
+      },
+      {
+       "phone": "r",
+       "ref_phone": "r",
+       "begin_time": 800,
+       "end_time": 900
+      }
+     ]
+    },
+    {
+     "word": "the",
+     "begin_time": 930,
+     "end_time": 1220,
+     "pron_score": 86,
+     "pron_accuracy": 87,
+     "pron_integrity": 95,
+     "pron_fluency": 77,
+     "phones": [
+      {
+       "phone": "dh",
+       "ref_phone": "dh",
+       "begin_time": 930,
+       "end_time": 960
+      },
+      {
+       "phone": "iy",
+       "ref_phone": "iy",
+       "begin_time": 960,
+       "end_time": 1220
+      }
+     ]
+    },
+    {
+     "word": ","
+    }
+   ],
+   "pron_score": 85,
+   "pron_accuracy": 84,
+   "pron_integrity": 95,
+   "pron_fluency": 76,
+   "begin_time": 480,
+   "end_time": 1220
+  }
+ ]
+},
+{
+ "session_id": "c8c12cf8-7698-4c1b-8a25-c0cfa6bd4f24",
+ "status_mesg": "OK",
+ "sents": [
+  {
+   "words": [
+    {
+     "word": "Not",
+     "begin_time": 480,
+     "end_time": 670,
+     "pron_score": 79,
+     "pron_accuracy": 74,
+     "pron_integrity": 95,
+     "pron_fluency": 68,
+     "phones": [
+      {
+       "phone": "n",
+       "ref_phone": "n",
+       "begin_time": 480,
+       "end_time": 510
+      },
+      {
+       "phone": "aa",
+       "ref_phone": "aa",
+       "begin_time": 510,
+       "end_time": 640
+      },
+      {
+       "phone": "t",
+       "ref_phone": "t",
+       "begin_time": 640,
+       "end_time": 670
+      }
+     ],
+     "syllables": [
+      {
+       "syllable": "not",
+       "begin_time": 480,
+       "end_time": 670
+      }
+     ]
+    },
+    {
+     "word": "for",
+     "begin_time": 700,
+     "end_time": 900,
+     "pron_score": 90,
+     "pron_accuracy": 91,
+     "pron_integrity": 95,
+     "pron_fluency": 84,
+     "phones": [
+      {
+       "phone": "f",
+       "ref_phone": "f",
+       "begin_time": 700,
+       "end_time": 730
+      },
+      {
+       "phone": "ao",
+       "ref_phone": "ao",
+       "begin_time": 730,
+       "end_time": 800
+      },
+      {
+       "phone": "r",
+       "ref_phone": "r",
+       "begin_time": 800,
+       "end_time": 900
+      }
+     ]
+    },
+    {
+     "word": "the",
+     "begin_time": 930,
+     "end_time": 1220,
+     "pron_score": 86,
+     "pron_accuracy": 87,
+     "pron_integrity": 95,
+     "pron_fluency": 77,
+     "phones": [
+      {
+       "phone": "dh",
+       "ref_phone": "dh",
+       "begin_time": 930,
+       "end_time": 960
+      },
+      {
+       "phone": "iy",
+       "ref_phone": "iy",
+       "begin_time": 960,
+       "end_time": 1220
+      }
+     ]
+    },
+    {
+     "word": ","
+    }
+   ],
+   "pron_score": 85,
+   "pron_accuracy": 84,
+   "pron_integrity": 95,
+   "pron_fluency": 76,
+   "begin_time": 480,
+   "end_time": 1220
+  }
+ ]
+},
+{
+ "session_id": "c8c12cf8-7698-4c1b-8a25-c0cfa6bd4f24",
+ "status_mesg": "OK",
+ "sents": [
+  {
+   "words": [
+    {
+     "word": "Not",
+     "begin_time": 480,
+     "end_time": 670,
+     "pron_score": 79,
+     "pron_accuracy": 74,
+     "pron_integrity": 95,
+     "pron_fluency": 68,
+     "phones": [
+      {
+       "phone": "n",
+       "ref_phone": "n",
+       "begin_time": 480,
+       "end_time": 510
+      },
+      {
+       "phone": "aa",
+       "ref_phone": "aa",
+       "begin_time": 510,
+       "end_time": 640
+      },
+      {
+       "phone": "t",
+       "ref_phone": "t",
+       "begin_time": 640,
+       "end_time": 670
+      }
+     ],
+     "syllables": [
+      {
+       "syllable": "not",
+       "begin_time": 480,
+       "end_time": 670
+      }
+     ]
+    },
+    {
+     "word": "for",
+     "begin_time": 700,
+     "end_time": 900,
+     "pron_score": 90,
+     "pron_accuracy": 91,
+     "pron_integrity": 95,
+     "pron_fluency": 84,
+     "phones": [
+      {
+       "phone": "f",
+       "ref_phone": "f",
+       "begin_time": 700,
+       "end_time": 730
+      },
+      {
+       "phone": "ao",
+       "ref_phone": "ao",
+       "begin_time": 730,
+       "end_time": 800
+      },
+      {
+       "phone": "r",
+       "ref_phone": "r",
+       "begin_time": 800,
+       "end_time": 900
+      }
+     ]
+    },
+    {
+     "word": "the",
+     "begin_time": 930,
+     "end_time": 1220,
+     "pron_score": 86,
+     "pron_accuracy": 87,
+     "pron_integrity": 95,
+     "pron_fluency": 77,
+     "phones": [
+      {
+       "phone": "dh",
+       "ref_phone": "dh",
+       "begin_time": 930,
+       "end_time": 960
+      },
+      {
+       "phone": "iy",
+       "ref_phone": "iy",
+       "begin_time": 960,
+       "end_time": 1220
+      }
+     ]
+    },
+    {
+     "word": ","
+    }
+   ],
+   "pron_score": 85,
+   "pron_accuracy": 84,
+   "pron_integrity": 95,
+   "pron_fluency": 76,
+   "begin_time": 480,
+   "end_time": 1220
+  }
+ ]
+},
+{
+ "session_id": "c8c12cf8-7698-4c1b-8a25-c0cfa6bd4f24",
+ "status_mesg": "OK",
+ "sents": [
+  {
+   "words": [
+    {
+     "word": "Not",
+     "begin_time": 480,
+     "end_time": 670,
+     "pron_score": 79,
+     "pron_accuracy": 74,
+     "pron_integrity": 95,
+     "pron_fluency": 68,
+     "phones": [
+      {
+       "phone": "n",
+       "ref_phone": "n",
+       "begin_time": 480,
+       "end_time": 510
+      },
+      {
+       "phone": "aa",
+       "ref_phone": "aa",
+       "begin_time": 510,
+       "end_time": 640
+      },
+      {
+       "phone": "t",
+       "ref_phone": "t",
+       "begin_time": 640,
+       "end_time": 670
+      }
+     ],
+     "syllables": [
+      {
+       "syllable": "not",
+       "begin_time": 480,
+       "end_time": 670
+      }
+     ]
+    },
+    {
+     "word": "for",
+     "begin_time": 700,
+     "end_time": 900,
+     "pron_score": 90,
+     "pron_accuracy": 91,
+     "pron_integrity": 95,
+     "pron_fluency": 84,
+     "phones": [
+      {
+       "phone": "f",
+       "ref_phone": "f",
+       "begin_time": 700,
+       "end_time": 730
+      },
+      {
+       "phone": "ao",
+       "ref_phone": "ao",
+       "begin_time": 730,
+       "end_time": 800
+      },
+      {
+       "phone": "r",
+       "ref_phone": "r",
+       "begin_time": 800,
+       "end_time": 900
+      }
+     ]
+    },
+    {
+     "word": "the",
+     "begin_time": 930,
+     "end_time": 1220,
+     "pron_score": 86,
+     "pron_accuracy": 87,
+     "pron_integrity": 95,
+     "pron_fluency": 77,
+     "phones": [
+      {
+       "phone": "dh",
+       "ref_phone": "dh",
+       "begin_time": 930,
+       "end_time": 960
+      },
+      {
+       "phone": "iy",
+       "ref_phone": "iy",
+       "begin_time": 960,
+       "end_time": 1220
+      }
+     ]
+    },
+    {
+     "word": ","
+    }
+   ],
+   "pron_score": 85,
+   "pron_accuracy": 84,
+   "pron_integrity": 95,
+   "pron_fluency": 76,
+   "begin_time": 480,
+   "end_time": 1220
+  }
+ ]
+},
+{
+ "session_id": "c8c12cf8-7698-4c1b-8a25-c0cfa6bd4f24",
+ "status_mesg": "OK",
+ "sents": [
+  {
+   "words": [
+    {
+     "word": "Not",
+     "begin_time": 480,
+     "end_time": 670,
+     "pron_score": 79,
+     "pron_accuracy": 74,
+     "pron_integrity": 95,
+     "pron_fluency": 68,
+     "phones": [
+      {
+       "phone": "n",
+       "ref_phone": "n",
+       "begin_time": 480,
+       "end_time": 510
+      },
+      {
+       "phone": "aa",
+       "ref_phone": "aa",
+       "begin_time": 510,
+       "end_time": 640
+      },
+      {
+       "phone": "t",
+       "ref_phone": "t",
+       "begin_time": 640,
+       "end_time": 670
+      }
+     ],
+     "syllables": [
+      {
+       "syllable": "not",
+       "begin_time": 480,
+       "end_time": 670
+      }
+     ]
+    },
+    {
+     "word": "for",
+     "begin_time": 700,
+     "end_time": 900,
+     "pron_score": 90,
+     "pron_accuracy": 91,
+     "pron_integrity": 95,
+     "pron_fluency": 84,
+     "phones": [
+      {
+       "phone": "f",
+       "ref_phone": "f",
+       "begin_time": 700,
+       "end_time": 730
+      },
+      {
+       "phone": "ao",
+       "ref_phone": "ao",
+       "begin_time": 730,
+       "end_time": 800
+      },
+      {
+       "phone": "r",
+       "ref_phone": "r",
+       "begin_time": 800,
+       "end_time": 900
+      }
+     ]
+    },
+    {
+     "word": "the",
+     "begin_time": 930,
+     "end_time": 1220,
+     "pron_score": 86,
+     "pron_accuracy": 87,
+     "pron_integrity": 95,
+     "pron_fluency": 77,
+     "phones": [
+      {
+       "phone": "dh",
+       "ref_phone": "dh",
+       "begin_time": 930,
+       "end_time": 960
+      },
+      {
+       "phone": "iy",
+       "ref_phone": "iy",
+       "begin_time": 960,
+       "end_time": 1220
+      }
+     ]
+    },
+    {
+     "word": ","
+    }
+   ],
+   "pron_score": 85,
+   "pron_accuracy": 84,
+   "pron_integrity": 95,
+   "pron_fluency": 76,
+   "begin_time": 480,
+   "end_time": 1220
+  }
+ ]
+},
+{
+ "session_id": "c8c12cf8-7698-4c1b-8a25-c0cfa6bd4f24",
+ "status_mesg": "OK",
+ "sents": [
+  {
+   "words": [
+    {
+     "word": "Not",
+     "begin_time": 480,
+     "end_time": 670,
+     "pron_score": 79,
+     "pron_accuracy": 74,
+     "pron_integrity": 95,
+     "pron_fluency": 68,
+     "phones": [
+      {
+       "phone": "n",
+       "ref_phone": "n",
+       "begin_time": 480,
+       "end_time": 510
+      },
+      {
+       "phone": "aa",
+       "ref_phone": "aa",
+       "begin_time": 510,
+       "end_time": 640
+      },
+      {
+       "phone": "t",
+       "ref_phone": "t",
+       "begin_time": 640,
+       "end_time": 670
+      }
+     ],
+     "syllables": [
+      {
+       "syllable": "not",
+       "begin_time": 480,
+       "end_time": 670
+      }
+     ]
+    },
+    {
+     "word": "for",
+     "begin_time": 700,
+     "end_time": 900,
+     "pron_score": 90,
+     "pron_accuracy": 91,
+     "pron_integrity": 95,
+     "pron_fluency": 84,
+     "phones": [
+      {
+       "phone": "f",
+       "ref_phone": "f",
+       "begin_time": 700,
+       "end_time": 730
+      },
+      {
+       "phone": "ao",
+       "ref_phone": "ao",
+       "begin_time": 730,
+       "end_time": 800
+      },
+      {
+       "phone": "r",
+       "ref_phone": "r",
+       "begin_time": 800,
+       "end_time": 900
+      }
+     ]
+    },
+    {
+     "word": "the",
+     "begin_time": 930,
+     "end_time": 1220,
+     "pron_score": 86,
+     "pron_accuracy": 87,
+     "pron_integrity": 95,
+     "pron_fluency": 77,
+     "phones": [
+      {
+       "phone": "dh",
+       "ref_phone": "dh",
+       "begin_time": 930,
+       "end_time": 960
+      },
+      {
+       "phone": "iy",
+       "ref_phone": "iy",
+       "begin_time": 960,
+       "end_time": 1220
+      }
+     ]
+    },
+    {
+     "word": ","
+    }
+   ],
+   "pron_score": 85,
+   "pron_accuracy": 84,
+   "pron_integrity": 95,
+   "pron_fluency": 76,
+   "begin_time": 480,
+   "end_time": 1220
+  }
+ ]
+},
+{
+ "session_id": "c8c12cf8-7698-4c1b-8a25-c0cfa6bd4f24",
+ "status_mesg": "OK",
+ "audio_url": "https://capt-voice-server.oss-cn-zhangjiakou.aliyuncs.com/20210621/c8c12cf8-7698-4c1b-8a25-c0cfa6bd4f24.wav"
+},
+=======
+{"session_id":"d48378ec-e2cc-47c1-a073-3f1efd88b508","status_mesg":"OK","model_version":"resource-20210602"},
+{"session_id":"d48378ec-e2cc-47c1-a073-3f1efd88b508","status_code":2,"status_mesg":"Noise"},
+{"session_id":"d48378ec-e2cc-47c1-a073-3f1efd88b508","status_mesg":"OK","sents":[{"words":[{"word":"Not","begin_time":480,"end_time":670,"pron_score":80,"pron_accuracy":73,"pron_integrity":97,"pron_fluency":70,"phones":[{"phone":"n","ref_phone":"n","begin_time":480,"end_time":510},{"phone":"aa","ref_phone":"aa","begin_time":510,"end_time":640},{"phone":"t","ref_phone":"t","begin_time":640,"end_time":670}],"syllables":[{"syllable":"not","begin_time":480,"end_time":670}]},{"match":5,"word":"for","begin_time":700,"end_time":800,"pron_score":89,"pron_accuracy":86,"pron_integrity":97,"pron_fluency":86,"phones":[{"match":5,"phone":"f","ref_phone":"f","begin_time":700,"end_time":730},{"match":5,"phone":"ao","ref_phone":"ao","begin_time":730,"end_time":800}]}],"pron_score":84,"pron_accuracy":79,"pron_integrity":97,"pron_fluency":78,"begin_time":480,"end_time":800}]},
+{"session_id":"d48378ec-e2cc-47c1-a073-3f1efd88b508","status_mesg":"OK","sents":[{"words":[{"word":"Not","begin_time":480,"end_time":670,"pron_score":79,"pron_accuracy":72,"pron_integrity":99,"pron_fluency":68,"phones":[{"phone":"n","ref_phone":"n","begin_time":480,"end_time":510},{"phone":"aa","ref_phone":"aa","begin_time":510,"end_time":640},{"phone":"t","ref_phone":"t","begin_time":640,"end_time":670}],"syllables":[{"syllable":"not","begin_time":480,"end_time":670}]},{"word":"for","begin_time":700,"end_time":900,"pron_score":90,"pron_accuracy":89,"pron_integrity":99,"pron_fluency":84,"phones":[{"phone":"f","ref_phone":"f","begin_time":700,"end_time":730},{"phone":"ao","ref_phone":"ao","begin_time":730,"end_time":800},{"phone":"r","ref_phone":"r","begin_time":800,"end_time":900}]},{"word":"the","begin_time":930,"end_time":1220,"pron_score":87,"pron_accuracy":85,"pron_integrity":99,"pron_fluency":77,"phones":[{"phone":"dh","ref_phone":"dh","begin_time":930,"end_time":960},{"phone":"iy","ref_phone":"iy","begin_time":960,"end_time":1220}]},{"word":","}],"pron_score":85,"pron_accuracy":82,"pron_integrity":99,"pron_fluency":76,"begin_time":480,"end_time":1220}]},
+{"session_id":"d48378ec-e2cc-47c1-a073-3f1efd88b508","status_mesg":"OK","sents":[{"words":[{"word":"Not","begin_time":480,"end_time":670,"pron_score":79,"pron_accuracy":72,"pron_integrity":99,"pron_fluency":68,"phones":[{"phone":"n","ref_phone":"n","begin_time":480,"end_time":510},{"phone":"aa","ref_phone":"aa","begin_time":510,"end_time":640},{"phone":"t","ref_phone":"t","begin_time":640,"end_time":670}],"syllables":[{"syllable":"not","begin_time":480,"end_time":670}]},{"word":"for","begin_time":700,"end_time":900,"pron_score":90,"pron_accuracy":89,"pron_integrity":99,"pron_fluency":84,"phones":[{"phone":"f","ref_phone":"f","begin_time":700,"end_time":730},{"phone":"ao","ref_phone":"ao","begin_time":730,"end_time":800},{"phone":"r","ref_phone":"r","begin_time":800,"end_time":900}]},{"word":"the","begin_time":930,"end_time":1220,"pron_score":87,"pron_accuracy":85,"pron_integrity":99,"pron_fluency":77,"phones":[{"phone":"dh","ref_phone":"dh","begin_time":930,"end_time":960},{"phone":"iy","ref_phone":"iy","begin_time":960,"end_time":1220}]},{"word":","}],"pron_score":85,"pron_accuracy":82,"pron_integrity":99,"pron_fluency":76,"begin_time":480,"end_time":1220}]},
+{"session_id":"d48378ec-e2cc-47c1-a073-3f1efd88b508","status_mesg":"OK","sents":[{"words":[{"word":"Not","begin_time":480,"end_time":670,"pron_score":79,"pron_accuracy":72,"pron_integrity":99,"pron_fluency":68,"phones":[{"phone":"n","ref_phone":"n","begin_time":480,"end_time":510},{"phone":"aa","ref_phone":"aa","begin_time":510,"end_time":640},{"phone":"t","ref_phone":"t","begin_time":640,"end_time":670}],"syllables":[{"syllable":"not","begin_time":480,"end_time":670}]},{"word":"for","begin_time":700,"end_time":900,"pron_score":90,"pron_accuracy":89,"pron_integrity":99,"pron_fluency":84,"phones":[{"phone":"f","ref_phone":"f","begin_time":700,"end_time":730},{"phone":"ao","ref_phone":"ao","begin_time":730,"end_time":800},{"phone":"r","ref_phone":"r","begin_time":800,"end_time":900}]},{"word":"the","begin_time":930,"end_time":1220,"pron_score":87,"pron_accuracy":85,"pron_integrity":99,"pron_fluency":77,"phones":[{"phone":"dh","ref_phone":"dh","begin_time":930,"end_time":960},{"phone":"iy","ref_phone":"iy","begin_time":960,"end_time":1220}]},{"word":","}],"pron_score":85,"pron_accuracy":82,"pron_integrity":99,"pron_fluency":76,"begin_time":480,"end_time":1220}]},
+{"session_id":"d48378ec-e2cc-47c1-a073-3f1efd88b508","status_mesg":"OK","sents":[{"words":[{"word":"Not","begin_time":480,"end_time":670,"pron_score":79,"pron_accuracy":72,"pron_integrity":99,"pron_fluency":68,"phones":[{"phone":"n","ref_phone":"n","begin_time":480,"end_time":510},{"phone":"aa","ref_phone":"aa","begin_time":510,"end_time":640},{"phone":"t","ref_phone":"t","begin_time":640,"end_time":670}],"syllables":[{"syllable":"not","begin_time":480,"end_time":670}]},{"word":"for","begin_time":700,"end_time":900,"pron_score":90,"pron_accuracy":89,"pron_integrity":99,"pron_fluency":84,"phones":[{"phone":"f","ref_phone":"f","begin_time":700,"end_time":730},{"phone":"ao","ref_phone":"ao","begin_time":730,"end_time":800},{"phone":"r","ref_phone":"r","begin_time":800,"end_time":900}]},{"word":"the","begin_time":930,"end_time":1220,"pron_score":87,"pron_accuracy":85,"pron_integrity":99,"pron_fluency":77,"phones":[{"phone":"dh","ref_phone":"dh","begin_time":930,"end_time":960},{"phone":"iy","ref_phone":"iy","begin_time":960,"end_time":1220}]},{"word":","}],"pron_score":85,"pron_accuracy":82,"pron_integrity":99,"pron_fluency":76,"begin_time":480,"end_time":1220}]},
+{"session_id":"d48378ec-e2cc-47c1-a073-3f1efd88b508","status_mesg":"OK","sents":[{"words":[{"word":"Not","begin_time":480,"end_time":670,"pron_score":79,"pron_accuracy":72,"pron_integrity":99,"pron_fluency":68,"phones":[{"phone":"n","ref_phone":"n","begin_time":480,"end_time":510},{"phone":"aa","ref_phone":"aa","begin_time":510,"end_time":640},{"phone":"t","ref_phone":"t","begin_time":640,"end_time":670}],"syllables":[{"syllable":"not","begin_time":480,"end_time":670}]},{"word":"for","begin_time":700,"end_time":900,"pron_score":90,"pron_accuracy":89,"pron_integrity":99,"pron_fluency":84,"phones":[{"phone":"f","ref_phone":"f","begin_time":700,"end_time":730},{"phone":"ao","ref_phone":"ao","begin_time":730,"end_time":800},{"phone":"r","ref_phone":"r","begin_time":800,"end_time":900}]},{"word":"the","begin_time":930,"end_time":1220,"pron_score":87,"pron_accuracy":85,"pron_integrity":99,"pron_fluency":77,"phones":[{"phone":"dh","ref_phone":"dh","begin_time":930,"end_time":960},{"phone":"iy","ref_phone":"iy","begin_time":960,"end_time":1220}]},{"word":","}],"pron_score":85,"pron_accuracy":82,"pron_integrity":99,"pron_fluency":76,"begin_time":480,"end_time":1220}]},
+{"session_id":"d48378ec-e2cc-47c1-a073-3f1efd88b508","status_mesg":"OK","sents":[{"words":[{"word":"Not","begin_time":480,"end_time":670,"pron_score":79,"pron_accuracy":72,"pron_integrity":99,"pron_fluency":68,"phones":[{"phone":"n","ref_phone":"n","begin_time":480,"end_time":510},{"phone":"aa","ref_phone":"aa","begin_time":510,"end_time":640},{"phone":"t","ref_phone":"t","begin_time":640,"end_time":670}],"syllables":[{"syllable":"not","begin_time":480,"end_time":670}]},{"word":"for","begin_time":700,"end_time":900,"pron_score":90,"pron_accuracy":89,"pron_integrity":99,"pron_fluency":84,"phones":[{"phone":"f","ref_phone":"f","begin_time":700,"end_time":730},{"phone":"ao","ref_phone":"ao","begin_time":730,"end_time":800},{"phone":"r","ref_phone":"r","begin_time":800,"end_time":900}]},{"word":"the","begin_time":930,"end_time":1220,"pron_score":87,"pron_accuracy":85,"pron_integrity":99,"pron_fluency":77,"phones":[{"phone":"dh","ref_phone":"dh","begin_time":930,"end_time":960},{"phone":"iy","ref_phone":"iy","begin_time":960,"end_time":1220}]},{"word":","}],"pron_score":85,"pron_accuracy":82,"pron_integrity":99,"pron_fluency":76,"begin_time":480,"end_time":1220}]},
+{"session_id":"d48378ec-e2cc-47c1-a073-3f1efd88b508","status_mesg":"OK","sents":[{"words":[{"word":"Not","begin_time":480,"end_time":670,"pron_score":79,"pron_accuracy":72,"pron_integrity":99,"pron_fluency":68,"phones":[{"phone":"n","ref_phone":"n","begin_time":480,"end_time":510},{"phone":"aa","ref_phone":"aa","begin_time":510,"end_time":640},{"phone":"t","ref_phone":"t","begin_time":640,"end_time":670}],"syllables":[{"syllable":"not","begin_time":480,"end_time":670}]},{"word":"for","begin_time":700,"end_time":900,"pron_score":90,"pron_accuracy":89,"pron_integrity":99,"pron_fluency":84,"phones":[{"phone":"f","ref_phone":"f","begin_time":700,"end_time":730},{"phone":"ao","ref_phone":"ao","begin_time":730,"end_time":800},{"phone":"r","ref_phone":"r","begin_time":800,"end_time":900}]},{"word":"the","begin_time":930,"end_time":1220,"pron_score":87,"pron_accuracy":85,"pron_integrity":99,"pron_fluency":77,"phones":[{"phone":"dh","ref_phone":"dh","begin_time":930,"end_time":960},{"phone":"iy","ref_phone":"iy","begin_time":960,"end_time":1220}]},{"word":","}],"pron_score":85,"pron_accuracy":82,"pron_integrity":99,"pron_fluency":76,"begin_time":480,"end_time":1220}]},
+{"session_id":"d48378ec-e2cc-47c1-a073-3f1efd88b508","status_mesg":"OK","sents":[{"words":[{"word":"Not","begin_time":480,"end_time":670,"pron_score":79,"pron_accuracy":72,"pron_integrity":99,"pron_fluency":68,"phones":[{"phone":"n","ref_phone":"n","begin_time":480,"end_time":510},{"phone":"aa","ref_phone":"aa","begin_time":510,"end_time":640},{"phone":"t","ref_phone":"t","begin_time":640,"end_time":670}],"syllables":[{"syllable":"not","begin_time":480,"end_time":670}]},{"word":"for","begin_time":700,"end_time":900,"pron_score":90,"pron_accuracy":89,"pron_integrity":99,"pron_fluency":84,"phones":[{"phone":"f","ref_phone":"f","begin_time":700,"end_time":730},{"phone":"ao","ref_phone":"ao","begin_time":730,"end_time":800},{"phone":"r","ref_phone":"r","begin_time":800,"end_time":900}]},{"word":"the","begin_time":930,"end_time":1220,"pron_score":87,"pron_accuracy":85,"pron_integrity":99,"pron_fluency":77,"phones":[{"phone":"dh","ref_phone":"dh","begin_time":930,"end_time":960},{"phone":"iy","ref_phone":"iy","begin_time":960,"end_time":1220}]},{"word":","}],"pron_score":85,"pron_accuracy":82,"pron_integrity":99,"pron_fluency":76,"begin_time":480,"end_time":1220}]},
+{"session_id":"d48378ec-e2cc-47c1-a073-3f1efd88b508","status_mesg":"OK","sents":[{"words":[{"word":"Not","begin_time":480,"end_time":670,"pron_score":79,"pron_accuracy":72,"pron_integrity":99,"pron_fluency":68,"phones":[{"phone":"n","ref_phone":"n","begin_time":480,"end_time":510},{"phone":"aa","ref_phone":"aa","begin_time":510,"end_time":640},{"phone":"t","ref_phone":"t","begin_time":640,"end_time":670}],"syllables":[{"syllable":"not","begin_time":480,"end_time":670}]},{"word":"for","begin_time":700,"end_time":900,"pron_score":90,"pron_accuracy":89,"pron_integrity":99,"pron_fluency":84,"phones":[{"phone":"f","ref_phone":"f","begin_time":700,"end_time":730},{"phone":"ao","ref_phone":"ao","begin_time":730,"end_time":800},{"phone":"r","ref_phone":"r","begin_time":800,"end_time":900}]},{"word":"the","begin_time":930,"end_time":1220,"pron_score":87,"pron_accuracy":85,"pron_integrity":99,"pron_fluency":77,"phones":[{"phone":"dh","ref_phone":"dh","begin_time":930,"end_time":960},{"phone":"iy","ref_phone":"iy","begin_time":960,"end_time":1220}]},{"word":","}],"pron_score":85,"pron_accuracy":82,"pron_integrity":99,"pron_fluency":76,"begin_time":480,"end_time":1220}]},
+{"session_id":"d48378ec-e2cc-47c1-a073-3f1efd88b508","status_mesg":"OK","sents":[{"words":[{"word":"Not","begin_time":480,"end_time":670,"pron_score":79,"pron_accuracy":72,"pron_integrity":99,"pron_fluency":68,"phones":[{"phone":"n","ref_phone":"n","begin_time":480,"end_time":510},{"phone":"aa","ref_phone":"aa","begin_time":510,"end_time":640},{"phone":"t","ref_phone":"t","begin_time":640,"end_time":670}],"syllables":[{"syllable":"not","begin_time":480,"end_time":670}]},{"word":"for","begin_time":700,"end_time":900,"pron_score":90,"pron_accuracy":89,"pron_integrity":99,"pron_fluency":84,"phones":[{"phone":"f","ref_phone":"f","begin_time":700,"end_time":730},{"phone":"ao","ref_phone":"ao","begin_time":730,"end_time":800},{"phone":"r","ref_phone":"r","begin_time":800,"end_time":900}]},{"word":"the","begin_time":930,"end_time":1220,"pron_score":87,"pron_accuracy":85,"pron_integrity":99,"pron_fluency":77,"phones":[{"phone":"dh","ref_phone":"dh","begin_time":930,"end_time":960},{"phone":"iy","ref_phone":"iy","begin_time":960,"end_time":1220}]},{"word":","}],"pron_score":85,"pron_accuracy":82,"pron_integrity":99,"pron_fluency":76,"begin_time":480,"end_time":1220}]},
+{"session_id":"d48378ec-e2cc-47c1-a073-3f1efd88b508","status_mesg":"OK","sents":[{"words":[{"word":"Not","begin_time":480,"end_time":670,"pron_score":79,"pron_accuracy":72,"pron_integrity":99,"pron_fluency":68,"phones":[{"phone":"n","ref_phone":"n","begin_time":480,"end_time":510},{"phone":"aa","ref_phone":"aa","begin_time":510,"end_time":640},{"phone":"t","ref_phone":"t","begin_time":640,"end_time":670}],"syllables":[{"syllable":"not","begin_time":480,"end_time":670}]},{"word":"for","begin_time":700,"end_time":900,"pron_score":90,"pron_accuracy":89,"pron_integrity":99,"pron_fluency":84,"phones":[{"phone":"f","ref_phone":"f","begin_time":700,"end_time":730},{"phone":"ao","ref_phone":"ao","begin_time":730,"end_time":800},{"phone":"r","ref_phone":"r","begin_time":800,"end_time":900}]},{"word":"the","begin_time":930,"end_time":1220,"pron_score":87,"pron_accuracy":85,"pron_integrity":99,"pron_fluency":77,"phones":[{"phone":"dh","ref_phone":"dh","begin_time":930,"end_time":960},{"phone":"iy","ref_phone":"iy","begin_time":960,"end_time":1220}]},{"word":","}],"pron_score":85,"pron_accuracy":82,"pron_integrity":99,"pron_fluency":76,"begin_time":480,"end_time":1220}]},
+{"session_id":"d48378ec-e2cc-47c1-a073-3f1efd88b508","status_mesg":"OK","audio_url":"https://capt-voice-server.oss-cn-zhangjiakou.aliyuncs.com/20210622/d48378ec-e2cc-47c1-a073-3f1efd88b508.wav"},
+>>>>>>> d9b048e (second commit)

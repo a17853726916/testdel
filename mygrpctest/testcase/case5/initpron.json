@@ -1,0 +1,121 @@
+{
+    "sents": [
+      {
+        "sent_content": "",
+        "words": [
+          {
+            "word_content": "Time",
+            "word_type": "word"
+          },
+          {
+            "word_content": "management",
+            "word_type": "word"
+          },
+          {
+            "word_content": "is",
+            "word_type": "word"
+          },
+          {
+            "word_content": "often",
+            "word_type": "word"
+          },
+          {
+            "word_content": "easier",
+            "word_type": "word"
+          },
+          {
+            "word_content": "for",
+            "word_type": "word"
+          },
+          {
+            "word_content": "people",
+            "word_type": "word"
+          },
+          {
+            "word_content": "who",
+            "word_type": "word"
+          },
+          {
+            "word_content": "are",
+            "word_type": "word"
+          },
+          {
+            "word_content": "naturally",
+            "word_type": "word"
+          },
+          {
+            "word_content": "organized",
+            "word_type": "word"
+          },
+          {
+            "word_content": "and",
+            "word_type": "word"
+          },
+          {
+            "word_content": "detail-oriented",
+            "word_type": "word"
+          },
+          {
+            "word_content": ",",
+            "word_type": "punc"
+          },
+          {
+            "word_content": "but",
+            "word_type": "word"
+          },
+          {
+            "word_content": "anyone",
+            "word_type": "word"
+          },
+          {
+            "word_content": "can",
+            "word_type": "word"
+          },
+          {
+            "word_content": "learn",
+            "word_type":"word"
+  
+          },
+          {
+            "word_content": "this",
+            "word_type":"word"
+  
+          },
+          {
+            "word_content": "skill",
+            "word_type":"word"
+  
+          },
+          {
+            "word_content": "with",
+            "word_type":"word"
+  
+          },
+          {
+            "word_content": "effective",
+            "word_type":"word"
+  
+          },
+          {
+            "word_content": "time",
+            "word_type":"word"
+  
+          },
+          {
+            "word_content": "management",
+            "word_type":"word"
+  
+          },
+          {
+            "word_content": "strategies",
+            "word_type":"word"
+  
+          },
+          {
+            "word_content": ".",
+            "word_type":"punc"
+          }
+        ]
+      }
+    ]
+  }

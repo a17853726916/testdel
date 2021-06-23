@@ -1,0 +1,61 @@
+{
+    "sents": [
+      {
+        "sent_content": "",
+        "words": [
+          {
+            "word_content": "Failing",
+            "word_type": "word"
+          },
+          {
+            "word_content": "to",
+            "word_type": "word"
+          },
+          {
+            "word_content": "manage",
+            "word_type": "word"
+          },
+          {
+            "word_content": "your",
+            "word_type": "word"
+          },
+          {
+            "word_content": "time",
+            "word_type": "word"
+          },
+          {
+            "word_content": "effectively",
+            "word_type": "word"
+          },
+          {
+            "word_content": "can",
+            "word_type": "word"
+          },
+          {
+            "word_content": "have",
+            "word_type": "word"
+          },
+          {
+            "word_content": "some",
+            "word_type": "word"
+          },
+          {
+            "word_content": "very",
+            "word_type": "word"
+          },
+          {
+            "word_content": "undesirable",
+            "word_type": "word"
+          },
+          {
+            "word_content": "consequences",
+            "word_type": "word"
+          },
+          {
+            "word_content": ":",
+            "word_type": "punc"
+          }
+        ]
+      }
+    ]
+  }

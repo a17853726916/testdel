@@ -1,0 +1,126 @@
+{
+<<<<<<< HEAD
+  "sents": [
+    {
+      "sent_content": "",
+      "words": [
+        {
+          "word_content": "Not",
+          "word_pron": {
+            "phones": [
+              {
+                "ps": [
+                  "n",
+                  "aa",
+                  "t"
+                ]
+              }
+            ],
+            "syllables": [
+                "not"
+            ],
+            "p2s": [
+              0,
+              0,
+              0
+            ]
+          },
+          "word_type": "word"
+        },
+        {
+          "word_content": "for",
+          "word_type": "word"
+        },
+        {
+          "word_content": "the"
+        },
+        {
+          "word_content": ","
+        }
+      ]
+    }
+  ]
+}
+=======
+    "sents": [
+      {
+        "sent_content": "",
+        "words": [
+          {
+            "word_content": "and",
+            "word_type": "word"
+          },
+          {
+            "word_content": "time",
+            "word_type": "word"
+          },
+          {
+            "word_content": "management",
+            "word_type": "word"
+          },
+          {
+            "word_content": "is",
+            "word_type": "word"
+          },
+          {
+            "word_content": "the",
+            "word_type": "word"
+          },
+          {
+            "word_content": "skill",
+            "word_type": "word"
+          },
+          {
+            "word_content": "that",
+            "word_type": "word"
+          },
+          {
+            "word_content": "will",
+            "word_type": "word"
+          },
+          {
+            "word_content": "help",
+            "word_type": "word"
+          },
+          {
+            "word_content": "you",
+            "word_type": "word"
+          },
+          {
+            "word_content": "balance",
+            "word_type": "word"
+          },
+          {
+            "word_content": "this",
+            "word_type": "word"
+          },
+          {
+            "word_content": "out",
+            "word_type": "word"
+          },
+          {
+            "word_content": "and",
+            "word_type": "word"
+          },
+          {
+            "word_content": "get",
+            "word_type": "word"
+          },
+          {
+            "word_content": "things",
+            "word_type": "word"
+          },
+          {
+            "word_content": "done",
+            "word_type": "word"
+          },
+          {
+            "word_content": ".",
+            "word_type":"punc"
+
+          }
+        ]
+      }
+    ]
+  }
+>>>>>>> d9b048e (second commit)

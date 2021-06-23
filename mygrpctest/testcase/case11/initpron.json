@@ -1,0 +1,104 @@
+{
+    "sents": [
+      {
+        "sent_content": "",
+        "words": [
+          {
+            "word_content": "and",
+            "word_type": "word"
+          },
+          {
+            "word_content": "your",
+            "word_type": "word"
+          },
+          {
+            "word_content": "personal",
+            "word_type": "word"
+          },
+          {
+            "word_content": "skills",
+            "word_type": "word"
+          },
+          {
+            "word_content": ",",
+            "word_type": "punc"
+          },
+          {
+            "word_content": "as",
+            "word_type": "word"
+          },
+          {
+            "word_content": "all",
+            "word_type": "word"
+          },
+          {
+            "word_content": "of",
+            "word_type": "word"
+          },
+          {
+            "word_content": "these",
+            "word_type": "word"
+          },
+          {
+            "word_content": "things",
+            "word_type": "word"
+          },
+          {
+            "word_content": "will",
+            "word_type": "word"
+          },
+          {
+            "word_content": "have",
+            "word_type": "word"
+          },
+          {
+            "word_content": "an",
+            "word_type": "word"
+          },
+          {
+            "word_content": "impact",
+            "word_type": "word"
+          },
+          {
+            "word_content": "on",
+            "word_type": "word"
+          },
+          {
+            "word_content": "how",
+            "word_type": "word"
+          },
+          {
+            "word_content": "you",
+            "word_type": "word"
+          },
+          {
+            "word_content": "work",
+            "word_type": "word"
+          },
+          {
+            "word_content": "with",
+            "word_type": "word"
+          },
+          {
+            "word_content": "the",
+            "word_type": "word"
+          },
+          {
+            "word_content": "time",
+            "word_type": "word"
+          },
+          {
+            "word_content": "you",
+            "word_type": "word"
+          },{
+            "word_content": "have",
+            "word_type": "word"
+          },
+          {
+            "word_content": ".",
+            "word_type": "punc"
+          }
+        ]
+      }
+    ]
+  }

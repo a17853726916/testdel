@@ -1,0 +1,58 @@
+{
+    "sents": [
+      {
+        "sent_content": "",
+        "words": [
+          {
+            "word_content": "He",
+            "word_type": "word"
+          },
+          {
+            "word_content": "was",
+            "word_type": "word"
+          },
+          {
+            "word_content": "also",
+            "word_type": "word"
+          },
+          {
+            "word_content": "by",
+            "word_type": "word"
+          },
+          {
+            "word_content": "far",
+            "word_type": "word"
+          },
+          {
+            "word_content": "the",
+            "word_type": "word"
+          },
+          {
+            "word_content": "hippest",
+            "word_type": "word"
+          },
+          {
+            "word_content": "member",
+            "word_type": "word"
+          },
+          {
+            "word_content": "of",
+            "word_type": "word"
+          },
+          {
+            "word_content": "the",
+            "word_type": "word"
+          },
+          {
+            "word_content": "faculty",
+            "word_type": "word"
+          },
+          {
+            "word_content": ",",
+            "word_type":"punc"
+  
+          }
+        ]
+      }
+    ]
+  }

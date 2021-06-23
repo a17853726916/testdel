@@ -1,0 +1,121 @@
+{
+    "sents": [
+      {
+        "sent_content": "",
+        "words": [
+          {
+            "word_content": "Also",
+            "word_type": "word"
+          },
+          {
+            "word_content": ",",
+            "word_type": "punc"
+          },
+          {
+            "word_content": "time",
+            "word_type": "word"
+          },
+          {
+            "word_content": "management",
+            "word_type": "word"
+          },
+          {
+            "word_content": "can",
+            "word_type": "word"
+          },
+          {
+            "word_content": "be",
+            "word_type": "word"
+          },
+          {
+            "word_content": "defined",
+            "word_type": "word"
+          },
+          {
+            "word_content": "as",
+            "word_type": "word"
+          },
+          {
+            "word_content": "the",
+            "word_type": "word"
+          },
+          {
+            "word_content": "decision-making",
+            "word_type": "word"
+          },
+          {
+            "word_content": "process",
+            "word_type": "word"
+          },
+          {
+            "word_content": "that",
+            "word_type": "word"
+          },
+          {
+            "word_content": "structures",
+            "word_type": "word"
+          },
+          {
+            "word_content": ",",
+            "word_type": "punc"
+          },
+          {
+            "word_content": "protects",
+            "word_type": "word"
+          },
+          {
+            "word_content": ",",
+            "word_type": "punc"
+          },
+          {
+            "word_content": "and",
+            "word_type": "word"
+          },
+          {
+            "word_content": "adjusts",
+            "word_type":"word"
+  
+          },
+          {
+            "word_content": "a",
+            "word_type":"word"
+  
+          },
+          {
+            "word_content": "person's",
+            "word_type":"word"
+  
+          },
+          {
+            "word_content": "time",
+            "word_type":"word"
+  
+          },
+          {
+            "word_content": "to",
+            "word_type":"word"
+  
+          },
+          {
+            "word_content": "changing",
+            "word_type":"word"
+  
+          },
+          {
+            "word_content": "environmental",
+            "word_type":"word"
+  
+          },
+          {
+            "word_content": "conditions",
+            "word_type":"word"
+  
+          },
+          {
+            "word_content": ".",
+            "word_type":"punc"
+          }
+        ]
+      }
+    ]
+  }

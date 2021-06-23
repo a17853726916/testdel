@@ -1,0 +1,206 @@
+syntax = "proto3";
+
+package voice;
+
+option go_package = "proto/voice;voice";
+
+service VoiceService {
+    // 初始化会话(单项请求)
+    rpc Initial(InitRequest) returns (InitResponse); 
+    // 传输处理发音数据(服务端流式)
+    rpc Process(stream ProcessRequest) returns (stream ProcessResponse);
+    // 关闭会话
+    rpc Close(CloseRequest) returns (CloseResponse);
+    // 初始化会话（带发音）
+    rpc InitialWithPron(InitPronRequest) returns (InitPronResponse);
+    // 单词评测
+    rpc WordEval(WordEvalRequest) returns (WordEvalResponse);
+}
+
+message WordEvalRequest {
+    string session_id = 1;                        // 会话UUID =1是分配标量
+    string user_id = 2;                           // 用户ID
+    message WordRefer {                           // 单词参考信息
+        string content = 1;                       // 单词文本
+        message PronRefer {                       // 发音参考信息
+            message PhoneStr {                    // 音素信息
+                repeated string ps = 1;           // 音素标示
+            }
+            repeated PhoneStr phones = 1;         // 标准音素
+            repeated string syllables = 2;        // 标准音节
+            repeated int32 p2s = 3;               // 音素转音节对照表
+        }
+        PronRefer pron_refer = 2;                 // 标准发音
+    }
+    WordRefer word = 3;                           // 标准单词
+    bytes au_data = 4;                            // 语音数据
+    int32 au_rate = 5;                            // 语音采样率，目前只支持16k
+    enum AuFormat {
+        pcm = 0;
+        aac = 1;
+        speex = 2;
+    }
+    AuFormat au_format = 6;                       // 语音编码格式，目前只支持pcm
+}
+
+message WordEvalResponse {
+    string session_id = 1;                        // 会话UUID
+    int32 status_code = 2;                        // 返回码
+    string status_mesg = 3;                       // 返回信息
+    message WordInfo {                            // 单词评估详情
+        int32 match = 1;                          // 单词评估情况，0：正常；1：增读；2：漏读；3：错读；4：回读
+        string word = 2;                          // 当前单词
+        int32 begin_time = 3;                     // 当前单词语音起始时间点，单位为ms
+        int32 end_time = 4;                       // 当前单词语音终止时间点，单位为ms
+        int32 pron_score = 5;                     // 单词发音评分
+        int32 pron_accuracy = 6;                  // 单词发音准确度，取值范围[0, 100]
+        int32 pron_integrity = 7;                 // 单词发音完整度，取值范围[0, 100]
+        int32 pron_fluency = 8;                   // 单词发音流利度，取值范围[0, 100]
+        message PhoneInfo {                       // 音素评估详情
+            int32 match = 1;                      // 音素评估情况，0：正常；1：增读；2：漏读；3：错读；4：回读
+            string phone = 2;                     // 当前音素
+            string ref_phone = 3;                 // 参考音素
+            int32 begin_time = 4;                 // 当前音素起始时间点，单位为ms
+            int32 end_time = 5;                   // 当前音素中止时间点，单位为ms
+            bool stress = 6;                      // 是否重音
+        }
+        repeated PhoneInfo phones = 9;            // 音素评估结果
+        message SyllInfo {                        // 音节评估详情
+            int32 match = 1;                      // 音节评估情况，0：正常；1：增读；2：漏读；3：错读；4：回读
+            string syllable = 2;                  // 当前音节
+            int32 begin_time = 3;                 // 当前音节起始时间，单位为ms
+            int32 end_time = 4;                   // 当前音节中止时间，单位为ms
+        }
+        repeated SyllInfo syllables = 10;         // 音节评估结果
+    }
+    WordInfo word = 4;
+    string audio_url = 5;                         // 语音音频文件下载地址，单词结束时给出
+    string model_version = 6;                     // 模型版本信息
+}
+
+message WordInfo {                        // 单词详情
+    string word_content = 1;              // 单词文本
+    string word_type = 2;                 // 单词类型
+    message PronInfo {                    // 发音信息
+        message PhoneStr {                // 音素信息
+            repeated string ps = 1;       // 音素标示
+        }
+        repeated PhoneStr phones = 1;     // 标准音素
+        repeated string syllables = 2;    // 标准音节
+        repeated int32 p2s = 3;           // 音素转音节对照表
+    }
+    PronInfo word_pron = 3;               // 单词标准发音
+}
+
+message SentInfo {                            // 句子详情
+    string sent_id = 1;                       // 句子ID
+    string sent_content = 2;                  // 句子文本
+    repeated WordInfo words = 3;              // 标准单词
+}
+
+message InitPronRequest {                         // 初始化请求体（带发音）
+    string session_id = 1;                        // 会话UUID
+    string user_id = 2;                           // 用户ID
+    repeated SentInfo sents = 3;                  // 评测句子列表
+    int32 ref_lang = 4;                           // 评测语言，0: 英文
+    int32 eva_mode = 5;                           // 评测模式，0: 朗读模式，1：冷启动模式
+}
+
+message InitPronResponse {                        // 初始化应答体（带发音）
+    string session_id = 1;                        // 会话UUID
+    int32 status_code = 2;                        // 初始化返回码, 0: 成功；100：跳过；199：其他错误
+    string status_mesg = 3;                       // 初始化状态，OK：成功；SKIP：跳过；ERROR：其他错误
+    string model_version = 4;                     // 模型版本信息
+}
+
+message CloseRequest {                            // 关闭会话请求
+    string session_id = 1;                        // 会话UUID
+}
+
+message CloseResponse {                           // 关闭会话应答
+    string session_id = 1;                        // 会话UUID
+    int32 status_code = 2;                        // 关闭返回码，0：成功；199：其他错误
+    string status_mesg = 3;                       // 关闭状态，OK：成功；ERROR：错误
+    string audio_url = 4;                         // 语音音频文件下载地址，单词结束时给出
+}
+
+message InitRequest {                             // 初始化请求体
+    string session_id = 1;                        // 会话UUID
+    string user_id = 2;                           // 用户ID
+    message SentInfo {                            // 句子详情
+        string sent_id = 1;                       // 句子ID
+        string sent_content = 2;                  // 句子文本
+    }
+    repeated SentInfo sents = 3;                  // 评测句子列表
+    int32 ref_lang = 4;                           // 评测语言，0: 英文
+    int32 eva_mode = 5;                           // 评测模式，0: 朗读模式
+}
+
+message InitResponse {                            // 初始化应答体
+    string session_id = 1;                        // 会话UUID
+    int32 status_code = 2;                        // 初始化返回码，0：成功；100：跳过；199：其他错误
+    string status_mesg = 3;                       // 初始化状态，OK：成功；SKIP：跳过；ERROR：未知错误
+    string model_version = 4;                     // 模型版本信息
+}
+
+message ProcessRequest {                          // 发音评估请求体
+    string session_id = 1;                        // 会话UUID
+    bytes au_data = 2;                            // 当前数据包数据
+    int32 au_rate = 3;                            // 语音采样率，目前只支持16k
+    enum AuFormat {
+        pcm = 0;
+        aac = 1;
+        speex = 2;
+    }
+    AuFormat au_format = 4;                       // 语音编码格式，目前只支持pcm
+    int32 is_last = 5;                            // 是否最后一个, 0不是，1是, vad使用
+}
+
+message ProcessResponse {                         // 发音评估应答体
+    string session_id = 1;                        // 会话UUID
+    int32 status_code = 2;                        // 评估结果状态码，0：人声；1：静音；2：噪声；3：空包；
+    string status_mesg = 3;                       // 评估结果信息
+    int32 total_score = 4;                        // 发音总评分，取值范围[0, 100]
+    int32 total_accuracy = 5;                     // 发音准确度，取值范围[0, 100]
+    int32 total_integrity = 6;                    // 发音完整度，取值范围[0, 100]
+    int32 total_fluency = 7;                      // 发音流利度，取值范围[0, 100]
+    string audio_url = 8;                         // 语音音频文件下载地址，句子结束时给出
+    message SentInfo {                            // 句子评估详情
+        string sent_id = 1;                       // 句子ID
+        message WordInfo {                        // 单词评估详情
+            int32 match = 1;                      // 单词评估情况，0：正常；1：增读；2：漏读；3：错读；4：回读
+            string word = 2;                      // 当前单词
+            int32 begin_time = 3;                 // 当前单词语音起始时间点，单位为ms
+            int32 end_time = 4;                   // 当前单词语音终止时间点，单位为ms
+            int32 pron_score = 5;                 // 单词发音评分
+            int32 pron_accuracy = 6;              // 单词发音准确度，取值范围[0, 100]
+            int32 pron_integrity = 7;             // 单词发音完整度，取值范围[0, 100]
+            int32 pron_fluency = 8;               // 单词发音流利度，取值范围[0, 100]
+            message PhoneInfo {                   // 音素评估详情
+                int32 match = 1;                  // 音素评估情况，0：正常；1：增读；2：漏读；3：错读；4：回读
+                string phone = 2;                 // 当前音素
+                string ref_phone = 3;             // 参考音素
+                int32 begin_time = 4;             // 当前音素起始时间点，单位为ms
+                int32 end_time = 5;               // 当前音素中止时间点，单位为ms
+                bool stress = 6;                  // 是否重音
+            }
+            repeated PhoneInfo phones = 9;        // 音素评估结果
+            message SyllInfo {                    // 音节评估详情
+                int32 match = 1;                  // 音节评估情况，0：正常；1：增读；2：漏读；3：错读；4：回读
+                string syllable = 2;              // 当前音节
+                int32 begin_time = 3;             // 当前音节起始时间，单位为ms
+                int32 end_time = 4;               // 当前音节中止时间，单位为ms
+            }
+            repeated SyllInfo syllables = 10;     // 音节评估结果
+        }
+        repeated WordInfo words = 2;              // 单词评估结果
+        int32 pron_score = 3;                     // 句子发音评分
+        int32 pron_accuracy = 4;                  // 句子发音准确度，取值范围[0, 100]
+        int32 pron_integrity = 5;                 // 句子发音完整度，取值范围[0, 100]
+        int32 pron_fluency = 6;                   // 句子发音流利度，取值范围[0, 100]
+        int32 begin_time = 7;                     // 句子语音起始时间点，单位为ms
+        int32 end_time = 8;                       // 句子语音终止时间点，单位为ms
+    }
+    repeated SentInfo sents = 9;                  // 多句子候选
+    bool detect_eos = 10;                         // 检测句子是否结束
+}

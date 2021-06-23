@@ -1,0 +1,93 @@
+{
+    "sents": [
+      {
+        "sent_content": "",
+        "words": [
+          {
+            "word_content": "Poor",
+            "word_type": "word"
+          },
+          {
+            "word_content": "time",
+            "word_type": "word"
+          },
+          {
+            "word_content": "management",
+            "word_type": "word"
+          },
+          {
+            "word_content": "skills",
+            "word_type": "word"
+          },
+          {
+            "word_content": "can",
+            "word_type": "word"
+          },
+          {
+            "word_content": "cause",
+            "word_type": "word"
+          },
+          {
+            "word_content": "a",
+            "word_type": "word"
+          },
+          {
+            "word_content": "lack",
+            "word_type": "word"
+          },
+          {
+            "word_content": "of",
+            "word_type": "word"
+          },
+          {
+            "word_content": "sleep",
+            "word_type": "word"
+          },
+          {
+            "word_content": ",",
+            "word_type": "punc"
+          },
+          {
+            "word_content": "unhappiness",
+            "word_type": "word"
+          },
+          {
+            "word_content": ",",
+            "word_type": "punc"
+          },
+          {
+            "word_content": "and",
+            "word_type": "word"
+          },
+          {
+            "word_content": "even",
+            "word_type": "word"
+          },
+          {
+            "word_content": "health",
+            "word_type": "word"
+          },
+          {
+            "word_content": "complications",
+            "word_type": "word"
+          },
+          {
+            "word_content": "such",
+            "word_type": "word"
+          },
+          {
+            "word_content": "as",
+            "word_type": "word"
+          },
+          {
+            "word_content": "stress",
+            "word_type": "word"
+          },
+          {
+            "word_content": ".",
+            "word_type": "punc"
+          }
+        ]
+      }
+    ]
+  }
