@@ -9,11 +9,8 @@ import (
 	"log"
 	pb "mygrpctest/proto/voice"
 	"os"
-<<<<<<< HEAD
-=======
 	"path/filepath"
 	"strings"
->>>>>>> d9b048e (second commit)
 	"time"
 
 	"github.com/google/uuid"
@@ -247,10 +244,7 @@ func TestWordClient(clt pb.VoiceServiceClient, initData, wavData []byte, head, p
 
 //将响应户数写回json文件中
 func HandleProcessResponse(resData *pb.ProcessResponse, path string) error {
-<<<<<<< HEAD
 
-=======
->>>>>>> d9b048e (second commit)
 	file, err := os.OpenFile(path+"/output.txt", os.O_RDWR|os.O_CREATE|os.O_APPEND, 0645)
 	if err != nil {
 		log.Printf("Open or Create file error: %v", err)
@@ -266,11 +260,8 @@ func HandleProcessResponse(resData *pb.ProcessResponse, path string) error {
 		StatusMesg: resData.StatusMesg,
 		Sents:      resData.Sents,
 	}
-<<<<<<< HEAD
-	data, err := json.MarshalIndent(processRes, "", " ")
-=======
+
 	data, err := json.Marshal(processRes)
->>>>>>> d9b048e (second commit)
 	if err != nil {
 		log.Printf("Error in Marshal: %v", err)
 		log.Panic(err)
@@ -290,21 +281,17 @@ func HandleProcessResponse(resData *pb.ProcessResponse, path string) error {
 
 // 将响应的初始化请求写入文件中
 func HandleInitResp(resData *pb.InitResponse, path string) error {
-<<<<<<< HEAD
-=======
+
 	CreateDir(path)
->>>>>>> d9b048e (second commit)
 	file, err := os.OpenFile(path+"/initoutput.txt", os.O_RDWR|os.O_CREATE|os.O_APPEND, 0645)
 	if err != nil {
 		log.Printf("Open or Create file error: %v", err)
 		panic(err)
 	}
 	defer file.Close()
-<<<<<<< HEAD
-	data, err := json.MarshalIndent(resData, "", " ")
-=======
+
 	data, err := json.Marshal(resData)
->>>>>>> d9b048e (second commit)
+
 	if err != nil {
 		log.Printf("Error in Marshal: %v", err)
 		log.Panic(err)
@@ -324,21 +311,18 @@ func HandleInitResp(resData *pb.InitResponse, path string) error {
 
 //带发音的初始化请求响应结果
 func HandleInitProesp(resData *pb.InitPronResponse, path string) error {
-<<<<<<< HEAD
-=======
+
 	CreateDir(path)
->>>>>>> d9b048e (second commit)
+
 	file, err := os.OpenFile(path+"/output.txt", os.O_RDWR|os.O_CREATE|os.O_APPEND, 0645)
 	if err != nil {
 		log.Printf("Open or Create file error: %v", err)
 		panic(err)
 	}
 	defer file.Close()
-<<<<<<< HEAD
-	data, err := json.MarshalIndent(resData, "", " ")
-=======
+
 	data, err := json.Marshal(resData)
->>>>>>> d9b048e (second commit)
+
 	if err != nil {
 		log.Printf("Error in Marshal: %v", err)
 		log.Panic(err)
@@ -364,11 +348,9 @@ func HandleCloseProesp(resData *pb.CloseResponse, path string) error {
 		panic(err)
 	}
 	defer file.Close()
-<<<<<<< HEAD
-	data, err := json.MarshalIndent(resData, "", " ")
-=======
+
 	data, err := json.Marshal(resData)
->>>>>>> d9b048e (second commit)
+
 	if err != nil {
 		log.Printf("Error in Marshal: %v", err)
 		log.Panic(err)
@@ -396,8 +378,6 @@ func GetFilebyte(path string) []byte {
 
 	return fileData
 }
-<<<<<<< HEAD
-=======
 
 //自动生生目录(若没有)
 func CreateDir(path string) {
@@ -410,4 +390,3 @@ func CreateDir(path string) {
 		os.Chmod(foldpaht, 0777)
 	}
 }
->>>>>>> d9b048e (second commit)

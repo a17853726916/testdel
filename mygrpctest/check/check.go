@@ -7,10 +7,7 @@ import (
 	"io"
 	pb "mygrpctest/proto/voice"
 	"os"
-<<<<<<< HEAD
-=======
 	"strings"
->>>>>>> d9b048e (second commit)
 )
 
 // 定义比较结果返回字段
@@ -23,11 +20,6 @@ type Result struct {
 	AudioUrl     string                         `json:"audio_url,omitempty"`     // 语音音频文件下载地址，单词结束时给出
 }
 
-<<<<<<< HEAD
-// 序列化返回结果
-=======
-// 序列化outputs的结果
->>>>>>> d9b048e (second commit)
 func ProcessRespontoStruct(path string) []Result {
 	inputFile, inputError := os.Open(path)
 	if inputError != nil {
@@ -44,16 +36,6 @@ func ProcessRespontoStruct(path string) []Result {
 		}
 		s = s + inputString
 	}
-<<<<<<< HEAD
-	s1 := []byte(s)
-	s1[len(s1)-2] = ']'
-	s = string(s1)
-	// fmt.Printf("all: \n%s", s)
-	var resps []Result
-	// 直接序列化多个结构体数据
-	// 只要json文件结构正确，可以序列化多个
-	if err := json.Unmarshal([]byte(s), &resps); err == nil {
-=======
 
 	s1 := strings.TrimSpace(s)
 	res := []byte(s1)
@@ -62,7 +44,6 @@ func ProcessRespontoStruct(path string) []Result {
 	// 直接序列化多个结构体数据
 	// 只要json文件结构正确，可以序列化多个
 	if err := json.Unmarshal(res, &resps); err == nil {
->>>>>>> d9b048e (second commit)
 		fmt.Println("转换成功")
 	} else {
 		fmt.Println("转换失败")
@@ -87,20 +68,6 @@ func ExpectedtoStruct(path string) []Result {
 		}
 		s = s + inputString
 	}
-<<<<<<< HEAD
-	s1 := []byte(s)
-	fmt.Println(s1)
-	s1[len(s1)-2] = ']'
-	s = string(s1)
-	//fmt.Printf("all: \n%s", s)
-	var resps []Result
-	// 直接序列化多个结构体数据
-	// 只要json文件结构正确，可以序列化多个
-	if err := json.Unmarshal([]byte(s), &resps); err == nil {
-		fmt.Println("转换成功")
-	} else {
-		fmt.Println("转换失败")
-=======
 	s1 := strings.TrimSpace(s)
 	res := []byte(s1)
 	res[len(res)-1] = ']'
@@ -112,13 +79,10 @@ func ExpectedtoStruct(path string) []Result {
 		fmt.Println("convert successful")
 	} else {
 		fmt.Println("conver failed")
->>>>>>> d9b048e (second commit)
 	}
 	return resps
 }
 
-<<<<<<< HEAD
-=======
 //结构体比较
 func CheckRes(outputs, expects []Result) bool {
 	if len(outputs) != len(expects) {
@@ -192,7 +156,6 @@ flag:
 	return init && process && close
 }
 
->>>>>>> d9b048e (second commit)
 //获得初始化响应对比字段
 func InitRespontoStruct(path string) []pb.InitResponse {
 	inputFile, inputError := os.Open(path)
@@ -256,60 +219,3 @@ func CloseRespontoStruct(path string) []pb.CloseResponse {
 	}
 	return resps
 }
-<<<<<<< HEAD
-
-//结构体比较
-func CheckRes(outputs, expects []Result) bool {
-	if len(outputs) != len(expects) {
-		return false
-	}
-	//初始化
-	var init, process, close bool
-
-	iniout, expect := outputs[0], expects[0]
-
-	if iniout.StatusMesg == expect.StatusMesg && expect.ModelVersion == expect.ModelVersion {
-		init = true
-	}
-	// 中间处理结果
-	iniprocess, exprocess := outputs[1:len(outputs)-1], expects[1:len(expects)-1]
-flag:
-	for i, v := range iniprocess {
-		if v.StatusCode == exprocess[i].StatusCode && v.StatusMesg == exprocess[i].StatusMesg {
-			for j, ws := range v.Sents {
-				for k, wd := range ws.Words {
-					if wd.Word == exprocess[i].Sents[j].Words[k].Word {
-
-						for l, ph := range wd.Phones {
-							if ph.Phone == exprocess[i].Sents[j].Words[k].Phones[l].Phone && ph.RefPhone == exprocess[i].Sents[j].Words[k].Phones[l].RefPhone {
-								process = true
-							} else {
-								process = false
-								break flag
-							}
-						}
-						for l, sylls := range wd.Syllables {
-							if sylls.Match == exprocess[i].Sents[j].Words[k].Syllables[l].Match && sylls.Syllable == exprocess[i].Sents[j].Words[k].Syllables[l].Syllable {
-							} else {
-								process = false
-								break flag
-							}
-						}
-						process = true
-					} else {
-						process = false
-						break flag
-					}
-				}
-			}
-		}
-	}
-	// 关闭通道的结果
-	iniclose, expectclose := outputs[len(outputs)-1], expects[len(expects)-1]
-	if iniclose.StatusMesg == expectclose.StatusMesg {
-		close = true
-	}
-	return init && process && close
-}
-=======
->>>>>>> d9b048e (second commit)
