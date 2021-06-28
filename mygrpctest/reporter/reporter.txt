@@ -1,0 +1,58 @@
+TestCase is : testcase/case1/expect.txt
+OutputCase is : outputs/case1/output.txt
+Check Result : 
+*****************************************************
+Expect's length is not equal to output: The expected length is 14,now is 15 
+
+InitResponse's result: The initResponse Correct 
+
+CloseResponse's result: The closeResponse Correct 
+
+The testResult is Correct 
+*****************************************************
+
+TestCase is : testcase/case1/expect.txt
+OutputCase is : outputs/case1/output.txt
+Check Result : 
+*****************************************************
+Expect's length is not equal to output: The expected length is 14,now is 15 
+
+InitResponse's result: The initResponse Correct 
+
+CloseResponse's result: The closeResponse Correct 
+
+The testResult is Incorrect 
+*****************************************************
+
+TestCase is : testcase/case1/expect.txt
+OutputCase is : outputs/case1/output.txt
+Check Result : 
+*****************************************************
+Expect's length is not equal to output: The expected length is 14,now is 15 
+
+InitResponse's result: The initResponse Correct 
+
+CloseResponse's result: The closeResponse Correct 
+
+The testResult is Incorrect 
+*****************************************************
+
+TestCase is : testcase/case4/expect.txt
+OutputCase is : outputs/case4/output.txt
+Check Result : 
+*****************************************************
+InitResponse's result: The initResponse Correct 
+
+The expected word is far , now is fa, info is in the output.txt of line: 11 sents: 1 words: 5
+
+The expected word is also , now is als, info is in the output.txt of line: 12 sents: 1 words: 3
+
+The expected Phone is: phone:"z" ref_phone:"z" begin_time:640 end_time:700 , now is: phone:"z1" ref_phone:"z" begin_time:640 end_time:700 ,info is in the output.txt of line: 13  words: 2 , Phones: 3
+
+The expected word is far , now is far1, info is in the output.txt of line: 13 sents: 1 words: 5
+
+CloseResponse's result: The closeResponse Correct 
+
+The testResult is Incorrect 
+*****************************************************
+

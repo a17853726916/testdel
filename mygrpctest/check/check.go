@@ -6,7 +6,9 @@ import (
 	"fmt"
 	"io"
 	pb "mygrpctest/proto/voice"
+	"mygrpctest/reporter"
 	"os"
+	"strconv"
 	"strings"
 )
 
@@ -44,9 +46,9 @@ func ProcessRespontoStruct(path string) []Result {
 	// 直接序列化多个结构体数据
 	// 只要json文件结构正确，可以序列化多个
 	if err := json.Unmarshal(res, &resps); err == nil {
-		fmt.Println("转换成功")
+		fmt.Println("convert successful")
 	} else {
-		fmt.Println("转换失败")
+		fmt.Println("convert fail")
 	}
 	return resps
 }
@@ -84,76 +86,48 @@ func ExpectedtoStruct(path string) []Result {
 }
 
 //结构体比较
-func CheckRes(outputs, expects []Result) bool {
-	if len(outputs) != len(expects) {
-		fmt.Printf("The expected len is %v,now is %v \n", len(expects), len(outputs))
-		return false
-	}
-
+func CheckRes(outputs, expects []Result, path string) bool {
 	//初始化
-	var init, process, close bool
+	var init, process, close, final bool
+	var testResult string
+	if len(outputs) != len(expects) {
+		testResult = fmt.Sprintf("The expected length is: %v,now is: %v \n", len(expects), len(outputs))
+		reporter.OutputlenNotEqualExpect(testResult, path)
+		final = false
+	}
 
 	iniout, expect := outputs[0], expects[0]
 
 	if iniout.StatusMesg == expect.StatusMesg && expect.ModelVersion == expect.ModelVersion {
+		//将测试结果写回文件中
+		testResult = fmt.Sprint("The initResponse Correct \n")
+		reporter.InitOrCloseResult(testResult, "initResponse", path)
 		init = true
 	} else {
-		fmt.Printf("the expected is %v , now is %v \n", expect, iniout)
+		//将测试结果写回文件中
+		testResult = fmt.Sprintf("The expect initResponse is: %v, now is: %v \n", expect.StatusMesg, iniout.StatusCode)
+		reporter.InitOrCloseResult(testResult, "initResponse", path)
 	}
+
 	// 中间处理结果
 	iniprocess, exprocess := outputs[1:len(outputs)-1], expects[1:len(expects)-1]
-flag:
-	for i, v := range iniprocess {
-		if v.StatusCode == exprocess[i].StatusCode && v.StatusMesg == exprocess[i].StatusMesg {
-			for j, ws := range v.Sents {
+	process = checkProcess(iniprocess, exprocess, path)
+	// initlength, exlength := len(iniprocess), len(exprocess)
 
-				for k, wd := range ws.Words {
-
-					if len(ws.Words) != len(exprocess[i].Sents[j].Words) {
-						fmt.Println("the result's lenght is not unanimous")
-						process = false
-						break flag
-					} else {
-						if wd.Word == exprocess[i].Sents[j].Words[k].Word {
-
-							for l, ph := range wd.Phones {
-								if ph.Phone == exprocess[i].Sents[j].Words[k].Phones[l].Phone && ph.RefPhone == exprocess[i].Sents[j].Words[k].Phones[l].RefPhone {
-									process = true
-								} else {
-									fmt.Printf("the expected is %v , now is %v ,line is %v \n", exprocess[i].Sents[j].Words[k].Phones[l], ph, i)
-									process = false
-									break flag
-								}
-							}
-							for l, sylls := range wd.Syllables {
-								if sylls.Match == exprocess[i].Sents[j].Words[k].Syllables[l].Match && sylls.Syllable == exprocess[i].Sents[j].Words[k].Syllables[l].Syllable {
-								} else {
-									fmt.Printf("the expected is %v , now is %v,and line is %v \n", exprocess[i].Sents[j].Words[k].Syllables[l], sylls, i)
-									process = false
-									break flag
-								}
-							}
-							process = true
-						} else {
-							fmt.Printf("the expected is %v , now is %v \n", wd.Word, exprocess[i].Sents[j].Words[k].Word)
-							process = false
-							break flag
-						}
-					}
-				}
-			}
-		} else {
-			fmt.Println("StatusCode is not the expected")
-		}
-	}
 	// 关闭通道的结果
 	iniclose, expectclose := outputs[len(outputs)-1], expects[len(expects)-1]
 	if iniclose.StatusMesg == expectclose.StatusMesg {
+		testResult = fmt.Sprint("The closeResponse Correct \n")
+		reporter.InitOrCloseResult(testResult, "closeResponse", path)
 		close = true
 	} else {
+		testResult = fmt.Sprintf("The expect initClose is: %v, now is: %v \n", expectclose.StatusMesg, iniclose.StatusMesg)
+		reporter.InitOrCloseResult(testResult, "closeResponse", path)
 		fmt.Println("initcose is not the expected")
 	}
-	return init && process && close
+	final = init && process && close
+	reporter.FilalTestres(final, path)
+	return final
 }
 
 //获得初始化响应对比字段
@@ -218,4 +192,66 @@ func CloseRespontoStruct(path string) []pb.CloseResponse {
 		fmt.Println("转换失败")
 	}
 	return resps
+}
+func checkProcess(iniprocess, exprocess []Result, path string) bool {
+	var process bool
+	var flag bool = true
+
+	for i, v := range iniprocess {
+		if i < len(exprocess) {
+			if v.StatusCode == exprocess[i].StatusCode && v.StatusMesg == exprocess[i].StatusMesg {
+				for j, ws := range v.Sents {
+
+					for k, wd := range ws.Words {
+
+						if len(ws.Words) != len(exprocess[i].Sents[j].Words) {
+							fmt.Printf("The result's lenght is not unanimous , expect's lenght is: %v , now is: %v , error in words slice: %v\n", len(exprocess[i].Sents[j].Words), len(ws.Words), i)
+							flag = false
+							continue
+
+						} else {
+							if wd.Word == exprocess[i].Sents[j].Words[k].Word {
+
+								for l, ph := range wd.Phones {
+									if ph.Phone == exprocess[i].Sents[j].Words[k].Phones[l].Phone && ph.RefPhone == exprocess[i].Sents[j].Words[k].Phones[l].RefPhone {
+										process = true
+									} else {
+										testResult := fmt.Sprintf("The expected Phone is: %v , now is: %v ,info is in the output.txt of line: %d  words: %d , Phones: %d\n", exprocess[i].Sents[j].Words[k].Phones[l], ph, i+2, k+1, l+1)
+										reporter.ProcessResult(testResult, path)
+										flag = false
+										continue
+									}
+								}
+								for l, sylls := range wd.Syllables {
+									if sylls.Match == exprocess[i].Sents[j].Words[k].Syllables[l].Match && sylls.Syllable == exprocess[i].Sents[j].Words[k].Syllables[l].Syllable {
+									} else {
+										testResult := fmt.Sprintf("The expected sylls is %v , now is %v ,info is in the output.txt of line: %d  words:%d sylls: %d\n", exprocess[i].Sents[j].Words[k].Syllables[l], sylls, i+2, k+1, l+1)
+										reporter.ProcessResult(testResult, path)
+										flag = false
+										continue
+									}
+								}
+								process = true
+							} else {
+								// 将测试结果写回文件中
+								flag = false
+								testResult := fmt.Sprintf("The expected word is %v , now is %v, info is in the output.txt of line: %d sents: %d words: %d\n", exprocess[i].Sents[j].Words[k].Word, wd.Word, i+2, j+1, k+1)
+								reporter.ProcessResult(testResult, path)
+								continue
+							}
+						}
+					}
+				}
+			} else {
+				flag = false
+				testResult := fmt.Sprintf("The expected is： %v , now is: %v ", strconv.Itoa(int(v.StatusCode))+" "+v.StatusMesg, strconv.Itoa(int(exprocess[i].StatusCode))+"  "+exprocess[i].StatusMesg)
+				fmt.Println(testResult)
+				continue
+			}
+		} else {
+			break
+		}
+
+	}
+	return process && flag
 }
