@@ -1,0 +1,14 @@
+{{define "content"}}
+<article>
+    <p>Testcase is : {{.TestCase}}</p>
+    <p>OutputCase is : {{.OutputCase}}</p>
+    <hr>
+    <p>{{.ExpexLength}}</p>
+    <p>InitResponse's result:{{.InitResponse}}</p>
+    <!-- Processresult应该放在一个table里最好,间隔线最好使用HTML自带的线 -->
+    <p>Process Result: </p>
+    <p>{{range $k,$v := .Processres}} {{println $v}}<br>{{end}}</p>
+    <p>CloseResponse's result: {{.CloseResponse}}</p>
+    <p>The testResult is : {{.Finalres}}</p>
+ </article>
+{{end}}

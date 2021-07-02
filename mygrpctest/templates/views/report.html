@@ -1,0 +1,376 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>测试报告</title>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/chosen/1.8.2/chosen.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdn.bootcss.com/echarts/3.8.5/echarts.min.js"></script>
+    <script src="https://cdn.bootcss.com/chosen/1.8.2/chosen.jquery.js"></script>
+    <base target="_blank">
+    <style type="text/css">
+        p {
+            word-wrap: break-word;
+            word-break: break-all;
+            overflow: hidden;
+        }
+        h5 {
+            font-size: 12px
+        }
+        body {
+            font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 13px;
+            color: #676a6c;
+            overflow-x: hidden
+        }
+        body, body.full-height-layout #page-wrapper, body.full-height-layout #wrapper, html {
+            height: 100%;
+        }
+        #page-wrapper {
+            min-height: auto
+        }
+        body.boxed-layout {
+            background: url(patterns/shattered.png)
+        }
+        body.boxed-layout #wrapper {
+            background-color: #2f4050;
+            max-width: 1200px;
+            margin: 0 auto
+        }
+        .boxed-layout #wrapper.top-navigation, .top-navigation.boxed-layout #wrapper {
+            max-width: 1300px !important
+        }
+        .border-bottom {
+            border-bottom: 1px solid #e7eaec !important
+        }
+        .hr-line-dashed {
+            border-top: 1px dashed #e7eaec;
+            color: #fff;
+            background-color: #fff;
+            height: 1px;
+            margin: 20px 0
+        }
+        #wrapper {
+            width: 100%;
+            overflow-x: hidden;
+            background-color: #2f4050
+        }
+
+        .wrapper {
+            padding: 0 20px
+        }
+
+        .wrapper-content {
+            padding: 20px
+        }
+
+        #page-wrapper {
+            padding: 0 15px;
+            position: inherit;
+            margin: 0 0 0 220px
+        }
+        .ibox-content h1, .ibox-content h2, .ibox-content h3, .ibox-content h4, .ibox-content h5, .ibox-title h1, .ibox-title h2, .ibox-title h3, .ibox-title h4, .ibox-title h5 {
+            margin-top: 5px
+        }
+        ol.unstyled, ul.unstyled {
+            list-style: none outside none;
+            margin-left: 0
+        }
+        .big-icon {
+            font-size: 160px;
+            color: #e5e6e7
+        }
+        body.body-small.mini-navbar .footer.fixed, body.mini-navbar .footer.fixed {
+            margin: 0 0 0 70px
+        }
+
+        body.canvas-menu .footer.fixed, body.mini-navbar.canvas-menu .footer.fixed {
+            margin: 0 !important
+        }
+
+        body.fixed-sidebar.body-small.mini-navbar .footer.fixed {
+            margin: 0 0 0 220px
+        }
+
+        body.body-small .footer.fixed {
+            margin-left: 0
+        }
+
+        .page-heading {
+            border-top: 0;
+            padding: 0 20px 20px
+        }
+        .table-bordered {
+            border: 1px solid #EBEBEB
+        }
+
+        .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+            background-color: #F5F5F6
+        }
+
+        .table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+            border: 1px solid #e7e7e7
+        }
+
+        .table > thead > tr > th {
+            border-bottom: 1px solid #DDD
+        }
+
+        .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+            border-top: 1px solid #e7eaec;
+            line-height: 1.42857;
+            padding: 8px;
+            vertical-align: middle
+        }
+        .ibox-content.text-box {
+            padding-bottom: 0;
+            padding-top: 15px
+        }
+        .border-left-right {
+            border-left: 1px solid #e7eaec;
+            border-right: 1px solid #e7eaec;
+            border-top: none;
+            border-bottom: none
+        }
+        .border-left {
+            border-left: 1px solid #e7eaec;
+            border-right: none;
+            border-top: none;
+            border-bottom: none
+        }
+        .border-right {
+            border-left: none;
+            border-right: 1px solid #e7eaec;
+            border-top: none;
+            border-bottom: none
+        }
+        .full-width {
+            width: 100% !important
+        }
+        .nav.navbar-top-links .link-block a {
+            font-size: 12px
+        }
+        .link-block a {
+            font-size: 10px;
+            color: inherit
+        }
+        body.mini-navbar .branding {
+            display: none
+        }
+        .ibox {
+            clear: both;
+            margin-bottom: 25px;
+            margin-top: 0;
+            padding: 0
+        }
+        .ibox.collapsed .ibox-content {
+            display: none
+        }
+        .ibox.collapsed .fa.fa-chevron-up:before {
+            content: "\f078"
+        }
+        .ibox.collapsed .fa.fa-chevron-down:before {
+            content: "\f077"
+        }
+        .ibox:after, .ibox:before {
+            display: table
+        }
+        .ibox-title {
+            -moz-border-bottom-colors: none;
+            -moz-border-left-colors: none;
+            -moz-border-right-colors: none;
+            -moz-border-top-colors: none;
+            background-color: #fff;
+            border-color: #e7eaec;
+            -webkit-border-image: none;
+            -o-border-image: none;
+            border-image: none;
+            border-style: solid solid none;
+            border-width: 4px 0 0;
+            color: inherit;
+            margin-bottom: 0;
+            padding: 14px 15px 7px;
+            min-height: 48px
+        }
+        .ibox-content {
+            background-color: #fff;
+            color: inherit;
+            padding: 15px 20px 20px;
+            border-color: #e7eaec;
+            -webkit-border-image: none;
+            -o-border-image: none;
+            border-image: none;
+            border-style: solid solid none;
+            border-width: 1px 0
+        }
+        .ibox-content {
+            clear: both
+        }
+        .ibox-heading {
+            background-color: #f3f6fb;
+            border-bottom: none
+        }
+        .ibox-heading h3 {
+            font-weight: 200;
+            font-size: 24px
+        }
+        .ibox-title h5 {
+            display: inline-block;
+            font-size: 20px;
+            margin: 0 0 7px;
+            padding: 0;
+            text-overflow: ellipsis;
+            float: left
+        }
+        .ibox-title .label {
+            float: left;
+            margin-left: 4px
+        }
+        .ibox-tools {
+            display: inline-block;
+            float: right;
+            margin-top: 0;
+            position: relative;
+            padding: 0
+        }
+        .ibox-tools a {
+            cursor: pointer;
+            margin-left: 5px;
+            color: #c4c4c4
+        }
+        .ibox-tools a.btn-primary {
+            color: #fff
+        }
+        .ibox-tools .dropdown-menu > li > a {
+            padding: 4px 10px;
+            font-size: 12px
+        }
+        .ibox .open > .dropdown-menu {
+            left: auto;
+            right: 0
+        }
+        .gray-bg {
+            background-color: #f3f3f4
+        }
+        .blue-bg {
+            background-color: #1c84c6;
+            color: #fff
+        }
+        body.modal-open {
+            padding-right: inherit !important
+        }
+        .dashboard-header {
+            border-top: 0;
+            padding: 20px
+        }
+
+        .dashboard-header h2 {
+            margin-top: 10px;
+            font-size: 26px
+        }
+        @media (max-width: 768px) {
+            body.rtls .navbar-top-links li:last-child {
+                margin-left: 20px
+            }
+
+            .body-small.rtls #page-wrapper {
+                position: inherit;
+                margin: 0;
+                min-height: 1000px
+            }
+
+            .body-small.rtls .navbar-static-side {
+                display: none;
+                z-index: 2001;
+                position: absolute;
+                width: 70px
+            }
+
+            .body-small.rtls.mini-navbar .navbar-static-side {
+                display: block
+            }
+
+            .rtls.fixed-sidebar.body-small .navbar-static-side {
+                display: none;
+                z-index: 2001;
+                position: fixed;
+                width: 220px
+            }
+
+            .rtls.fixed-sidebar.body-small.mini-navbar .navbar-static-side {
+                display: block
+            }
+        }
+
+        .rtls .ltr-support {
+            direction: ltr
+        }
+    </style>
+</head>
+<body class="gray-bg">
+<div class="row dashboard-header" style="margin-left: 20px;margin-right: 20px;background-color: #1ab394">
+    <div class="col-sm-12 text-center">
+        <span style="color: #ffffff; font-size: 30px; font-weight: 700">测试报告</span>
+    </div>
+</div>
+<div class="wrapper wrapper-content animated fadeInRight" style="padding-top: 10px; padding-bottom: 0px">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>测试报告详细信息</h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                        <a class="close-link">
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <table class="table table-bordered">
+                        <thead>
+                        
+                            {{template "content" .}}
+                        </thead>
+                        <tbody id="detailBody"> 
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+	function WinMove() {
+	    var o = "[class*=col]", e = ".ibox-title", i = "[class*=col]";
+	    $(o).sortable({
+	        handle: e,
+	        connectWith: i,
+	        tolerance: "pointer",
+	        forcePlaceholderSize: !0,
+	        opacity: .8
+	    }).disableSelection()
+	}
+	var $parentNode = window.parent.document;
+	if ($(".tooltip-demo").tooltip({
+	        selector: "[data-toggle=tooltip]",
+	        container: "body"
+	    }), $(".modal").appendTo("body"), $("[data-toggle=popover]").popover(), $(".collapse-link").click(function () {
+	        var o = $(this).closest("div.ibox"), e = $(this).find("i"), i = o.find("div.ibox-content");
+	        i.slideToggle(200), e.toggleClass("fa-chevron-up").toggleClass("fa-chevron-down"), o.toggleClass("").toggleClass("border-bottom"), setTimeout(function () {
+	            o.resize(), o.find("[id^=map-]").resize()
+	        }, 50)
+	    }), $(".close-link").click(function () {
+	        var o = $(this).closest("div.ibox");
+	        o.remove()
+	    }), top == this) {
+	}
+</script>
+</body>
+</html>

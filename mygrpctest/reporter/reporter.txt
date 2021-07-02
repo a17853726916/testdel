@@ -1,36 +1,301 @@
-TestCase is : testcase/case1/expect.txt
-OutputCase is : outputs/case1/output.txt
+TestCase is : testcase/case4/expect.txt
+OutputCase is : outputs/case4/output.txt
 Check Result : 
 *****************************************************
-Expect's length is not equal to output: The expected length is 14,now is 15 
+Expect's length is not equal to output: The expected length is: 14,now is: 13 
 
 InitResponse's result: The initResponse Correct 
 
-CloseResponse's result: The closeResponse Correct 
+The expected word is also , now is als, info is in the output.txt of line: 11 sents: 1 words: 3
 
-The testResult is Correct 
-*****************************************************
+The expected Phone is: z , now is: z1 ,info is in the output.txt of line: 12  words: 2 , Phones: 3
 
-TestCase is : testcase/case1/expect.txt
-OutputCase is : outputs/case1/output.txt
-Check Result : 
-*****************************************************
-Expect's length is not equal to output: The expected length is 14,now is 15 
-
-InitResponse's result: The initResponse Correct 
+The expected word is far , now is far1, info is in the output.txt of line: 12 sents: 1 words: 5
 
 CloseResponse's result: The closeResponse Correct 
 
 The testResult is Incorrect 
 *****************************************************
 
-TestCase is : testcase/case1/expect.txt
-OutputCase is : outputs/case1/output.txt
+TestCase is : testcase/case4/expect.txt
+OutputCase is : outputs/case4/output.txt
 Check Result : 
 *****************************************************
-Expect's length is not equal to output: The expected length is 14,now is 15 
+Expect's length is not equal to output: The expected length is: 14,now is: 13 
 
 InitResponse's result: The initResponse Correct 
+
+The expected word is also , now is als, info is in the output.txt of line: 11 sents: 1 words: 3
+
+The expected Phone is: z , now is: z1 ,info is in the output.txt of line: 12  words: 2 , Phones: 3
+
+The expected word is far , now is far1, info is in the output.txt of line: 12 sents: 1 words: 5
+
+CloseResponse's result: The closeResponse Correct 
+
+The testResult is Incorrect 
+*****************************************************
+
+TestCase is : testcase/case4/expect.txt
+OutputCase is : outputs/case4/output.txt
+Check Result : 
+*****************************************************
+Expect's length is not equal to output: The expected length is: 14,now is: 13 
+
+InitResponse's result: The initResponse Correct 
+
+The expected word is also , now is als, info is in the output.txt of line: 11 sents: 1 words: 3
+
+The expected Phone is: z , now is: z1 ,info is in the output.txt of line: 12  words: 2 , Phones: 3
+
+The expected word is far , now is far1, info is in the output.txt of line: 12 sents: 1 words: 5
+
+CloseResponse's result: The closeResponse Correct 
+
+The testResult is Incorrect 
+*****************************************************
+
+TestCase is : testcase/case4/expect.txt
+OutputCase is : outputs/case4/output.txt
+Check Result : 
+*****************************************************
+Expect's length is not equal to output: The expected length is: 14,now is: 13 
+
+InitResponse's result: The initResponse Correct 
+
+The expected word is also , now is als, info is in the output.txt of line: 11 sents: 1 words: 3
+
+The expected Phone is: phone:"z" ref_phone:"z" begin_time:640 end_time:700 , now is: phone:"z1" ref_phone:"z" begin_time:640 end_time:700 ,info is in the output.txt of line: 12  words: 2 , Phones: 3
+
+The expected word is far , now is far1, info is in the output.txt of line: 12 sents: 1 words: 5
+
+CloseResponse's result: The closeResponse Correct 
+
+The testResult is Incorrect 
+*****************************************************
+
+TestCase is : testcase/case4/expect.txt
+OutputCase is : outputs/case4/output.txt
+Check Result : 
+*****************************************************
+Expect's length is not equal to output: The expected length is: 14,now is: 13 
+
+InitResponse's result: The initResponse Correct 
+
+The expected word is also , now is als, info is in the output.txt of line: 11 sents: 1 words: 3
+
+The expected Phone is: phone:"z" ref_phone:"z" begin_time:640 end_time:700 , now is: phone:"z1" ref_phone:"z" begin_time:640 end_time:700 ,info is in the output.txt of line: 12  words: 2 , Phones: 3
+
+The expected word is far , now is far1, info is in the output.txt of line: 12 sents: 1 words: 5
+
+CloseResponse's result: The closeResponse Correct 
+
+The testResult is Incorrect 
+*****************************************************
+
+TestCase is : testcase/case4/expect.txt
+OutputCase is : outputs/case4/output.txt
+Check Result : 
+*****************************************************
+Expect's length is not equal to output: The expected length is: 14,now is: 13 
+
+InitResponse's result: The initResponse Correct 
+
+The expected word is also , now is als, info is in the output.txt of line: 11 sents: 1 words: 3
+
+The expected Phone is: phone:"z" ref_phone:"z" begin_time:640 end_time:700 , now is: phone:"z1" ref_phone:"z" begin_time:640 end_time:700 ,info is in the output.txt of line: 12  words: 2 , Phones: 3
+
+The expected word is far , now is far1, info is in the output.txt of line: 12 sents: 1 words: 5
+
+CloseResponse's result: The closeResponse Correct 
+
+The testResult is Incorrect 
+*****************************************************
+
+TestCase is : testcase/case4/expect.txt
+OutputCase is : outputs/case4/output.txt
+Check Result : 
+*****************************************************
+Expect's length is not equal to output: The expected length is: 14,now is: 13 
+
+InitResponse's result: The initResponse Correct 
+
+The expected word is also , now is als, info is in the output.txt of line: 11 sents: 1 words: 3
+
+The expected Phone is: phone:"z" ref_phone:"z" begin_time:640 end_time:700 , now is: phone:"z1" ref_phone:"z" begin_time:640 end_time:700 ,info is in the output.txt of line: 12  words: 2 , Phones: 3
+
+The expected word is far , now is far1, info is in the output.txt of line: 12 sents: 1 words: 5
+
+CloseResponse's result: The closeResponse Correct 
+
+The testResult is Incorrect 
+*****************************************************
+
+TestCase is : testcase/case4/expect.txt
+OutputCase is : outputs/case4/output.txt
+Check Result : 
+*****************************************************
+Expect's length is not equal to output: The expected length is: 14,now is: 13 
+
+InitResponse's result: The initResponse Correct 
+
+The expected word is also , now is als, info is in the output.txt of line: 11 sents: 1 words: 3
+
+The expected Phone is: phone:"z"  ref_phone:"z"  begin_time:640  end_time:700 , now is: phone:"z1"  ref_phone:"z"  begin_time:640  end_time:700 ,info is in the output.txt of line: 12  words: 2 , Phones: 3
+
+The expected word is far , now is far1, info is in the output.txt of line: 12 sents: 1 words: 5
+
+CloseResponse's result: The closeResponse Correct 
+
+The testResult is Incorrect 
+*****************************************************
+
+TestCase is : testcase/case4/expect.txt
+OutputCase is : outputs/case4/output.txt
+Check Result : 
+*****************************************************
+Expect's length is not equal to output: The expected length is: 14,now is: 13 
+
+InitResponse's result: The initResponse Correct 
+
+The expected word is also , now is als, info is in the output.txt of line: 11 sents: 1 words: 3
+
+The expected Phone is: phone:"z"  ref_phone:"z"  begin_time:640  end_time:700 , now is: phone:"z1"  ref_phone:"z"  begin_time:640  end_time:700 ,info is in the output.txt of line: 12  words: 2 , Phones: 3
+
+The expected word is far , now is far1, info is in the output.txt of line: 12 sents: 1 words: 5
+
+CloseResponse's result: The closeResponse Correct 
+
+The testResult is Incorrect 
+*****************************************************
+
+TestCase is : testcase/case4/expect.txt
+OutputCase is : outputs/case4/output.txt
+Check Result : 
+*****************************************************
+Expect's length is not equal to output: The expected length is: 14,now is: 13 
+
+InitResponse's result: The initResponse Correct 
+
+The expected word is also , now is als, info is in the output.txt of line: 11 sents: 1 words: 3
+
+The expected Phone is: phone:"z"  ref_phone:"z"  begin_time:640  end_time:700 , now is: phone:"z1"  ref_phone:"z"  begin_time:640  end_time:700 ,info is in the output.txt of line: 12  words: 2 , Phones: 3
+
+The expected word is far , now is far1, info is in the output.txt of line: 12 sents: 1 words: 5
+
+CloseResponse's result: The closeResponse Correct 
+
+The testResult is Incorrect 
+*****************************************************
+
+TestCase is : testcase/case4/expect.txt
+OutputCase is : outputs/case4/output.txt
+Check Result : 
+*****************************************************
+Expect's length is not equal to output: The expected length is: 14,now is: 13 
+
+InitResponse's result: The initResponse Correct 
+
+The expected word is also , now is als, info is in the output.txt of line: 11 sents: 1 words: 3
+
+The expected Phone is: phone:"z"  ref_phone:"z"  begin_time:640  end_time:700 , now is: phone:"z1"  ref_phone:"z"  begin_time:640  end_time:700 ,info is in the output.txt of line: 12  words: 2 , Phones: 3
+
+The expected word is far , now is far1, info is in the output.txt of line: 12 sents: 1 words: 5
+
+CloseResponse's result: The closeResponse Correct 
+
+The testResult is Incorrect 
+*****************************************************
+
+TestCase is : testcase/case4/expect.txt
+OutputCase is : outputs/case4/output.txt
+Check Result : 
+*****************************************************
+Expect's length is not equal to output: The expected length is: 14,now is: 13 
+
+InitResponse's result: The initResponse Correct 
+
+The expected word is also , now is als, info is in the output.txt of line: 11 sents: 1 words: 3
+
+The expected Phone is: phone:"z"  ref_phone:"z"  begin_time:640  end_time:700 , now is: phone:"z1"  ref_phone:"z"  begin_time:640  end_time:700 ,info is in the output.txt of line: 12  words: 2 , Phones: 3
+
+The expected word is far , now is far1, info is in the output.txt of line: 12 sents: 1 words: 5
+
+CloseResponse's result: The closeResponse Correct 
+
+The testResult is Incorrect 
+*****************************************************
+
+TestCase is : testcase/case4/expect.txt
+OutputCase is : outputs/case4/output.txt
+Check Result : 
+*****************************************************
+Expect's length is not equal to output: The expected length is: 14,now is: 13 
+
+InitResponse's result: The initResponse Correct 
+
+The expected word is also , now is als, info is in the output.txt of line: 11 sents: 1 words: 3
+
+The expected Phone is: phone:"z"  ref_phone:"z"  begin_time:640  end_time:700 , now is: phone:"z1"  ref_phone:"z"  begin_time:640  end_time:700 ,info is in the output.txt of line: 12  words: 2 , Phones: 3
+
+The expected word is far , now is far1, info is in the output.txt of line: 12 sents: 1 words: 5
+
+CloseResponse's result: The closeResponse Correct 
+
+The testResult is Incorrect 
+*****************************************************
+
+TestCase is : testcase/case4/expect.txt
+OutputCase is : outputs/case4/output.txt
+Check Result : 
+*****************************************************
+Expect's length is not equal to output: The expected length is: 14,now is: 13 
+
+InitResponse's result: The initResponse Correct 
+
+The expected word is also , now is als, info is in the output.txt of line: 11 sents: 1 words: 3
+
+The expected Phone is: phone:"z"  ref_phone:"z"  begin_time:640  end_time:700 , now is: phone:"z1"  ref_phone:"z"  begin_time:640  end_time:700 ,info is in the output.txt of line: 12  words: 2 , Phones: 3
+
+The expected word is far , now is far1, info is in the output.txt of line: 12 sents: 1 words: 5
+
+CloseResponse's result: The closeResponse Correct 
+
+The testResult is Incorrect 
+*****************************************************
+
+TestCase is : testcase/case4/expect.txt
+OutputCase is : outputs/case4/output.txt
+Check Result : 
+*****************************************************
+Expect's length is not equal to output: The expected length is: 14,now is: 13 
+
+InitResponse's result: The initResponse Correct 
+
+The expected word is also , now is als, info is in the output.txt of line: 11 sents: 1 words: 3
+
+The expected Phone is: phone:"z" ref_phone:"z" begin_time:640 end_time:700 , now is: phone:"z1" ref_phone:"z" begin_time:640 end_time:700 ,info is in the output.txt of line: 12  words: 2 , Phones: 3
+
+The expected word is far , now is far1, info is in the output.txt of line: 12 sents: 1 words: 5
+
+CloseResponse's result: The closeResponse Correct 
+
+The testResult is Incorrect 
+*****************************************************
+
+TestCase is : testcase/case4/expect.txt
+OutputCase is : outputs/case4/output.txt
+Check Result : 
+*****************************************************
+Expect's length is not equal to output: The expected length is: 14,now is: 13 
+
+InitResponse's result: The initResponse Correct 
+
+The expected word is also , now is als, info is in the output.txt of line: 11 sents: 1 words: 3
+
+The expected Phone is: phone:"z" ref_phone:"z" begin_time:640 end_time:700 , now is: phone:"z1" ref_phone:"z" begin_time:640 end_time:700 ,info is in the output.txt of line: 12  words: 2 , Phones: 3
+
+The expected word is far , now is far1, info is in the output.txt of line: 12 sents: 1 words: 5
 
 CloseResponse's result: The closeResponse Correct 
 
@@ -43,16 +308,165 @@ Check Result :
 *****************************************************
 InitResponse's result: The initResponse Correct 
 
-The expected word is far , now is fa, info is in the output.txt of line: 11 sents: 1 words: 5
+CloseResponse's result: The closeResponse Correct 
 
-The expected word is also , now is als, info is in the output.txt of line: 12 sents: 1 words: 3
+The testResult is Correct 
+*****************************************************
 
-The expected Phone is: phone:"z" ref_phone:"z" begin_time:640 end_time:700 , now is: phone:"z1" ref_phone:"z" begin_time:640 end_time:700 ,info is in the output.txt of line: 13  words: 2 , Phones: 3
+TestCase is : testcase/case4/expect.txt
+OutputCase is : outputs/case4/output.txt
+Check Result : 
+*****************************************************
+InitResponse's result: The initResponse Correct 
 
-The expected word is far , now is far1, info is in the output.txt of line: 13 sents: 1 words: 5
+The expected word is He , now is hi, info is in the output.txt of line: 5 sents: 1 words: 1
+
+The expected word is by , now is bi, info is in the output.txt of line: 10 sents: 1 words: 4
+
+The expected Phone is: phone:"ah" ref_phone:"ah" begin_time:2530 end_time:2650 , now is: phone:"ih" ref_phone:"ah" begin_time:2530 end_time:2650 ,info is in the output.txt of line: 10  words: 6 , Phones: 2
+
+The expected Phone is: phone:"ih" ref_phone:"ih" begin_time:4620 end_time:4770 , now is: phone:"ah" ref_phone:"ih" begin_time:4620 end_time:4770 ,info is in the output.txt of line: 11  words: 11 , Phones: 6
 
 CloseResponse's result: The closeResponse Correct 
 
 The testResult is Incorrect 
+*****************************************************
+
+TestCase is : testcase/case4/expect.txt
+OutputCase is : outputs/case4/output.txt
+Check Result : 
+*****************************************************
+InitResponse's result: The initResponse Correct 
+
+The expected word is He , now is hi, info is in the output.txt of line: 5 sents: 1 words: 1
+
+The expected word is by , now is bi, info is in the output.txt of line: 10 sents: 1 words: 4
+
+The expected Phone is: ah , now is: ih ,info is in the output.txt of line: 10  words: 6 , Phones: 2
+
+The expected Phone is: ih , now is: ah ,info is in the output.txt of line: 11  words: 11 , Phones: 6
+
+CloseResponse's result: The closeResponse Correct 
+
+The testResult is Incorrect 
+*****************************************************
+
+TestCase is : testcase/case4/expect.txt
+OutputCase is : outputs/case4/output.txt
+Check Result : 
+*****************************************************
+InitResponse's result: The initResponse Correct 
+
+The expected word is He , now is hi, info is in the output.txt of line: 5 sents: 1 words: 1
+
+The expected word is by , now is bi, info is in the output.txt of line: 10 sents: 1 words: 4
+
+The expected Phone is: ah , now is: ih ,info is in the output.txt of line: 10  words: 6 , Phones: 2
+
+The expected Phone is: ih , now is: ah ,info is in the output.txt of line: 11  words: 11 , Phones: 6
+
+CloseResponse's result: The closeResponse Correct 
+
+The testResult is Incorrect 
+*****************************************************
+
+TestCase is : testcase/case4/expect.txt
+OutputCase is : outputs/case4/output.txt
+Check Result : 
+*****************************************************
+InitResponse's result: The initResponse Correct 
+
+The expected word is He , now is hi, info is in the output.txt of line: 5 sents: 1 words: 1
+
+The expected word is by , now is bi, info is in the output.txt of line: 10 sents: 1 words: 4
+
+The expected Phone is: ah , now is: ih ,info is in the output.txt of line: 10  words: 6 , Phones: 2
+
+The expected Phone is: ih , now is: ah ,info is in the output.txt of line: 11  words: 11 , Phones: 6
+
+CloseResponse's result: The closeResponse Correct 
+
+The testResult is Incorrect 
+*****************************************************
+
+TestCase is : testcase/case4/expect.txt
+OutputCase is : outputs/case4/output.txt
+Check Result : 
+*****************************************************
+InitResponse's result: The initResponse Correct 
+
+The expected word is He , now is hi, info is in the output.txt of line: 5 sents: 1 words: 1
+
+The expected word is by , now is bi, info is in the output.txt of line: 10 sents: 1 words: 4
+
+The expected Phone is: ah , now is: ih ,info is in the output.txt of line: 10  words: 6 , Phones: 2
+
+The expected Phone is: ih , now is: ah ,info is in the output.txt of line: 11  words: 11 , Phones: 6
+
+CloseResponse's result: The closeResponse Correct 
+
+The testResult is Incorrect 
+*****************************************************
+
+TestCase is : testcase/case4/expect.txt
+OutputCase is : outputs/case4/output.txt
+Check Result : 
+*****************************************************
+InitResponse's result: The initResponse Correct 
+
+The expected word is He , now is hi, info is in the output.txt of line: 5 sents: 1 words: 1
+
+The expected word is by , now is bi, info is in the output.txt of line: 10 sents: 1 words: 4
+
+The expected Phone is: ah , now is: ih ,info is in the output.txt of line: 10  words: 6 , Phones: 2
+
+The expected Phone is: ih , now is: ah ,info is in the output.txt of line: 11  words: 11 , Phones: 6
+
+CloseResponse's result: The closeResponse Correct 
+
+The testResult is Incorrect 
+*****************************************************
+
+TestCase is : testcase/case4/expect.txt
+OutputCase is : outputs/case4/output.txt
+Check Result : 
+*****************************************************
+InitResponse's result: The initResponse Correct 
+
+The expected word is He , now is hi, info is in the output.txt of line: 5 sents: 1 words: 1
+
+The expected word is by , now is bi, info is in the output.txt of line: 10 sents: 1 words: 4
+
+The expected Phone is: ah , now is: ih ,info is in the output.txt of line: 10  words: 6 , Phones: 2
+
+The expected Phone is: ih , now is: ah ,info is in the output.txt of line: 11  words: 11 , Phones: 6
+
+CloseResponse's result: The closeResponse Correct 
+
+The testResult is Incorrect 
+*****************************************************
+
+TestCase is : testcase/case1/expect.txt
+OutputCase is : outputs/case1/output.txt
+Check Result : 
+*****************************************************
+Expect's length is not equal to output: The expected length is: 14,now is: 15 
+
+InitResponse's result: The initResponse Correct 
+
+CloseResponse's result: The closeResponse Correct 
+
+The testResult is Incorrect 
+*****************************************************
+
+TestCase is : testcase/case1/expect.txt
+OutputCase is : outputs/case1/output.txt
+Check Result : 
+*****************************************************
+InitResponse's result: The initResponse Correct 
+
+CloseResponse's result: The closeResponse Correct 
+
+The testResult is Correct 
 *****************************************************
 

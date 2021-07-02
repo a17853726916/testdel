@@ -7,8 +7,10 @@ import (
 	"io"
 	pb "mygrpctest/proto/voice"
 	"mygrpctest/reporter"
+	"mygrpctest/templates"
 	"os"
 	"strconv"
+
 	"strings"
 )
 
@@ -86,13 +88,18 @@ func ExpectedtoStruct(path string) []Result {
 }
 
 //结构体比较
-func CheckRes(outputs, expects []Result, path string) bool {
+func CheckRes(outputs, expects []Result, outpath string, reportertest *reporter.RepoRests) bool {
 	//初始化
+	var tmplpath string = "templates/tmpl.txt"
+	var outpath1 string = "reporter/reporter1.txt"
 	var init, process, close, final bool
 	var testResult string
 	if len(outputs) != len(expects) {
 		testResult = fmt.Sprintf("The expected length is: %v,now is: %v \n", len(expects), len(outputs))
-		reporter.OutputlenNotEqualExpect(testResult, path)
+		reporter.OutputlenNotEqualExpect(testResult, outpath)
+		//使用模板文件
+		templates.TmplLengthnotEuqal(outpath1, tmplpath, testResult)
+		reportertest.ExpexLength = testResult
 		final = false
 	}
 
@@ -101,102 +108,51 @@ func CheckRes(outputs, expects []Result, path string) bool {
 	if iniout.StatusMesg == expect.StatusMesg && expect.ModelVersion == expect.ModelVersion {
 		//将测试结果写回文件中
 		testResult = fmt.Sprint("The initResponse Correct \n")
-		reporter.InitOrCloseResult(testResult, "initResponse", path)
+		reporter.InitOrCloseResult(testResult, "initResponse", outpath)
+		//使用模板文件
+		templates.TmplInitOrClose(outpath1, tmplpath, "initResponse", testResult)
+		reportertest.InitResponse = testResult
 		init = true
 	} else {
 		//将测试结果写回文件中
-		testResult = fmt.Sprintf("The expect initResponse is: %v, now is: %v \n", expect.StatusMesg, iniout.StatusCode)
-		reporter.InitOrCloseResult(testResult, "initResponse", path)
+		testResult = fmt.Sprintf("Error in initResponse , The expect initResponse is: %v, now is: %v \n", expect.StatusMesg, iniout.StatusCode)
+		reporter.InitOrCloseResult(testResult, "initResponse", outpath)
+		templates.TmplInitOrClose(outpath1, tmplpath, "initResponse", testResult)
+		reportertest.InitResponse = testResult
 	}
 
 	// 中间处理结果
 	iniprocess, exprocess := outputs[1:len(outputs)-1], expects[1:len(expects)-1]
-	process = checkProcess(iniprocess, exprocess, path)
+	process = checkProcess(iniprocess, exprocess, outpath, reportertest)
 	// initlength, exlength := len(iniprocess), len(exprocess)
 
 	// 关闭通道的结果
 	iniclose, expectclose := outputs[len(outputs)-1], expects[len(expects)-1]
 	if iniclose.StatusMesg == expectclose.StatusMesg {
 		testResult = fmt.Sprint("The closeResponse Correct \n")
-		reporter.InitOrCloseResult(testResult, "closeResponse", path)
+		reporter.InitOrCloseResult(testResult, "closeResponse", outpath)
+		templates.TmplInitOrClose(outpath1, tmplpath, "closeResponse", testResult)
+		reportertest.CloseResponse = testResult
 		close = true
 	} else {
-		testResult = fmt.Sprintf("The expect initClose is: %v, now is: %v \n", expectclose.StatusMesg, iniclose.StatusMesg)
-		reporter.InitOrCloseResult(testResult, "closeResponse", path)
+		testResult = fmt.Sprintf("Error in CloseResponse , The expect closeResponse is: %v, now is: %v \n", expectclose.StatusMesg, iniclose.StatusMesg)
+		reporter.InitOrCloseResult(testResult, "closeResponse", outpath)
+		templates.TmplInitOrClose(outpath1, tmplpath, "closeResponse", testResult)
+		reportertest.CloseResponse = testResult
 		fmt.Println("initcose is not the expected")
 	}
 	final = init && process && close
-	reporter.FilalTestres(final, path)
+	reporter.FilalTestres(final, outpath)
+	templates.Tmplfinalres(outpath1, tmplpath, final)
+	reportertest.Finalres = final
 	return final
 }
 
-//获得初始化响应对比字段
-func InitRespontoStruct(path string) []pb.InitResponse {
-	inputFile, inputError := os.Open(path)
-	if inputError != nil {
-		return nil
-	}
-	defer inputFile.Close()
-	var s string = "["
-	inputReader := bufio.NewReader(inputFile)
-	for {
-		inputString, readerError := inputReader.ReadString('\n')
-		if readerError == io.EOF {
-
-			break
-		}
-		s = s + inputString
-	}
-	s1 := []byte(s)
-	s1[len(s1)-2] = ']'
-	s = string(s1)
-	//fmt.Printf("all: \n%s", s)
-	var resps []pb.InitResponse
-	// 直接序列化多个结构体数据
-	// 只要json文件结构正确，可以序列化多个
-	if err := json.Unmarshal([]byte(s), &resps); err == nil {
-		fmt.Println("转换成功")
-	} else {
-		fmt.Println("转换失败")
-	}
-	return resps
-}
-
-//获得结束响应字段返回结果
-func CloseRespontoStruct(path string) []pb.CloseResponse {
-	inputFile, inputError := os.Open(path)
-	if inputError != nil {
-		return nil
-	}
-	defer inputFile.Close()
-	var s string = "["
-	inputReader := bufio.NewReader(inputFile)
-	for {
-		inputString, readerError := inputReader.ReadString('\n')
-		if readerError == io.EOF {
-
-			break
-		}
-		s = s + inputString
-	}
-	s1 := []byte(s)
-	s1[len(s1)-2] = ']'
-	s = string(s1)
-	//fmt.Printf("all: \n%s", s)
-	var resps []pb.CloseResponse
-	// 直接序列化多个结构体数据
-	// 只要json文件结构正确，可以序列化多个
-	if err := json.Unmarshal([]byte(s), &resps); err == nil {
-		fmt.Println("转换成功")
-	} else {
-		fmt.Println("转换失败")
-	}
-	return resps
-}
-func checkProcess(iniprocess, exprocess []Result, path string) bool {
+func checkProcess(iniprocess, exprocess []Result, path string, reportertest *reporter.RepoRests) bool {
 	var process bool
 	var flag bool = true
-
+	var tmplpath string = "templates/tmpl.txt"
+	var outpath1 string = "reporter/reporter1.txt"
 	for i, v := range iniprocess {
 		if i < len(exprocess) {
 			if v.StatusCode == exprocess[i].StatusCode && v.StatusMesg == exprocess[i].StatusMesg {
@@ -216,8 +172,10 @@ func checkProcess(iniprocess, exprocess []Result, path string) bool {
 									if ph.Phone == exprocess[i].Sents[j].Words[k].Phones[l].Phone && ph.RefPhone == exprocess[i].Sents[j].Words[k].Phones[l].RefPhone {
 										process = true
 									} else {
-										testResult := fmt.Sprintf("The expected Phone is: %v , now is: %v ,info is in the output.txt of line: %d  words: %d , Phones: %d\n", exprocess[i].Sents[j].Words[k].Phones[l], ph, i+2, k+1, l+1)
+										testResult := fmt.Sprintf("The expected Phone is: %v , now is: %v ,info is in the output.txt of line: %d  words: %d , Phones: %d\n", exprocess[i].Sents[j].Words[k].Phones[l].Phone, ph.Phone, i+2, k+1, l+1)
 										reporter.ProcessResult(testResult, path)
+										templates.TmplProcess(outpath1, tmplpath, testResult)
+										reportertest.Processres = append(reportertest.Processres, testResult)
 										flag = false
 										continue
 									}
@@ -225,8 +183,10 @@ func checkProcess(iniprocess, exprocess []Result, path string) bool {
 								for l, sylls := range wd.Syllables {
 									if sylls.Match == exprocess[i].Sents[j].Words[k].Syllables[l].Match && sylls.Syllable == exprocess[i].Sents[j].Words[k].Syllables[l].Syllable {
 									} else {
-										testResult := fmt.Sprintf("The expected sylls is %v , now is %v ,info is in the output.txt of line: %d  words:%d sylls: %d\n", exprocess[i].Sents[j].Words[k].Syllables[l], sylls, i+2, k+1, l+1)
+										testResult := fmt.Sprintf("The expected sylls is %v , now is %v ,info is in the output.txt of line: %d  words:%d sylls: %d\n", exprocess[i].Sents[j].Words[k].Syllables[l].Syllable, sylls.Syllable, i+2, k+1, l+1)
 										reporter.ProcessResult(testResult, path)
+										templates.TmplProcess(outpath1, tmplpath, testResult)
+										reportertest.Processres = append(reportertest.Processres, testResult)
 										flag = false
 										continue
 									}
@@ -237,6 +197,8 @@ func checkProcess(iniprocess, exprocess []Result, path string) bool {
 								flag = false
 								testResult := fmt.Sprintf("The expected word is %v , now is %v, info is in the output.txt of line: %d sents: %d words: %d\n", exprocess[i].Sents[j].Words[k].Word, wd.Word, i+2, j+1, k+1)
 								reporter.ProcessResult(testResult, path)
+								templates.TmplProcess(outpath1, tmplpath, testResult)
+								reportertest.Processres = append(reportertest.Processres, testResult)
 								continue
 							}
 						}

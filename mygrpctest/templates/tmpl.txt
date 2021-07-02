@@ -1,0 +1,28 @@
+{{/*将测试结果序列化输出到txt文件中*/}}
+{{define "TestCase"}}TestCase is : {{.}}
+{{end}}
+
+{{define "OutputCase"}}OutputCase is : {{.}}
+Check Result : 
+*****************************************************
+{{end}}
+
+{{define "OutputlenNotEqualExpect"}}Expect's length is not equal to output: {{.}}
+{{end}}
+
+{{define "InitResponse"}}InitResponse's result: {{.}}
+{{end}}
+{{define "CloseResponse"}}CloseResponse's result: {{.}}
+{{end}}
+
+{{/*process result*/}}
+{{define "Process"}}Process Result:
+    {{.}}
+{{end}}
+
+
+{{define "FilalTestres"}}{{if . }}The testResult is Correct 
+***********************************************************
+{{else}}The testResult is Incorrect
+***********************************************************
+{{end}}{{end}}
