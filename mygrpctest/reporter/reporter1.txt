@@ -447,3 +447,13 @@ CloseResponse's result: The closeResponse Correct
 
 The testResult is Incorrect
 ***********************************************************
+TestCase is : testcase/case1/expect.txt
+OutputCase is : outputs/case1/output.txt
+Check Result : 
+*****************************************************
+InitResponse's result: The initResponse Correct 
+
+CloseResponse's result: The closeResponse Correct 
+
+The testResult is Correct 
+***********************************************************
